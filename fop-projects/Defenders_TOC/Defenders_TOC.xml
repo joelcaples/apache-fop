@@ -1,0 +1,845 @@
+<root>
+  <volumes>
+    <volume volume_code="DEFENDERS_V5">
+      <issue>
+        <Fld Name="Title">Marvel Team-Up</Fld>
+        <Fld Name="Issue">101</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">To Judge a Nighthawk!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Jerry Bingham</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Esposito</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">92</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">"Eternity...Humanity...Oblivion!"</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin &amp; Pablo Marcos</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">93</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">The Woman Behind The Man</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin, Joe Sinnott and Friends</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">Wilson/Milgrom</Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">94</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">Beware -- The Six-Fingered Hand!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">95</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">the Vampire Strikes Back!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">96</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">The Rock and Roll Conspiracy!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">97</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">Slouching Toward Bethlehem</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">98</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">The Hand Closes</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">99</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">The Final Conflict</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Jean Simek</Fld>
+        <Fld Name="Cover Artist">Milgrom</Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">100</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">Hell on Earth!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Chaing &amp; Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">101</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">Renewal</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Marvel Team-Up</Fld>
+        <Fld Name="Issue">111</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">Of Spiders and Serpents!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Tom DeFalco</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Herb Trimpe</Fld>
+        <Fld Name="Inker">Mike Esposito</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">102</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">Mind Games</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Perlin, Sinnott, Trapani, &amp; Abel</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">103</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">The Haunting of Christiansboro</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">104</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Yesterday NEVER Dies!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Marvel Team-Up</Fld>
+        <Fld Name="Issue">116</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Between Sword and Hammer!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Tom DeFalco</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Herb Trimpe</Fld>
+        <Fld Name="Inker">Mike Esposito</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">105</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">…RISING…</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Captain America</Fld>
+        <Fld Name="Issue">268</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Peace on Earth-- Good Will to Man</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Mike Zeck</Fld>
+        <Fld Name="Inker">John Beatty</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">106</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">The War to End all Wars!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Perlin, Trapani, Magyar, Abel, and Milgrom</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">107</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">On Death and Dying…</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Perlin, Espisito, Stone, Trapani, and Milgrom</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">108</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">The Wasteland</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Perlin, Sinnott, Trapani, Barta, &amp; Milgrom</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="DEFENDERS_V6">
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">109</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Vengance! Cries the VALKYRIE!</Fld>
+        <Fld Name="Writer">Mark Gruenwald and J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Marvel Team-Up</Fld>
+        <Fld Name="Issue">119</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Time, Run Like a Freight Train…</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Tom DeFalco</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Kerry Gammill</Fld>
+        <Fld Name="Inker">Mike Esposito</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">110</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">HUNGER…</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and Joe Sinnott</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">111</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Fathers and Daughters</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin and A. Mushynsky</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">112</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Strange Visitor From Another Planet!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Mike Gustovich</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">*** Damaged Back Cover</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">113</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Moon Madness!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Mike Gustovich</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">114</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Dance of Darkness / Dance of Light!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Mike Gustovich</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">115</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">A Very Wrong Turn!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Hilary Barta</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Marvel Team-Up</Fld>
+        <Fld Name="Issue">124</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">The Ties That BIND!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Tom Defalco</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Kerry Gammill</Fld>
+        <Fld Name="Inker">Mike Esposito</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">116</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Two By Two</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Diverse Hands</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">117</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">The Gift</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Jack Abel</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">118</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">The Double!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Mushynsky &amp; Milgrom</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">119</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Ashes, Ashes… We All Fall Down!</Fld>
+        <Fld Name="Writer">Steven Grant</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Sal Buscema</Fld>
+        <Fld Name="Inker">Jack Abel</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">D. Hands</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Avengers Annual</Fld>
+        <Fld Name="Issue">11</Fld>
+        <Fld Name="Mo">
+        </Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">In Honor's Name</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Mark Gruenwald</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Al Milgrom</Fld>
+        <Fld Name="Inker">Jack Abel and Crew</Fld>
+        <Fld Name="Colorist">Carl Gafford</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">120</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Sanctuary!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Abel, DeMulder, &amp; Mushynsky</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">121</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Savior!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Abel, Mushynsky, Kupperberg</Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">122</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Things To Come!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Shelly Leferman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">123</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">"Of Elves and Androids"</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Christy Scheele</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Defenders</Fld>
+        <Fld Name="Issue">124</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Darkness On The Edge Of Time!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Christy Scheele</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+        <Fld Name="F16">
+        </Fld>
+      </issue>
+    </volume>
+  </volumes>
+  <columns>
+    <column FldName="Volume" />
+    <column FldName="Title" />
+    <column FldName="Issue" />
+    <column FldName="Mo" />
+    <column FldName="Year" />
+    <column FldName="Issue Title" />
+    <column FldName="Writer" />
+    <column FldName="Editor" />
+    <column FldName="Editor In Chief" />
+    <column FldName="Artist" />
+    <column FldName="Penciller" />
+    <column FldName="Inker" />
+    <column FldName="Colorist" />
+    <column FldName="Letterer" />
+    <column FldName="Cover Artist" />
+    <column FldName="F16" />
+  </columns>
+</root>

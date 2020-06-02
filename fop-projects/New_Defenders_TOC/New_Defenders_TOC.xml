@@ -1,0 +1,612 @@
+<root>
+  <volumes>
+    <volume volume_code="NEWDEF_1">
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">125</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Hello, I Must Be Going (or … Mad Dogs and Elvishmen!)</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin &amp; Kim DeMulder</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">126</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">State of the Union!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Alan Kupperberg</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Paul Becton</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">127</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Cloud Hidden</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Ann Nocenti</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Sal Buscema &amp; Alan Kupperberg</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Paul Becton</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">128</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Assault on the Empire</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Alan Kupperberg</Fld>
+        <Fld Name="Inker">Mike Mignola</Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">129</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Countdown!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Don Perlin &amp; Kim DeMulder</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">130</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">And in the End!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Mike Zeck</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">131</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">If This Be WALRUS…!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Alan Kupperberg</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">132</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">the Phantom of Gamma-Ray Flats</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">133</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">The Pajusnaya Consignment</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Alan Kupperberg</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">134</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Manslaughter</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">135</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">The Fire at Heaven's Gate</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">136</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Bodies and Souls</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">137</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Hearts and Minds</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">138</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Three Women</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">139</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Hungry Like the Wolf!</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Michele Wrightson</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">140</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">The Heartbreak Kid</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Ken Feduniewicz</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">141</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">All Flesh is Grass</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="NEWDEF_2">
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">142</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">M.O.N.S.T.E.R.!</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Michele Wrightson</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">143</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Another Runner…</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Michele Wrightson</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">144</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Dragon Midnight</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Kim DeMulder</Fld>
+        <Fld Name="Colorist">Michele Wrightson</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">145</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Five Women</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Art Nichols</Fld>
+        <Fld Name="Colorist">Michele Wrightson</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">146</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Fun!</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Luke McDonnell</Fld>
+        <Fld Name="Inker">Art Nichols</Fld>
+        <Fld Name="Colorist">Michele Wrightson</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">147</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">…And Games</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Art Nichols</Fld>
+        <Fld Name="Colorist">Michele Wrightson</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Gargoyle</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Love and Death</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Mark Badger</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Ken Bruzetiak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Gargoyle</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Burning Bright: The Gargoyle's Tale</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Mark Badger</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Ken Bruzetiak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Gargoyle</Fld>
+        <Fld Name="Issue">3</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Lost Souls: The Druid's Tale</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Mark Badger</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Ken Bruzetiak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Gargoyle</Fld>
+        <Fld Name="Issue">4</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Battlefield!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Mark Badger</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Ken Bruzetiak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">148</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">The Kickshaws Consignment</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Sal Buscema &amp; Art Nichols</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">149</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Lonely as a Cloud--!</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Art Nichols</Fld>
+        <Fld Name="Colorist">Michele Wrightson</Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">150</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">The Stars In Their Courses!</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Alan Kupperberg &amp; Randy Emberlin</Fld>
+        <Fld Name="Colorist">Michele Wrightson</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">151</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Second Degree Manslaughter!</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Dell Barras</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The New Defenders</Fld>
+        <Fld Name="Issue">152</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">The End of All Songs</Fld>
+        <Fld Name="Writer">Peter B. Gillis</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Don Perlin</Fld>
+        <Fld Name="Inker">Dell Barras</Fld>
+        <Fld Name="Colorist">Ken Feduniewicz</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+    </volume>
+  </volumes>
+  <columns>
+    <column FldName="Volume" />
+    <column FldName="Title" />
+    <column FldName="Issue" />
+    <column FldName="Mo" />
+    <column FldName="Year" />
+    <column FldName="Issue Title" />
+    <column FldName="Writer" />
+    <column FldName="Editor" />
+    <column FldName="Editor In Chief" />
+    <column FldName="Artist" />
+    <column FldName="Penciller" />
+    <column FldName="Inker" />
+    <column FldName="Colorist" />
+    <column FldName="Letterer" />
+    <column FldName="Cover Artist" />
+  </columns>
+</root>

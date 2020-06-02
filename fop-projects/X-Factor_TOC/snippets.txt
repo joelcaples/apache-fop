@@ -1,0 +1,13 @@
+                          <!-- If there are an odd number of pages, we need to break twice. -->
+                          <xsl:if test="$issue_idx_2 &gt;= count(../issue)">
+<fo:block font-size="8pt" color="#FFFFFF" margin-left=".5in" margin-right=".5in" margin-top=".25in">
+$issue_idx_2: <xsl:value-of select="$issue_idx_2" />
+count(../issue): <xsl:value-of select="count(../issue)" />
+</fo:block>
+                            <fo:block break-after='page'/>
+                            <xsl:if test="$VOLUME_PAGE_COUNT mod 2 != 0 and $issue_idx_2 &gt;= count(../issue)">
+                              <fo:block break-after='page'/>
+                            </xsl:if>
+                          </xsl:if>
+
+                        </xsl:if>

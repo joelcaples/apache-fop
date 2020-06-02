@@ -1,0 +1,5234 @@
+<root>
+  <volumes>
+    <volume volume_code="XF_1">
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Phoenix: the Untold Story</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">The Fate of the Phoenix</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Jim Salicrup &amp; Louise Jones</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Terry Austin</Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">What If</Fld>
+        <Fld Name="Issue">27</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">What if Phoenix Had Not Died?</Fld>
+        <Fld Name="Writer">Mary Jo Duffy</Fld>
+        <Fld Name="Editor">Tom DeFalco &amp; Mark Grueunwald</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jerry Bingham</Fld>
+        <Fld Name="Inker">John Stuart</Fld>
+        <Fld Name="Colorist">Carl Garford</Fld>
+        <Fld Name="Letterer">Simek &amp; Chiang</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">What If v2</Fld>
+        <Fld Name="Issue">32</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">What if Phoenix Had Lived?</Fld>
+        <Fld Name="Writer">Chris Claremont &amp; George Caragonne</Fld>
+        <Fld Name="Editor">Craig Anderson</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Rod Ramos</Fld>
+        <Fld Name="Inker">Jan Anton Harps</Fld>
+        <Fld Name="Colorist">Renee Witterstaetter</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Marvel Age</Fld>
+        <Fld Name="Issue">33</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Here Comes… X-Factor</Fld>
+        <Fld Name="Writer">
+        </Fld>
+        <Fld Name="Editor">
+        </Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">The Avengers</Fld>
+        <Fld Name="Issue">263</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">What Lurks Below?</Fld>
+        <Fld Name="Writer">Roger Stern</Fld>
+        <Fld Name="Editor">Mark Gruenwald</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Buscema</Fld>
+        <Fld Name="Inker">Tom Palmer</Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Storyline">Phoenix Rising</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">286</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Like a Phoenix!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Terry Austin</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Storyline">Phoenix Rising</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Third Genesis</Fld>
+        <Fld Name="Writer">Bob Layton</Fld>
+        <Fld Name="Editor">Mike Carlin &amp; Michael Higgins</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jackson Guice</Fld>
+        <Fld Name="Inker">Bob Layton, Jackson Guice &amp; Josef Rubinstein</Fld>
+        <Fld Name="Colorist">Petra Scotese, 'Max' Scheele &amp; Glynis Oliver</Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">Phoenix Rising</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Bless the Beasts and Children</Fld>
+        <Fld Name="Writer">Bob Layton</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jackson Guice</Fld>
+        <Fld Name="Inker">Joe Rubinstein</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Phoenix Rising</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">3</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Regression Obsession</Fld>
+        <Fld Name="Writer">Bob Layton</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jackson Guice</Fld>
+        <Fld Name="Inker">Josef Rubinstein</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Phoenix Rising</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">4</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Trials and Errors</Fld>
+        <Fld Name="Writer">Bob Layton</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Keith Pollard</Fld>
+        <Fld Name="Inker">Joe Rubinstein</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Phoenix Rising</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Marvel Age</Fld>
+        <Fld Name="Issue">39</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">The Fifth Factor</Fld>
+        <Fld Name="Writer">Kurt Busiek</Fld>
+        <Fld Name="Editor">
+        </Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">5</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Tapped Out</Fld>
+        <Fld Name="Writer">Bob Layton</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jackson Guice</Fld>
+        <Fld Name="Inker">Joe Rubinstein</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">6</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Apocalypse Now!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jackson Guice</Fld>
+        <Fld Name="Inker">Bob McLeod</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">7</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Fall Out!</Fld>
+        <Fld Name="Writer">Louise Jones</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jackson Guice</Fld>
+        <Fld Name="Inker">Josef Rubinstein</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">8</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Lost and Found!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Marc Silvestri</Fld>
+        <Fld Name="Inker">Josef Rubinstein</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">9</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Spots!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Terry Shoemaker</Fld>
+        <Fld Name="Inker">Joe Rubinstein</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Mutant Massacre</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">10</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Falling Angel!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Mutant Massacre</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Thor</Fld>
+        <Fld Name="Issue">373</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">the Gift of Death</Fld>
+        <Fld Name="Writer">Walter Simonson</Fld>
+        <Fld Name="Editor">Ralph Macchio</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Sal Buscema</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Max Scheele</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Storyline">Mutant Massacre</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Power Pack</Fld>
+        <Fld Name="Issue">27</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Whose Power--?</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jon Bogdanove</Fld>
+        <Fld Name="Inker">Al Gordon</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Mutant Massacre</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Thor</Fld>
+        <Fld Name="Issue">374</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Fires of the Night</Fld>
+        <Fld Name="Writer">Walter Simonson</Fld>
+        <Fld Name="Editor">Ralph Macchio</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Sal Buscema</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Max Scheele</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Storyline">Mutant Massacre</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">11</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Redemption</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Mutant Massacre</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor Annual</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Grand Design</Fld>
+        <Fld Name="Writer">Bob Layton</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Bob Layton</Fld>
+        <Fld Name="Inker">Brett Breeding</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">12</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Boom Boom Boom!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Marc Silvestri</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">13</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Ghosts!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Dan Green</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">14</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">The Mutant Program!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">15</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Whose Death Is It, Anyway?</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="XF_2">
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Thor</Fld>
+        <Fld Name="Issue">378</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">When Loki Stood Alone!</Fld>
+        <Fld Name="Writer">Walter Simonson</Fld>
+        <Fld Name="Editor">Ralph Macchio</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Sal Buscema</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Max Scheele</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Mephiso Vs X-Factor</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Sympathy for the Devil</Fld>
+        <Fld Name="Writer">Al Milgrom</Fld>
+        <Fld Name="Editor">Ralph Macchio</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Buscema</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">16</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Playing With Fire!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">David Mazzucchelli</Fld>
+        <Fld Name="Inker">Josef Rubinstein</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">17</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Die, Mutants, Die!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">18</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">The Enemy Within!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">19</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">All Together Now!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">20</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Children's Crusade</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">June Brigman</Fld>
+        <Fld Name="Inker">Randy Emberlin</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">The Incredible Hulk</Fld>
+        <Fld Name="Issue">336</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">X-Tremes</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Todd McFarlane</Fld>
+        <Fld Name="Inker">Jim Sanders III</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">The Incredible Hulk</Fld>
+        <Fld Name="Issue">337</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Crossroads</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Todd McFarlane</Fld>
+        <Fld Name="Inker">Jim Sanders III</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">21</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">For Every Action…</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">22</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">If I Should Die…</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Sal Buscema</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">23</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">You Say You Want Some Evolution?</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor Annual</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">The Man in the Moon</Fld>
+        <Fld Name="Writer">Jo Duffy</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Tom Grindberg</Fld>
+        <Fld Name="Inker">Joe Rubinstein</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Marvel Age</Fld>
+        <Fld Name="Issue">58</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">the Mutant Report</Fld>
+        <Fld Name="Writer">
+        </Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">Fall of the Mutants</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">24</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Masks</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Fall of the Mutants</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Power Pack</Fld>
+        <Fld Name="Issue">35</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Life or Death</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jon Bogdanove</Fld>
+        <Fld Name="Inker">Hilary Barta</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Fall of the Mutants</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">25</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Judgement  Day!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Fall of the Mutants</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">26</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Casualties</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Fall of the Mutants</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">27</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Gifts!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">28</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Countdown!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">29</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Fame!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor Annual</Fld>
+        <Fld Name="Issue">3</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Unnatural Selection</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Terry Shoemaker</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">The Evolutionary War</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">30</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Kiss of Death!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">31</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Kiss Off!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Greg Wright</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">32</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">the Carbon Copy Avengers</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">Steve Lightle</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="INFERNO">
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">33</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">For All The World to See</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">34</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">DEATH!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Terminators</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Invasion of the Baby-Snatchers</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jon Bogdanove</Fld>
+        <Fld Name="Inker">Al Williamson &amp; Al Milgrom</Fld>
+        <Fld Name="Colorist">John Wellington</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Terminators</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Speed Demon</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jon Bogdanove</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">John Wellington</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">239</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Sinister Schemes Ignite Inferno</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Marc Silvestri</Fld>
+        <Fld Name="Inker">Dan Green</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">240</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Strike the Match</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Marc Silvestri</Fld>
+        <Fld Name="Inker">Dan Green</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">35</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Go to the Orphan Maker!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Terry Shoemaker</Fld>
+        <Fld Name="Inker">Joe Rubinstein</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">New Mutants</Fld>
+        <Fld Name="Issue">71</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Limbo</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Bret Blevins</Fld>
+        <Fld Name="Inker">Al Williamson</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">241</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Inferno: Part the Second</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Marc Silvestri</Fld>
+        <Fld Name="Inker">Dan Green</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">36</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Transformations!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Terminators</Fld>
+        <Fld Name="Issue">3</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Guess Who's Coming to Dinner?</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jon Bogdanove</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">John Wellington</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Terminators</Fld>
+        <Fld Name="Issue">4</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Finale!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jon Bogdanove</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">New Mutants</Fld>
+        <Fld Name="Issue">72</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Demon Reign</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Bret Blevins</Fld>
+        <Fld Name="Inker">Al Williamson</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">37</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">A Matter of Honor</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Petra Scotese</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">New Mutants</Fld>
+        <Fld Name="Issue">73</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">The Gift</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Bret Blevins</Fld>
+        <Fld Name="Inker">Al Williamson &amp; Mike Manley</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">242</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Inferno: Part the Third</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Marc Silvestri</Fld>
+        <Fld Name="Inker">Dan Green</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">38</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Duet!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">243</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Inferno: Part the Fourth</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Marc Silvestri</Fld>
+        <Fld Name="Inker">Hilary Barta</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">39</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Ashes to Ashes</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Walter Simonson</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Gregory Wright</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Daredevil</Fld>
+        <Fld Name="Issue">262</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">I Found Me in a Gloomy Wood Astray…</Fld>
+        <Fld Name="Writer">Ann Nocenti</Fld>
+        <Fld Name="Editor">Ralph Macchio</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Romita Jr</Fld>
+        <Fld Name="Inker">Al Williamson</Fld>
+        <Fld Name="Colorist">Max Scheele</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Power Pack</Fld>
+        <Fld Name="Issue">42</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Revenge of the Boogyman Part I</Fld>
+        <Fld Name="Writer">Jon Bogdanove</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jon Bogdanove</Fld>
+        <Fld Name="Inker">Stan Drake</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Power Pack</Fld>
+        <Fld Name="Issue">43</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Revenge of the Boogyman Part II</Fld>
+        <Fld Name="Writer">Jon Bogdanove</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jon Bogdanove, Sal Velluto</Fld>
+        <Fld Name="Inker">Stan Drake, Al Williamson &amp; Co.</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Power Pack</Fld>
+        <Fld Name="Issue">44</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Revenge of the Boogyman Part III</Fld>
+        <Fld Name="Writer">Juliana Jones</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">June Brigman</Fld>
+        <Fld Name="Inker">Hilary Barta</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor Annual</Fld>
+        <Fld Name="Issue">4</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Inferno: Aftermath</Fld>
+        <Fld Name="Writer">Mark Gruenwald</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Fern</Fld>
+        <Fld Name="Inker">Joe Rubenstein</Fld>
+        <Fld Name="Colorist">Gregory Wright</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">What If v2</Fld>
+        <Fld Name="Issue">6</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">What If The X-Men Lost Inferno</Fld>
+        <Fld Name="Writer">Danny Fingeroth</Fld>
+        <Fld Name="Editor">Craig Anderson</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Lim</Fld>
+        <Fld Name="Inker">Keith Williams</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Gary Fields</Fld>
+        <Fld Name="Storyline">Inferno</Fld>
+      </issue>
+    </volume>
+    <volume volume_code="XF_4">
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Marvel Comics Presents</Fld>
+        <Fld Name="Issue">17</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Cyclops: Retribution Part 1</Fld>
+        <Fld Name="Writer">Bob Harris</Fld>
+        <Fld Name="Editor">Terry Kavanaugh</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Lim</Fld>
+        <Fld Name="Inker">Bruce Patterson</Fld>
+        <Fld Name="Colorist">Andy Yachus</Fld>
+        <Fld Name="Letterer">Agustin Mas</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Marvel Comics Presents</Fld>
+        <Fld Name="Issue">18</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Cyclops: Retribution Part 2</Fld>
+        <Fld Name="Writer">Bob Harris</Fld>
+        <Fld Name="Editor">Terry Kavanaugh</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Lim</Fld>
+        <Fld Name="Inker">Bruce Patterson</Fld>
+        <Fld Name="Colorist">Andy Yachus</Fld>
+        <Fld Name="Letterer">Agustin Mas</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Marvel Comics Presents</Fld>
+        <Fld Name="Issue">19</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Cyclops: Retribution Part 3</Fld>
+        <Fld Name="Writer">Bob Harris</Fld>
+        <Fld Name="Editor">Terry Kavanaugh</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Lim</Fld>
+        <Fld Name="Inker">Bruce Patterson</Fld>
+        <Fld Name="Colorist">Andy Yachus</Fld>
+        <Fld Name="Letterer">Agustin Mas</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Marvel Comics Presents</Fld>
+        <Fld Name="Issue">20</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Cyclops: Retribution Part 4</Fld>
+        <Fld Name="Writer">Bob Harris</Fld>
+        <Fld Name="Editor">Terry Kavanaugh</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Lim</Fld>
+        <Fld Name="Inker">Bruce Patterson</Fld>
+        <Fld Name="Colorist">Andy Yachus</Fld>
+        <Fld Name="Letterer">Agustin Mas</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Marvel Comics Presents</Fld>
+        <Fld Name="Issue">21</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Cyclops: Retribution Part 5</Fld>
+        <Fld Name="Writer">Bob Harris</Fld>
+        <Fld Name="Editor">Terry Kavanaugh</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Lim</Fld>
+        <Fld Name="Inker">Carol Riem</Fld>
+        <Fld Name="Colorist">Andy Yachus</Fld>
+        <Fld Name="Letterer">Agustin Mas</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Marvel Comics Presents</Fld>
+        <Fld Name="Issue">22</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Cyclops: Retribution Part 6</Fld>
+        <Fld Name="Writer">Bob Harris</Fld>
+        <Fld Name="Editor">Terry Kavanaugh</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Lim</Fld>
+        <Fld Name="Inker">Jeff Albrecht</Fld>
+        <Fld Name="Colorist">Andy Yachus</Fld>
+        <Fld Name="Letterer">Agustin Mas</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Marvel Comics Presents</Fld>
+        <Fld Name="Issue">23</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Cyclops: Retribution Part 7</Fld>
+        <Fld Name="Writer">Bob Harris</Fld>
+        <Fld Name="Editor">Terry Kavanaugh</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Lim</Fld>
+        <Fld Name="Inker">Jeff Albrecht</Fld>
+        <Fld Name="Colorist">Andy Yachus</Fld>
+        <Fld Name="Letterer">Agustin Mas</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Marvel Comics Presents</Fld>
+        <Fld Name="Issue">24</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Cyclops: Retribution Part 8</Fld>
+        <Fld Name="Writer">Bob Harris</Fld>
+        <Fld Name="Editor">Terry Kavanaugh</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Lim</Fld>
+        <Fld Name="Inker">Jeff Albrecht</Fld>
+        <Fld Name="Colorist">Andy Yachus</Fld>
+        <Fld Name="Letterer">Agustin Mas</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">40</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Dust to Dust</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Rob Liefeld</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">New Mutants</Fld>
+        <Fld Name="Issue">76</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Splash!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Rich Buckler</Fld>
+        <Fld Name="Inker">Tom Palmer</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">41</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Golden Boy!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Arthur Adams</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">42</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">All That Glitters…</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Arthur Adams</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">43</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Kidnapped!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Paul Smith</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Judgement War</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">44</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Another World!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Paul Smith</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Judgement War</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">45</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Arena!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Paul Smith</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Judgement War</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">46</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Exchange</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Paul Smith</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Judgement War</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">47</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Guardian</Fld>
+        <Fld Name="Writer">Kieron Dwyer</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Kieron Dwyer</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Rockwitz</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Storyline">Judgement War</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">48</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Common Ground!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Paul Smith</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Judgement War</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">49</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">189</Fld>
+        <Fld Name="Issue Title">Power Struggle</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Paul Smith</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Judgement War</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">50</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Judgement  Day</Fld>
+        <Fld Name="Writer">Louise  Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Rich Buckler</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Judgement War</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor Special</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Prisoner of Love</Fld>
+        <Fld Name="Writer">Jim Starlin</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">Jackson Guice</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Alfred Ramirez</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">51</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Home!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Terry Shoemaker</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">52</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Celebrity!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Terry Shoemaker</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Brad Vancata</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">53</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Ghosts</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Terry Shoemaker</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">54</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Crimson</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Marc Silvestri</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Brad Vancata</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">55</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Desprately Seeking VERA</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Terry Shoemaker and Colleen Doran</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">56</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Ravens</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Steven Carr</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">57</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Reflections</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Andy Kubert</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Vincent</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">58</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Nevermore</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jon Bogdanove</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Brad Vancata</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">59</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Yesterday's News</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Terry Shoemaker</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="XANNUAL">
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Fantastic Four Annual</Fld>
+        <Fld Name="Issue">23</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">When Franklin Comes Marchin' Home</Fld>
+        <Fld Name="Writer">Walter Simonson</Fld>
+        <Fld Name="Editor">Ralph Macchio</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jackson Guice</Fld>
+        <Fld Name="Inker">Geof Isherwood</Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">Days of Future Present</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor Annual</Fld>
+        <Fld Name="Issue">5</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Act of Faith</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Bogdanove</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Brad Vancata</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Days of Future Present</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">New Mutants Annual</Fld>
+        <Fld Name="Issue">6</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">The Once and Future Mutant</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Shoemaker/Wozniak</Fld>
+        <Fld Name="Inker">Williams, Milgrom, Thibert, Candelario</Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">Days of Future Present</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men Annual</Fld>
+        <Fld Name="Issue">14</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">You Must Remember This</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Arthur Adams</Fld>
+        <Fld Name="Inker">Dan Green, Bob Wiacek, Al Milgrom, Art Thibert, Stve Mancuse</Fld>
+        <Fld Name="Colorist">Brad Vancata</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Storyline">Days of Future Present</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">New Mutants Annual</Fld>
+        <Fld Name="Issue">7</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Pawns of Senescence</Fld>
+        <Fld Name="Writer">
+        </Fld>
+        <Fld Name="Editor">
+        </Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">Kings of Pain</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">New Warriors Annual</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Kings of Pain Part 2</Fld>
+        <Fld Name="Writer">
+        </Fld>
+        <Fld Name="Editor">
+        </Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">Kings of Pain</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men Annual</Fld>
+        <Fld Name="Issue">15</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Kings of Pain Part 3</Fld>
+        <Fld Name="Writer">
+        </Fld>
+        <Fld Name="Editor">
+        </Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">Kings of Pain</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor Annual</Fld>
+        <Fld Name="Issue">6</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Kings of Pain Part 4</Fld>
+        <Fld Name="Writer">Fabian Nicieza</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Terry Shoemaker</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Brad Vancata</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">Kings of Pain</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Men Annual</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Shattershot Part 1</Fld>
+        <Fld Name="Writer">
+        </Fld>
+        <Fld Name="Editor">
+        </Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">Shattershot</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men Annual</Fld>
+        <Fld Name="Issue">16</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Shattershot Part 2</Fld>
+        <Fld Name="Writer">
+        </Fld>
+        <Fld Name="Editor">
+        </Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">Shattershot</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor Annual</Fld>
+        <Fld Name="Issue">7</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Shattershot Part 3</Fld>
+        <Fld Name="Writer">Fabian Nicieza, Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Joe Quesada, Darick Robertson, Joe Madueira</Fld>
+        <Fld Name="Inker">Joe Rubinstein, Andrew Pepoy</Fld>
+        <Fld Name="Colorist">Kevin Tinsley, Gina Going, Kelly Corvese</Fld>
+        <Fld Name="Letterer">Richard Starkings, Dave Sharpe</Fld>
+        <Fld Name="Storyline">Shattershot</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Force Annual</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Shattershot Part 4</Fld>
+        <Fld Name="Writer">
+        </Fld>
+        <Fld Name="Editor">
+        </Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">Shattershot</Fld>
+      </issue>
+    </volume>
+    <volume volume_code="XF_5">
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">270</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">First Strike</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Art Thibert &amp; Scott Williams</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Task Force "X"</Fld>
+        <Fld Name="Storyline">X-Tinction Agenda</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">New Mutants</Fld>
+        <Fld Name="Issue">95</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Shell Game</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Rob Liefeld</Fld>
+        <Fld Name="Inker">Joe Rubinstein</Fld>
+        <Fld Name="Colorist">Brad Vancata</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">X-Tinction Agenda</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">60</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Brotherhood</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jon Bogdanove</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">X-Tinction Agenda</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">271</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Flashpoint!</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Scott Williams</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Storyline">X-Tinction Agenda</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">New Mutants</Fld>
+        <Fld Name="Issue">96</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">United We Stand</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Rob Liefeld</Fld>
+        <Fld Name="Inker">Art Thibert &amp; Josef Rubinstein</Fld>
+        <Fld Name="Colorist">Steve Buccellato</Fld>
+        <Fld Name="Letterer">Task Force "X"</Fld>
+        <Fld Name="Storyline">X-Tinction Agenda</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">61</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1990</Fld>
+        <Fld Name="Issue Title">Betrayal!</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jon Bogdanove &amp; John Caponigro</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Mike Rockwitz</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">X-Tinction Agenda</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">272</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Capital Crimes</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Scott Williams</Fld>
+        <Fld Name="Colorist">Joe Rosas &amp; Glynis Oliver</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Storyline">X-Tinction Agenda</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">New Mutants</Fld>
+        <Fld Name="Issue">97</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">WAR</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Guang Yap</Fld>
+        <Fld Name="Inker">Joe Rubinstein</Fld>
+        <Fld Name="Colorist">Steve Buccellato</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">X-Tinction Agenda</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">62</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Capital Punishment</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jon Bogdanove</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Task Force "Z"</Fld>
+        <Fld Name="Storyline">X-Tinction Agenda</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">63</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Family</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">Whilce Portacio</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">Endgame</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">64</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">The Price</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">Whilce Portacio</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Oliver &amp; Steve Buccellato</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">Endgame</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">65</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Malign Influences!</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Whilce Portacio</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Storyline">Endgame</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">66</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Heroic Effort</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Whilce Portacio</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Oliveri Buccelato</Fld>
+        <Fld Name="Letterer">Pat Brosseau</Fld>
+        <Fld Name="Storyline">Endgame</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">67</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Lunar Opposition!</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Whilce Portacio</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Oliver &amp; Thomas</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">Endgame</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">68</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Finale</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Whilce Portacio</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Dana Moreshead</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">Endgame</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">278</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">The Battle of Muir Isle</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Paul Smith</Fld>
+        <Fld Name="Inker">Hilary Barta</Fld>
+        <Fld Name="Colorist">Joe Rosas</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Storyline">The Muir Island Saga</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">279</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Bad to the Bone!</Fld>
+        <Fld Name="Writer">Chris Claremont &amp; Fabian Nicieza</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Andy Kubert</Fld>
+        <Fld Name="Inker">Scott Williams</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Team Append-X</Fld>
+        <Fld Name="Storyline">The Muir Island Saga</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">69</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Clash Reunion</Fld>
+        <Fld Name="Writer">Fabian Nicieza</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Whilce Portacio</Fld>
+        <Fld Name="Inker">Task Force X</Fld>
+        <Fld Name="Colorist">Dana Moreshead</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">The Muir Island Saga</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">280</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">One Step Back-- Two Steps Forward</Fld>
+        <Fld Name="Writer">Fabian Nicieza</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Andy Kubert &amp; Steven Butler</Fld>
+        <Fld Name="Inker">Inks-R-Us</Fld>
+        <Fld Name="Colorist">Joe Rosas</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Storyline">The Muir Island Saga</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">70</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Odds and Ends</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Kirk Jarvinen</Fld>
+        <Fld Name="Inker">Joe Rubinstein</Fld>
+        <Fld Name="Colorist">Glynis Oliver / Steve Buccellato</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">The Muir Island Saga</Fld>
+      </issue>
+    </volume>
+    <volume volume_code="XF_6">
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">71</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Cutting The Mustard</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Larry Stroman</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">72</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Multiple Homicide</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Larry Stroman</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">73</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1991</Fld>
+        <Fld Name="Issue Title">Crowd Control</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Larry Stroman</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">74</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Politically Incorrect</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Larry Stroman</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">75</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">The Nasty Boys</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Larry Stroman</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">The Incredible Hulk</Fld>
+        <Fld Name="Issue">390</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">This Means War</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bobbie Chase</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Dale Keown</Fld>
+        <Fld Name="Inker">Mark Farmer</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">The Incredible Hulk</Fld>
+        <Fld Name="Issue">391</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">X-Calation</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bobbie Chase</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Dale Keown</Fld>
+        <Fld Name="Inker">Mark Farmer</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">The Incredible Hulk</Fld>
+        <Fld Name="Issue">392</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Fortunes of War</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bobbie Chase</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Dale Keown</Fld>
+        <Fld Name="Inker">Mark Farmer</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">76</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">X-Communication</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Tom Raney &amp; Kevin West</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">War &amp; Pieces</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">77</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Great X-Pectations</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Larry Stroman</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">78</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Playing With Fire!</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Larry Stroman and Brandon Peterson</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Mike Thomas</Fld>
+        <Fld Name="Letterer">Dave Sharpe</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">79</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Raphsody in Blue</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Fern</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">80</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Belles + Whistles</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Larry Stroman</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Michael Heisler</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">81</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Belles of the Ball</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Larry Stroman</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Kevin Tinsley</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">82</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Sittin' By the Dock of the Bay</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Rurik Tyler</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">83</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Painting the Town</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Mark Pacella</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="XCSONG">
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">294</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Overture</Fld>
+        <Fld Name="Writer">Scott Lobdell</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Brandon Peterson</Fld>
+        <Fld Name="Inker">Terry Austin</Fld>
+        <Fld Name="Colorist">Mike Thomas</Fld>
+        <Fld Name="Letterer">Chris Eliopoulos</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">84</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Tough Love</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jae Lee</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Brad Vancata</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Men</Fld>
+        <Fld Name="Issue">14</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Fingers on the Trigger</Fld>
+        <Fld Name="Writer">Fabian Nicieza</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Andy Kubert</Fld>
+        <Fld Name="Inker">Mark Pennington</Fld>
+        <Fld Name="Colorist">Marie Javins</Fld>
+        <Fld Name="Letterer">Lois Buhalis</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Force</Fld>
+        <Fld Name="Issue">16</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">JackLighting</Fld>
+        <Fld Name="Writer">Fabian Nicieza</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Greg Capullo</Fld>
+        <Fld Name="Inker">Harry Candelario</Fld>
+        <Fld Name="Colorist">Joe Rosas</Fld>
+        <Fld Name="Letterer">Chris Eliopoulos</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">295</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Familiar Refrain</Fld>
+        <Fld Name="Writer">Scott Lobdell</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Brandon Peterson</Fld>
+        <Fld Name="Inker">Terry Austin</Fld>
+        <Fld Name="Colorist">Joe Rosas</Fld>
+        <Fld Name="Letterer">Chris Eliopoulos</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">85</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Snikts and Bones</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jae Lee</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Men</Fld>
+        <Fld Name="Issue">15</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">The Camel's Back</Fld>
+        <Fld Name="Writer">Fabian Nicieza</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Andy Kubert</Fld>
+        <Fld Name="Inker">Mark Pennington</Fld>
+        <Fld Name="Colorist">Joe Rosas</Fld>
+        <Fld Name="Letterer">Chris Eliopoulos</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Force</Fld>
+        <Fld Name="Issue">17</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1992</Fld>
+        <Fld Name="Issue Title">Sleeping With the Enemy</Fld>
+        <Fld Name="Writer">Fabian Nicieza</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Greg Capullo</Fld>
+        <Fld Name="Inker">Harry Candelario</Fld>
+        <Fld Name="Colorist">Frenchie Buccellato</Fld>
+        <Fld Name="Letterer">Chris Eliopoulos</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">296</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">Crescendo</Fld>
+        <Fld Name="Writer">Scott Lobdell</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Brandon Peterson</Fld>
+        <Fld Name="Inker">Terry Austin</Fld>
+        <Fld Name="Colorist">Joe Rosas</Fld>
+        <Fld Name="Letterer">Chris Eliopoulos</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">86</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">One of These Days…</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jae Lee</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Steve Dutro</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Men</Fld>
+        <Fld Name="Issue">16</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">Conflicting Cathexes</Fld>
+        <Fld Name="Writer">Fabian Nicieza</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Andy Kubert</Fld>
+        <Fld Name="Inker">Mark Pennington</Fld>
+        <Fld Name="Colorist">Joe Rosas</Fld>
+        <Fld Name="Letterer">Chris Eliopoulos</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Force</Fld>
+        <Fld Name="Issue">18</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">Ghosts in the Machine</Fld>
+        <Fld Name="Writer">Fabian Nicieza</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Greg Capullo</Fld>
+        <Fld Name="Inker">Harry Candelario</Fld>
+        <Fld Name="Colorist">Marie Javins</Fld>
+        <Fld Name="Letterer">Chris Eliopoulos</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Uncanny X-Men</Fld>
+        <Fld Name="Issue">297</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">Up and Around</Fld>
+        <Fld Name="Writer">Scott Lobdell</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Brandon Peterson</Fld>
+        <Fld Name="Inker">Panosian</Fld>
+        <Fld Name="Colorist">Marie Javins</Fld>
+        <Fld Name="Letterer">Chris Eliopoulos</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Stryfe's Strike File</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">
+        </Fld>
+        <Fld Name="Writer">Fabian Nicieza, Scott Lobdell</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Larry Stroman, Andy Kubert, Greg Capullo, Brandon Peterson, Jim Lee, While Portacio, Marc Silvestri</Fld>
+        <Fld Name="Inker">Jimmy Palmiotti, Al Milgrom, Mark Farmer, Andy Kubert, Harry Candelario, Dan Panosian, Mark Pennington, Scott Williams, Art Thibert</Fld>
+        <Fld Name="Colorist">Kevin Tinsley</Fld>
+        <Fld Name="Letterer">Chris Eliopoulos</Fld>
+        <Fld Name="Storyline">X-Cutioner's Song</Fld>
+      </issue>
+    </volume>
+    <volume volume_code="XF_8">
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">87</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">Rahne &amp; Simpy!</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Joe Quesada</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Marie Javins</Fld>
+        <Fld Name="Letterer">Richard Starkings &amp; Steve Dutro</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">88</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">Random Violence</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Joe Quesada</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Ariane</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">89</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">Dark Homecoming</Fld>
+        <Fld Name="Writer">Peter David</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Joe Quesada</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">90</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">A Green and Tender Place</Fld>
+        <Fld Name="Writer">Scott Lobdell</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Joe Quesada</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Smith</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">91</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">Underpinnings</Fld>
+        <Fld Name="Writer">Scott Lobdell</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Joe Quesada</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Tom Smith</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor Annual</Fld>
+        <Fld Name="Issue">8</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">Charon</Fld>
+        <Fld Name="Writer">Peter David, Skip Dietz</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Terry Shoemaker, Buzz, Chris Batista</Fld>
+        <Fld Name="Inker">Mark McKenna, Al Milgrom, Jeff Albrecht</Fld>
+        <Fld Name="Colorist">Joe Rosas, Carlos Lopez</Fld>
+        <Fld Name="Letterer">Lois Buhalis, Dave Sharp, Pat Brosseau</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">92</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">The Man Who Wasn't</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Joe Quesada</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">Fatal Attractions</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">93</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">The Longest Day</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Terry Shoemaker</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">94</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">EveningWhere</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Paul Ryan</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">95</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">Fatal Repulsions</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Greg Luzniak</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">96</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">In the Beginning</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Greg Luzniak</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">97</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1993</Fld>
+        <Fld Name="Issue Title">The New Humanity</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jan Duursema</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Mike Thomas</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">98</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">Into Oblivion</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Greg Luzniak</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Matt Webb</Fld>
+        <Fld Name="Letterer">Lois Buhalis</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">99</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">The Cure</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jan Duursema</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">100</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">Mahapralaya!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jan Duursema</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">101</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">Afterlives</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jan Duursema</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings &amp; Jon Babcock</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Spider-Man and X-Factor: Shadowgames</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">Shadow Games</Fld>
+        <Fld Name="Writer">Kurt Busiek</Fld>
+        <Fld Name="Editor">Danny Fingeroth</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Pat Broderick</Fld>
+        <Fld Name="Inker">Bruce Patterson</Fld>
+        <Fld Name="Colorist">Tom Smith</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Spider-Man and X-Factor: Shadowgames</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">Shadowclash</Fld>
+        <Fld Name="Writer">Kurt Busiek</Fld>
+        <Fld Name="Editor">Danny Fingeroth</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Pat Broderick</Fld>
+        <Fld Name="Inker">Patterson, DeLaRosa &amp; Williams</Fld>
+        <Fld Name="Colorist">Tom Smith</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">Spider-Man and X-Factor: Shadowgames</Fld>
+        <Fld Name="Issue">3</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">Shadowfall</Fld>
+        <Fld Name="Writer">Kurt Busiek</Fld>
+        <Fld Name="Editor">Danny Fingeroth</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Pat Broderick</Fld>
+        <Fld Name="Inker">Sam DeLaRosa</Fld>
+        <Fld Name="Colorist">Tom Smith</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">102</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">The Polaris Plot!</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jan Duursema</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Matt Webb</Fld>
+        <Fld Name="Letterer">Richard Starkings</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor Annual</Fld>
+        <Fld Name="Issue">9</Fld>
+        <Fld Name="Month">
+        </Fld>
+        <Fld Name="Year">
+        </Fld>
+        <Fld Name="Issue Title">Contact</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Matt Broome</Fld>
+        <Fld Name="Inker">Steve Moncuse &amp; Terry Austin</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">103</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">Friends and Family</Fld>
+        <Fld Name="Writer">Todd DeZago</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jan Duursema</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="XF_9">
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">104</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">Malicious</Fld>
+        <Fld Name="Writer">J.M. DeMatteis</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jan Duursema</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">105</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">Final Sacrifice</Fld>
+        <Fld Name="Writer">Todd DeZago</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Bryan Hitch</Fld>
+        <Fld Name="Inker">Andy Lanning</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">106</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">Life Signs</Fld>
+        <Fld Name="Writer">Todd DeZago</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jan Duursema &amp; Roger Cruz</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">The Phalanx Covenant</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">107</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">Punch-O-Rama</Fld>
+        <Fld Name="Writer">Todd DeZago</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Paul Borges</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">108</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">Promised Vengance</Fld>
+        <Fld Name="Writer">Todd DeZago</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jan Duursema</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">109</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1994</Fld>
+        <Fld Name="Issue Title">The Waking</Fld>
+        <Fld Name="Writer">Todd DeZago</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jan Duursema</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">Legion Quest</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">110</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1995</Fld>
+        <Fld Name="Issue Title">Creatures On The Loose</Fld>
+        <Fld Name="Writer">Todd DeZago</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jan Duursema</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Matt Webb</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">111</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1995</Fld>
+        <Fld Name="Issue Title">Explosive Performance</Fld>
+        <Fld Name="Writer">Todd DeZago</Fld>
+        <Fld Name="Editor">Bob Harras</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jan Duursema</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Matt Webb</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">112</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1995</Fld>
+        <Fld Name="Issue Title">Unnecessary Evils</Fld>
+        <Fld Name="Writer">John Francis Moore</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">113</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1995</Fld>
+        <Fld Name="Issue Title">Impulsive Behavior</Fld>
+        <Fld Name="Writer">John Francis Moore</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jerry Bingham</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">114</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1995</Fld>
+        <Fld Name="Issue Title">That Certain Mystique</Fld>
+        <Fld Name="Writer">John Francis Moore</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Steve Epting</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">115</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1995</Fld>
+        <Fld Name="Issue Title">Reaching Out To Yesterday</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Steve Epting</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">116</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1995</Fld>
+        <Fld Name="Issue Title">Home Comings</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Steve Epting</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">117</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1995</Fld>
+        <Fld Name="Issue Title">Adversaries …Old and New</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Steve Epting &amp; Stefano Raffaele</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">118</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1996</Fld>
+        <Fld Name="Issue Title">Havok's Fall</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Bryan Hitch</Fld>
+        <Fld Name="Inker">Paul Neary</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">119</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1996</Fld>
+        <Fld Name="Issue Title">The Best Offense</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Steve Epting</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">120</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1996</Fld>
+        <Fld Name="Issue Title">Meeting the Maker</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Mark D. Bright</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">121</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1996</Fld>
+        <Fld Name="Issue Title">The True Path</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Steve Epting</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">122</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1996</Fld>
+        <Fld Name="Issue Title">The Faces of Truth</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">123</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1996</Fld>
+        <Fld Name="Issue Title">It Begins… Again</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">124</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1996</Fld>
+        <Fld Name="Issue Title">Future memories</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">125</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1996</Fld>
+        <Fld Name="Issue Title">The Ticking Clock</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">Onslaught</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">126</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1996</Fld>
+        <Fld Name="Issue Title">The Beast Within</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Raffaele</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">Onslaught</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">127</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1996</Fld>
+        <Fld Name="Issue Title">Darker Destiny</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Al Williamson</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">128</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1996</Fld>
+        <Fld Name="Issue Title">Night of the Hounds</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">129</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1996</Fld>
+        <Fld Name="Issue Title">Playing With Fire</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="XF_10">
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">130</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1997</Fld>
+        <Fld Name="Issue Title">A Mother's Eyes</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Eric Battle</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">131</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1997</Fld>
+        <Fld Name="Issue Title">Brotherhood</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">132</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1997</Fld>
+        <Fld Name="Issue Title">Breakaway</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">133</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1997</Fld>
+        <Fld Name="Issue Title">Down Under</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Eric Battle</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">134</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1997</Fld>
+        <Fld Name="Issue Title">Child</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Eric Battle</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">135</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1997</Fld>
+        <Fld Name="Issue Title">A Virtual Reality</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Kevin Somers</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor Flashback</Fld>
+        <Fld Name="Issue">-1</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1997</Fld>
+        <Fld Name="Issue Title">A Summers Tale</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">136</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1997</Fld>
+        <Fld Name="Issue Title">Nothing Lasts Forever</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jeff Matsuda</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">137</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1997</Fld>
+        <Fld Name="Issue Title">Dark &amp; Stormy</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Andy Smith</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Kevin Somers</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">138</Fld>
+        <Fld Name="Month">10</Fld>
+        <Fld Name="Year">1997</Fld>
+        <Fld Name="Issue Title">Fear Walks Amongst Us</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Mel Rubi</Fld>
+        <Fld Name="Inker">Robert Hunter</Fld>
+        <Fld Name="Colorist">Kevin Somers</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">139</Fld>
+        <Fld Name="Month">11</Fld>
+        <Fld Name="Year">1997</Fld>
+        <Fld Name="Issue Title">The Enemy Within</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Duncan Rouleau</Fld>
+        <Fld Name="Inker">Art Thibert, Whitney McFarland &amp; Hack Shack Studios</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Kiff Scholl</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">140</Fld>
+        <Fld Name="Month">12</Fld>
+        <Fld Name="Year">1997</Fld>
+        <Fld Name="Issue Title">Going Home</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Duncan Rouleau</Fld>
+        <Fld Name="Inker">Jamie Mendoza &amp; Hackshack Studios</Fld>
+        <Fld Name="Colorist">Glynis Oliver &amp; Matt Webb</Fld>
+        <Fld Name="Letterer">Albert Deschesne</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">141</Fld>
+        <Fld Name="Month">1</Fld>
+        <Fld Name="Year">1998</Fld>
+        <Fld Name="Issue Title">Dreams of Tomorrow</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Duncan Rouleau</Fld>
+        <Fld Name="Inker">Jamie Mendoza</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">142</Fld>
+        <Fld Name="Month">2</Fld>
+        <Fld Name="Year">1998</Fld>
+        <Fld Name="Issue Title">Call of the Wild</Fld>
+        <Fld Name="Writer">Bill Rosemann</Fld>
+        <Fld Name="Editor">Kelly Corvese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Leo Fernandez</Fld>
+        <Fld Name="Inker">Dan Green</Fld>
+        <Fld Name="Colorist">Ian Laughlin</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">143</Fld>
+        <Fld Name="Month">3</Fld>
+        <Fld Name="Year">1998</Fld>
+        <Fld Name="Issue Title">The Fall of the Brotherhood</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Kelly Corvese &amp; Frank Pittarese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Duncan Rouleau</Fld>
+        <Fld Name="Inker">Art Thibert</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Kiff Scholl</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">144</Fld>
+        <Fld Name="Month">4</Fld>
+        <Fld Name="Year">1998</Fld>
+        <Fld Name="Issue Title">Points of View</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Frank Pittarese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Duncan Rouleau</Fld>
+        <Fld Name="Inker">Jaime Mendoza</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">145</Fld>
+        <Fld Name="Month">5</Fld>
+        <Fld Name="Year">1998</Fld>
+        <Fld Name="Issue Title">Phantoms</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Frank Pittarese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Duncan Rouleau &amp; Trevor Scott</Fld>
+        <Fld Name="Inker">Jaime Mendoza &amp; Scott Hanna</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">146</Fld>
+        <Fld Name="Month">6</Fld>
+        <Fld Name="Year">1998</Fld>
+        <Fld Name="Issue Title">Fairie Light</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Frank Pittarese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Lee Moder</Fld>
+        <Fld Name="Inker">Scott Koblish</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">147</Fld>
+        <Fld Name="Month">7</Fld>
+        <Fld Name="Year">1998</Fld>
+        <Fld Name="Issue Title">Bashed!</Fld>
+        <Fld Name="Writer">Joseph Harris</Fld>
+        <Fld Name="Editor">Frank Pittarese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Mike Miller</Fld>
+        <Fld Name="Inker">Nghia Lam</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">148</Fld>
+        <Fld Name="Month">8</Fld>
+        <Fld Name="Year">1998</Fld>
+        <Fld Name="Issue Title">Sorry is the Hardest Word!</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Frank Pittarese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Lee Moder</Fld>
+        <Fld Name="Inker">Scott Koblish</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Exclude?">
+        </Fld>
+        <Fld Name="Title">X-Factor</Fld>
+        <Fld Name="Issue">149</Fld>
+        <Fld Name="Month">9</Fld>
+        <Fld Name="Year">1998</Fld>
+        <Fld Name="Issue Title">Times Change</Fld>
+        <Fld Name="Writer">Howard Mackie</Fld>
+        <Fld Name="Editor">Frank Pittarese</Fld>
+        <Fld Name="Editor In Chief">Bob Harras</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">James Fry</Fld>
+        <Fld Name="Inker">Scott Koblish</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Richard Starkings and Comicraft</Fld>
+        <Fld Name="Storyline">
+        </Fld>
+      </issue>
+    </volume>
+  </volumes>
+  <columns>
+    <column FldName="Have?" />
+    <column FldName="Exclude?" />
+    <column FldName="Volume" />
+    <column FldName="Title" />
+    <column FldName="Issue" />
+    <column FldName="Month" />
+    <column FldName="Year" />
+    <column FldName="Issue Title" />
+    <column FldName="Writer" />
+    <column FldName="Editor" />
+    <column FldName="Editor In Chief" />
+    <column FldName="Artist" />
+    <column FldName="Penciller" />
+    <column FldName="Inker" />
+    <column FldName="Colorist" />
+    <column FldName="Letterer" />
+    <column FldName="Storyline" />
+  </columns>
+</root>

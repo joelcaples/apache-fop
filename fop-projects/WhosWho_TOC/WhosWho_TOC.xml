@@ -1,0 +1,26 @@
+<root>
+  <volumes>
+    <volume volume_code="WHOSWHO_V1">
+    </volume>
+    <volume volume_code="WHOSWHO_V2">
+    </volume>
+  </volumes>
+  <columns>
+    <column FldName="Volume" />
+    <column FldName="Title" />
+    <column FldName="Issue" />
+    <column FldName="Mo" />
+    <column FldName="Year" />
+    <column FldName="Issue Title" />
+    <column FldName="Writer" />
+    <column FldName="Editor" />
+    <column FldName="Editor In Chief" />
+    <column FldName="Artist" />
+    <column FldName="Penciller" />
+    <column FldName="Inker" />
+    <column FldName="Colorist" />
+    <column FldName="Letterer" />
+    <column FldName="Cover Artist" />
+    <column FldName="F16" />
+  </columns>
+</root>

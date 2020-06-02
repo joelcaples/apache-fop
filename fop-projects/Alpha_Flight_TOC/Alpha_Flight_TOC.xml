@@ -1,0 +1,1664 @@
+<root>
+  <volumes>
+    <volume volume_code="AF_1">
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Classic X-Men</Fld>
+        <Fld Name="Issue">26</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1979</Fld>
+        <Fld Name="Issue Title">Wanted: Wolverine! Dead or Alive!'</Fld>
+        <Fld Name="Writer">Chris Claremont &amp; John Byrne</Fld>
+        <Fld Name="Editor">Jim Shooter &amp; Roger Stern</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Terry Austin</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Classic X-Men</Fld>
+        <Fld Name="Issue">27</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1979</Fld>
+        <Fld Name="Issue Title">Shoot-Out at the Stampede!'</Fld>
+        <Fld Name="Writer">Chris Claremont &amp; John Byrne</Fld>
+        <Fld Name="Editor">Jim Shooter &amp; Roger Stern</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Terry Austin</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">The Incredible Hulk (1968) Annual</Fld>
+        <Fld Name="Issue">8</Fld>
+        <Fld Name="Mo">
+        </Fld>
+        <Fld Name="Year">1979</Fld>
+        <Fld Name="Issue Title">Sasquatch!'</Fld>
+        <Fld Name="Writer">Roger Stern &amp; John Byrne</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Sal Buscema</Fld>
+        <Fld Name="Inker">A.P. Alcala</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Al Milgrom</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Machine Man (1978)</Fld>
+        <Fld Name="Issue">18</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">Alone Against Alpha Flight'</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Steve Ditko</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Nel Yomtov</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Marvel Two-In-One (1974)</Fld>
+        <Fld Name="Issue">83</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Where Stalks the Sasquatch!'</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Wilson</Fld>
+        <Fld Name="Inker">Chic Stone</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Marvel Two-In-One (1974)</Fld>
+        <Fld Name="Issue">84</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Cry for Beloved Canada!'</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Wilson</Fld>
+        <Fld Name="Inker">Chic Stone</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Marvel Age (1983)</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title"></Fld>
+        <Fld Name="Writer">
+        </Fld>
+        <Fld Name="Editor">
+        </Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Tundra!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Shadows of the Past</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">3</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Yesterday Man</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">4</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Resolutions!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">5</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">What Fools These Mortals Be…</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">6</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Snowblind</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Linda Grant</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">7</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">The Importance of Being Deadly</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">8</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Cold Hands Cold Heart</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">9</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Things aren't always what they seem</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">10</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Blood Battle</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">11</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Set-Up</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">12</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">…And One Shall Surely Die</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">13</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Nightmare!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">ROM</Fld>
+        <Fld Name="Issue">56</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Clear Waters Remembered</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Ralph Macchio</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Mark Bright</Fld>
+        <Fld Name="Inker">Mel Candido</Fld>
+        <Fld Name="Colorist">Ben Sean</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">ROM</Fld>
+        <Fld Name="Issue">57</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Scenes of Destruction on Every Hand!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Ralph Macchio</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Sal Buscema</Fld>
+        <Fld Name="Inker">Mel Candido</Fld>
+        <Fld Name="Colorist">Ben Sean</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">ROM</Fld>
+        <Fld Name="Issue">58</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">A Plague of Insects!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Ralph Macchio</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Sal Buscema</Fld>
+        <Fld Name="Inker">Mel Candido</Fld>
+        <Fld Name="Colorist">Ben Sean</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="AF_2">
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Marvel Team-Up Annual</Fld>
+        <Fld Name="Issue">7</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">The Colllected Spider-Man</Fld>
+        <Fld Name="Writer">Louise Simonson</Fld>
+        <Fld Name="Editor">Danny Fingeroth</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Paul Neary</Fld>
+        <Fld Name="Inker">Sam DeLaRosa</Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">14</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Biology Class</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">15</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Blind Date</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">16</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">…And Forsaking All Others</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">17</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Dreams Die Hard…</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">18</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">How Long Will a Man Lie in the Earth 'Ere He Rot?</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">19</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Turn Again, Turn Again, Time in Thy Flight…</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">20</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Gold and Love Affairs</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Keith Williams</Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">21</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Love Wrought New Alchemy…</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">22</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Rub-Out</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">23</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Night of the Beast</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Bob Wiacek &amp; Keith Williams</Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">24</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Final Conflict: The Gathering</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">X-Men/Alpha Flight</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">The Gift: Part I</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Ann Nocenti &amp; Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Paul Smith</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">X-Men/Alpha Flight</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">The Gift: Part II</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Ann Nocenti &amp; Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Paul Smith</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">25</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">…And Graves Give Up Their Dead</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">26</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">If At First You Don't Succeed</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Bob Wiacek</Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">27</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Betrayal</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Keith Williams</Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">28</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Cross-Over</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Keith Williams</Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="AF_3">
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">The Incredible Hulk</Fld>
+        <Fld Name="Issue">313</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Hook, Line &amp; Sinker!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Mike Mignola</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">29</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Cut Bait &amp; Run!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Mike Mignola</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">30</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Enter… Scramble!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Mike Mignola</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">31</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">The Grateful Dead!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Mike Mignola</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">32</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Short Story!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Bogdanove</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">33</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">A Friend In Need</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Sal Buscema</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">34</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Honor</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Sal Buscema</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">35</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">The Child Is Father To The Man</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">David Ross</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">36</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Labor Pains</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">David Ross</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">37</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Death Birth</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">David Ross</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">38</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Pestilence!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">David Ross</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Marvel Fanfare</Fld>
+        <Fld Name="Issue">28</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Murder By Numbers 1,2,3…</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Ken Steacy</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">39</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">The Invasion of Atlantis!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">David Ross</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">The Avengers</Fld>
+        <Fld Name="Issue">272</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Assault on Atlantis</Fld>
+        <Fld Name="Writer">Roger Stern</Fld>
+        <Fld Name="Editor">Mark Gruenwald</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Buscema</Fld>
+        <Fld Name="Inker">Tom Palmer</Fld>
+        <Fld Name="Colorist">Paul Becton</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">40</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Love Wrought New Alchemy…</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">David Ross</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">q</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">41</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">It's Not Easy Being Purple</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">David Ross</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight Annual</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Mo">
+        </Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Homebody!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Larry Stroman</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">42</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Auction</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">David Ross</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">43</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Strike Across The Border!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">David Ross</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Ken Bruzenak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">44</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Plague!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">David Ross</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">45</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Resurrection</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">June Brigman</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">46</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Friends… And Lovers</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">June Brigman</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">47</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">You Can't Tell the Forest From the Trees</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Craig Brasfield, Mike Mignola, Steve Purcell</Fld>
+        <Fld Name="Inker">Whilce Portacio &amp; Terry Austin</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="AF_4">
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">48</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Madness</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Larry Shoemaker</Fld>
+        <Fld Name="Inker">Steve Leialoha &amp; Hilary Barta</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Ken Bruzenak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">49</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Flesh of My Flesh!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">June Brigman</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">50</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">This Mortal Coil!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">June Brigman</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">51</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Friends In High Places!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">52</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">Specters!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">June Brigman</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">53</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">A Blast From the Past!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight Annual</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Mo">
+        </Fld>
+        <Fld Name="Year">1987</Fld>
+        <Fld Name="Issue Title">The Fire Inside!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">June Brigman</Fld>
+        <Fld Name="Inker">Bob McLeod</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">
+        </Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">54</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Goblyn</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Hugh Haynes</Fld>
+        <Fld Name="Inker">Whilce Portacio</Fld>
+        <Fld Name="Colorist">Gregory Wright</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">55</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Identity Crisis!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Tony DeZuniga</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">56</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Warped!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Tony DeZuniga</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">57</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Life</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Tony DeZuniga</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">58</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Liveworld</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">59</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Comes a Dragon!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">60</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">War! What is it Good For?</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">61</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Inquisition</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">62</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">A Real Gone Daddy!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">63</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Technomancer</Fld>
+        <Fld Name="Writer">James D. Hudnall</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Hugh Haynes</Fld>
+        <Fld Name="Inker">Mike Gustovich</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">64</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">Where There's a Will There's a Way</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jim Lee</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">65</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1988</Fld>
+        <Fld Name="Issue Title">When Robots Dream!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Hugh Haynes</Fld>
+        <Fld Name="Inker">Al Milgrom</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Have?">x</Fld>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">66</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1989</Fld>
+        <Fld Name="Issue Title">Killing Me Softly With His Word Processor!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Tom DeFalco</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Hugh Haynes</Fld>
+        <Fld Name="Inker">Gerry Talaoc</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+    </volume>
+  </volumes>
+  <columns>
+    <column FldName="Have?" />
+    <column FldName="Volume" />
+    <column FldName="Title" />
+    <column FldName="Issue" />
+    <column FldName="Mo" />
+    <column FldName="Year" />
+    <column FldName="Issue Title" />
+    <column FldName="Writer" />
+    <column FldName="Editor" />
+    <column FldName="Editor In Chief" />
+    <column FldName="Artist" />
+    <column FldName="Penciller" />
+    <column FldName="Inker" />
+    <column FldName="Colorist" />
+    <column FldName="Letterer" />
+    <column FldName="Cover Artist" />
+  </columns>
+</root>

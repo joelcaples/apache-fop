@@ -1,0 +1,1552 @@
+<root>
+  <volumes>
+    <volume volume_code="FFBYRNE_1">
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">215</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">Blastaar!</Fld>
+        <Fld Name="Writer">Marv Wolfman</Fld>
+        <Fld Name="Editor">Marv Wolfman</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne &amp; Joe Sinnott</Fld>
+        <Fld Name="Penciller"/>
+        <Fld Name="Inker"/>
+        <Fld Name="Colorist">C. Gafford</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">216</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">Where There Be Gods!</Fld>
+        <Fld Name="Writer">Marv Wolfman / Bill Mantlo</Fld>
+        <Fld Name="Editor">Mark Gruenwald</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist"/>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Pablo Marcos</Fld>
+        <Fld Name="Colorist">Carl G.</Fld>
+        <Fld Name="Letterer">Irv W. &amp; Michael H.</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">217</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">Masquerade!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Mark Gruenwald</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne &amp; Joe Sinnott</Fld>
+        <Fld Name="Penciller"/>
+        <Fld Name="Inker"/>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">John Costanza</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">218</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">When Spider-Man Comes Calling!</Fld>
+        <Fld Name="Writer">Bill Mantlo</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne &amp; Joe Sinnott</Fld>
+        <Fld Name="Penciller"/>
+        <Fld Name="Inker"/>
+        <Fld Name="Colorist">Ben Sean</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">220</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">And the Lights went out all over the world!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor"/>
+        <Fld Name="Editor In Chief"/>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Joe  Sinnott</Fld>
+        <Fld Name="Colorist">Bbob Sharen</Fld>
+        <Fld Name="Letterer">Novak &amp; Watanabe</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">221</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">Tower of Crystal… Dreams of Glass!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Joe  Sinnott</Fld>
+        <Fld Name="Colorist">C. Gafford</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Marvel Team-Up</Fld>
+        <Fld Name="Issue">61</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">Not All Thy Powers Can Save Thee!</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Archie Goodwin</Fld>
+        <Fld Name="Editor In Chief"/>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Dave Hunt</Fld>
+        <Fld Name="Colorist">Dave Hunt</Fld>
+        <Fld Name="Letterer">John Costanza</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Marvel Team-Up</Fld>
+        <Fld Name="Issue">62</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">All This and the QE2</Fld>
+        <Fld Name="Writer">Chris Claremont</Fld>
+        <Fld Name="Editor">Archie Goodwin</Fld>
+        <Fld Name="Editor In Chief"/>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Dave Hunt</Fld>
+        <Fld Name="Colorist">Dave Hunt</Fld>
+        <Fld Name="Letterer">J. Costanza</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Marvel Two-In-One</Fld>
+        <Fld Name="Issue">50</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1979</Fld>
+        <Fld Name="Issue Title">Rememberance of Things Past!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Roger Stern</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Joe  Sinnott</Fld>
+        <Fld Name="Colorist">F. Mouly</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist"/>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">232</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">Back to the Basics!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Bjorn Heyn</Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist"/>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">233</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">Mission For A Dead Man!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller"/>
+        <Fld Name="Inker"/>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">234</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">the Man with the POWER!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller"/>
+        <Fld Name="Inker"/>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jean Simek</Fld>
+        <Fld Name="Cover Artist"/>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">235</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">Four Against EGO!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller"/>
+        <Fld Name="Inker"/>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jean Simek</Fld>
+        <Fld Name="Cover Artist"/>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">236</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">Terror in a Tiny Town</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller"/>
+        <Fld Name="Inker"/>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist"/>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">237</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">The EYES Have It!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller"/>
+        <Fld Name="Inker"/>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist"/>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">238</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">The Lady IS For BURNING!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller"/>
+        <Fld Name="Inker"/>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist"/>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">239</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Weny's Friends</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller"/>
+        <Fld Name="Inker"/>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist"/>
+      </issue>
+    </volume>
+    <volume volume_code="FFBYRNE_2">
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">240</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Exodus</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller"/>
+        <Fld Name="Inker"/>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist"/>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">241</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Render Unto Caesar</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">242</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Terrax the Untamed</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">243</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Shall Earth Endure?</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">244</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Beginnings and Endings</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">245</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Childhood's End</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">246</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Too Many DOOMS</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">247</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">This Land is Mine</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">248</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Nightmare</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Rich Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">249</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">Man and Super-Man</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">250</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">X-Factor</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Avengers</Fld>
+        <Fld Name="Issue">233</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">The Annihilation Gambit</Fld>
+        <Fld Name="Writer">Roger Stern / John Byrne</Fld>
+        <Fld Name="Editor">Mark Gruenwald</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Joe  Sinnott</Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four Annual</Fld>
+        <Fld Name="Issue">17</Fld>
+        <Fld Name="Mo">
+        </Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Legacy</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">251</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Into the Negative Zone</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Tom DeFalco</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">252</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Cityscape</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Tom DeFalco</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">253</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Quest</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist"> John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="FFBYRNE_3">
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">254</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">The Minds of Mantracora</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">John Byrne</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">255</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Trapped!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">256</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">The Annihilation Gambit!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Thing</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">For Beauty Passed Away</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Milgrom and Noceti</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">257</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Fragments</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Alpha Flight</Fld>
+        <Fld Name="Issue">4</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Resolutions!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Denny O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Andy Yanchus</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">258</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Interlude</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Carl Potts</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">259</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">Choices</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Bob Budiansky</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">260</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">When Titans Clash!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Bob Budiansky</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">261</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">The Search for Reed Richards</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Bob Budiansky</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">262</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">The Trial of Reed Richards</Fld>
+        <Fld Name="Writer">
+        </Fld>
+        <Fld Name="Editor">
+        </Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">263</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">R. and R.</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Bob Budiansky</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">264</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Inferno</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Bob Budiansky</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Juliana Ferriter</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">265</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">The House that Reed Built</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Bob Budiansky</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Mike Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">266</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Call Her… Karisma!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Bob Budiansky</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Kerry Gammil / John Byrne</Fld>
+        <Fld Name="Inker">John Byrne</Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">267</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">A Small Loss</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Bob Budiansky</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Thing</Fld>
+        <Fld Name="Issue">10</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Marking Time</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Bob Budiansky</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Hilary Barta</Fld>
+        <Fld Name="Colorist">Juliana Ferriter</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="FFBYRNE_4">
+      <issue>
+        <Fld Name="Title">Fantastic Four Annual</Fld>
+        <Fld Name="Issue">18</Fld>
+        <Fld Name="Mo">
+        </Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Something Old, Something New</Fld>
+        <Fld Name="Writer">Mark Grunenwald / John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Mark Bright</Fld>
+        <Fld Name="Inker">Mike Gustovich</Fld>
+        <Fld Name="Colorist">Petra Scorsese</Fld>
+        <Fld Name="Letterer">Phil Felix</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">268</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">The Masque of Doom</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Bob Budiansky</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">269</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Skyfall</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Bob Budiansky</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">270</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Planet-Fall</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Bob Budiansky</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">271</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Happy Birthday Reed</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Chiang &amp; Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">272</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Cowboys and Idioms</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Ken Bruzenak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">273</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Fathers and Others</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">274</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Monster Mash</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">275</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">The Naked Truth</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">John Byrne</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Thing</Fld>
+        <Fld Name="Issue">19</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Monster Mash</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Wilson</Fld>
+        <Fld Name="Inker">Mike Gustovich</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Novak &amp; Squid</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">276</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Suffer a Witch to Live…</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Jerry Ordway</Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">277</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Back From Beyond</Fld>
+        <Fld Name="Writer">
+        </Fld>
+        <Fld Name="Editor">
+        </Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">
+        </Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">278</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">True Lies</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Jerry Ordway</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">279</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Crack of Doom</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Jerry Ordway</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">280</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Tell Them All They Love Must Die…</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Jerry Ordway</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">281</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">With Malice Towards All!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Jerry Ordway</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">282</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Inwards To Infinity</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Jerry Ordway</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">283</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Torment</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Jerry Ordway</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="FFBYRNE_5">
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">284</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Revolution!</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Al Gordon</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Thing</Fld>
+        <Fld Name="Issue">23</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Rememberances</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Mark Gruenwald</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Wilson</Fld>
+        <Fld Name="Inker">Bob Layton</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">John Morelli</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Avengers Annual</Fld>
+        <Fld Name="Issue">14</Fld>
+        <Fld Name="Mo">
+        </Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Fifth Column</Fld>
+        <Fld Name="Writer">Roger Stern</Fld>
+        <Fld Name="Editor">Mark Gruenwald</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Kyle Baker</Fld>
+        <Fld Name="Colorist">Christie Scheele</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four Annual</Fld>
+        <Fld Name="Issue">19</Fld>
+        <Fld Name="Mo">
+        </Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Summons from the Stars</Fld>
+        <Fld Name="Writer">John Bryne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Joe Sinnott</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">285</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Hero</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Al Gordon</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">286</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Like a Phoenix</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Terry Austin</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">287</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Prisoner of the Flesh</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Joe Sinnott</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">288</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Full Circle</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Joe Sinnott</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">289</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Rip Wide the Sky</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Al Gordon</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">290</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Risk</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Al Gordon</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">291</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">The Times They Are A' Changing</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">P. Craig Russell</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">292</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">The Man Who Dreamed the World</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Al Gordon</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">293</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Central City Does Not Answer</Fld>
+        <Fld Name="Writer">John Byrne</Fld>
+        <Fld Name="Editor">Mike Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">John Byrne</Fld>
+        <Fld Name="Inker">Al Gordon</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">294</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Hero Worship</Fld>
+        <Fld Name="Writer">Roger Stern / John Byrne</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jerry Ordway</Fld>
+        <Fld Name="Inker">Al Gordon</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Fantastic Four</Fld>
+        <Fld Name="Issue">295</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1986</Fld>
+        <Fld Name="Issue Title">Welcome to the Future</Fld>
+        <Fld Name="Writer">Roger Stern</Fld>
+        <Fld Name="Editor">Michael Carlin</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jerry Ordway</Fld>
+        <Fld Name="Inker">Al Gordon</Fld>
+        <Fld Name="Colorist">Glynis Oliver</Fld>
+        <Fld Name="Letterer">John Workman</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+    </volume>
+  </volumes>
+  <columns>
+    <column FldName="Volume" />
+    <column FldName="Title" />
+    <column FldName="Issue" />
+    <column FldName="Mo" />
+    <column FldName="Year" />
+    <column FldName="Issue Title" />
+    <column FldName="Writer" />
+    <column FldName="Editor" />
+    <column FldName="Editor In Chief" />
+    <column FldName="Artist" />
+    <column FldName="Penciller" />
+    <column FldName="Inker" />
+    <column FldName="Colorist" />
+    <column FldName="Letterer" />
+    <column FldName="Cover Artist" />
+  </columns>
+</root>

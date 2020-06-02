@@ -1,0 +1,203 @@
+<root>
+  <volumes>
+    <volume volume_code="2001">
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1976</Fld>
+        <Fld Name="Issue Title">Beast-Killer</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">Vira The She-Demon</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Janice Cohen</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">3</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">Marak!</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">4</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">Wheels of Death</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">5</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">Norton of New York 2040 A.D.</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Glynis Wein</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">6</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">Inter-Galactic "The Ultimate Trip!!!"</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">7</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">the New Seed</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">8</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">The Capture of "X-51"</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Petra G.</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">9</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">Mister Machine</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">10</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">Mister Machhine: Hotline to Hades</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Sam Kato</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+    </volume>
+  </volumes>
+  <columns>
+    <column FldName="Volume" />
+    <column FldName="Title" />
+    <column FldName="Issue" />
+    <column FldName="Mo" />
+    <column FldName="Year" />
+    <column FldName="Issue Title" />
+    <column FldName="Writer" />
+    <column FldName="Editor" />
+    <column FldName="Editor In Chief" />
+    <column FldName="Artist" />
+    <column FldName="Penciller" />
+    <column FldName="Inker" />
+    <column FldName="Colorist" />
+    <column FldName="Letterer" />
+    <column FldName="Cover Artist" />
+  </columns>
+</root>

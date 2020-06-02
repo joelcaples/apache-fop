@@ -1,0 +1,676 @@
+<root>
+  <volumes>
+    <volume volume_code="MM_1">
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">8</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">The Capture of "X-51"</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Petra Goldberg</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">9</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">Mister Machine</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">2001: A Space Odyssey</Fld>
+        <Fld Name="Issue">10</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1977</Fld>
+        <Fld Name="Issue Title">Mister Machhine: Hotline to Hades</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Sam Kato</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1978</Fld>
+        <Fld Name="Issue Title">Machine Man</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Petra Goldberg</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1978</Fld>
+        <Fld Name="Issue Title">House of Nightmares</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Petra Goldberg</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">3</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1978</Fld>
+        <Fld Name="Issue Title">Ten-For, The Mean Machine</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Petra Goldberg</Fld>
+        <Fld Name="Letterer">
+        </Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">4</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1978</Fld>
+        <Fld Name="Issue Title">Battle on a Very Busy Street</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Petra Goldberg</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">5</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1978</Fld>
+        <Fld Name="Issue Title">Non-Hero</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Petra Goldberg</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">6</Fld>
+        <Fld Name="Mo">9</Fld>
+        <Fld Name="Year">1978</Fld>
+        <Fld Name="Issue Title">Quick Trick</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Petra Goldberg</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">7</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1978</Fld>
+        <Fld Name="Issue Title">With a Nation Against Him!</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Petra Goldberg</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">8</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1978</Fld>
+        <Fld Name="Issue Title">Super-Escape</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">Petra Goldberg</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">9</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1978</Fld>
+        <Fld Name="Issue Title">In Final Battle!</Fld>
+        <Fld Name="Writer">Jack Kirby</Fld>
+        <Fld Name="Editor">Jack Kirby</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Jack Kirby</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">Mike Royer</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Mike Royer</Fld>
+        <Fld Name="Cover Artist">Jack Kirby</Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Incredible Hulk</Fld>
+        <Fld Name="Issue">234</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1979</Fld>
+        <Fld Name="Issue Title">Battleground: Berkeley!</Fld>
+        <Fld Name="Writer">Roger Stern</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Sal Buscema and Jack Abel</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Elaine Heinl</Fld>
+        <Fld Name="Letterer">John Costanza</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Incredible Hulk</Fld>
+        <Fld Name="Issue">235</Fld>
+        <Fld Name="Mo">5</Fld>
+        <Fld Name="Year">1979</Fld>
+        <Fld Name="Issue Title">The Monster and the Machine</Fld>
+        <Fld Name="Writer">Roger Stern</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Sal Buscema and M. Esposito</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">John Costanza</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Incredible Hulk</Fld>
+        <Fld Name="Issue">236</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1979</Fld>
+        <Fld Name="Issue Title">Kill or Be Killed!</Fld>
+        <Fld Name="Writer">Roger Stern</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Sal Buscema and M. Esposito</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Incredible Hulk</Fld>
+        <Fld Name="Issue">237</Fld>
+        <Fld Name="Mo">7</Fld>
+        <Fld Name="Year">1979</Fld>
+        <Fld Name="Issue Title">When a City Dies!</Fld>
+        <Fld Name="Writer">Roger Stern</Fld>
+        <Fld Name="Editor">Al Milgrom</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Sal Buscema and Jack Abel</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+    </volume>
+    <volume volume_code="MM_2">
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">10</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1979</Fld>
+        <Fld Name="Issue Title">Renewal!</Fld>
+        <Fld Name="Writer">Marv Wolfman</Fld>
+        <Fld Name="Editor">Marv Wolfman</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Steve Ditko</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Ben Sean</Fld>
+        <Fld Name="Letterer">Tom Orzechowski</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">11</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1979</Fld>
+        <Fld Name="Issue Title">Byte of the Binary  Bug</Fld>
+        <Fld Name="Writer">Marv Wolfman</Fld>
+        <Fld Name="Editor">Marv Wolfman</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Steve Ditko</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Michele W.</Fld>
+        <Fld Name="Letterer">John Costanza</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">12</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1979</Fld>
+        <Fld Name="Issue Title">Where Walk the Gods!</Fld>
+        <Fld Name="Writer">Marv Wolfman</Fld>
+        <Fld Name="Editor">Marv Wolfman</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Steve Ditko</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Irv Watanabe</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">13</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">Xanadu!</Fld>
+        <Fld Name="Writer">Marv Wolfman</Fld>
+        <Fld Name="Editor">Marv Wolfman</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Steve Ditko</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Irv Watanabe</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">14</Fld>
+        <Fld Name="Mo">4</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">The Man Who Could Walk Through Walls</Fld>
+        <Fld Name="Writer">Marv Wolfman</Fld>
+        <Fld Name="Editor">Marv Wolfman</Fld>
+        <Fld Name="Editor In Chief">
+        </Fld>
+        <Fld Name="Artist">Steve Ditko</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">R. Slifer</Fld>
+        <Fld Name="Letterer">John Costanza</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">15</Fld>
+        <Fld Name="Mo">6</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">Kill Me or Cure Me</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Dennis O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Steve Ditko</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Doc Martin</Fld>
+        <Fld Name="Letterer">Rick Parker</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">16</Fld>
+        <Fld Name="Mo">8</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">Baron Brimstone and his Sinister Satan Squad!</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Dennis O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Steve Ditko</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">17</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">Arms and the Robot!</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Dennis O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Steve Ditko</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Nel Yomtov</Fld>
+        <Fld Name="Letterer">Peter Kirch</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Marvel Team-Up</Fld>
+        <Fld Name="Issue">99</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">and Machine Man Makes 3</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Dennis O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Jerry Bingham</Fld>
+        <Fld Name="Inker">Mike Esposito</Fld>
+        <Fld Name="Colorist">Ben Sean</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">18</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">Alone Against Alpha Flight</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Dennis O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Steve Ditko</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Nel Yomtov</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Marvel Team-Up Annual</Fld>
+        <Fld Name="Issue">3</Fld>
+        <Fld Name="Mo">
+        </Fld>
+        <Fld Name="Year">1980</Fld>
+        <Fld Name="Issue Title">Monster in the Meadow</Fld>
+        <Fld Name="Writer">Roger Stern</Fld>
+        <Fld Name="Editor">Dennis O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Herb Trimpe</Fld>
+        <Fld Name="Inker">Mike Esposito, Bruce Patterson, Frank Springer, Al Milgrom, Dave Humphrys &amp; Josef Rubinstein</Fld>
+        <Fld Name="Colorist">Ken Klaczak</Fld>
+        <Fld Name="Letterer">John Costanza</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man</Fld>
+        <Fld Name="Issue">19</Fld>
+        <Fld Name="Mo">2</Fld>
+        <Fld Name="Year">1981</Fld>
+        <Fld Name="Issue Title">Jolted by Jack O'Lantern!</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Dennis O'Neil</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">Steve Ditko</Fld>
+        <Fld Name="Penciller">
+        </Fld>
+        <Fld Name="Inker">
+        </Fld>
+        <Fld Name="Colorist">Nel Yomtov</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Marvel Two-In-One</Fld>
+        <Fld Name="Issue">92</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">182</Fld>
+        <Fld Name="Issue Title">This Evil Returning</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Wilson</Fld>
+        <Fld Name="Inker">A. Sorted</Fld>
+        <Fld Name="Colorist">Don Warfield</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Marvel Two-In-One</Fld>
+        <Fld Name="Issue">93</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1982</Fld>
+        <Fld Name="Issue Title">And One Shall Die--!</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Jim Salicrup</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Ron Wilson</Fld>
+        <Fld Name="Inker">D. Hands</Fld>
+        <Fld Name="Colorist">George Roussos</Fld>
+        <Fld Name="Letterer">Joe Rosen</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">The Invincible Iron-Man</Fld>
+        <Fld Name="Issue">168</Fld>
+        <Fld Name="Mo">3</Fld>
+        <Fld Name="Year">1983</Fld>
+        <Fld Name="Issue Title">The Iron Scream</Fld>
+        <Fld Name="Writer">Denny O'Neil</Fld>
+        <Fld Name="Editor">Mark Gruenwald</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Luke McDonnell</Fld>
+        <Fld Name="Inker">Steve Mitchell</Fld>
+        <Fld Name="Colorist">Bob Sharen</Fld>
+        <Fld Name="Letterer">Steve Mitchell</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man (1984)</Fld>
+        <Fld Name="Issue">1</Fld>
+        <Fld Name="Mo">10</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">He Lives Again!</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Larry Hama</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Herb Trimpe</Fld>
+        <Fld Name="Inker">Barry Windsor-Smith</Fld>
+        <Fld Name="Colorist">Barry Windsor-Smith</Fld>
+        <Fld Name="Letterer">Michael Higgins</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man (1984)</Fld>
+        <Fld Name="Issue">2</Fld>
+        <Fld Name="Mo">11</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">If This Be Sanctuary</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Larry Hama</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Herb Trimpe</Fld>
+        <Fld Name="Inker">Barry Windsor-Smith</Fld>
+        <Fld Name="Colorist">Barry Windsor-Smith</Fld>
+        <Fld Name="Letterer">Diana Albers</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man (1984)</Fld>
+        <Fld Name="Issue">3</Fld>
+        <Fld Name="Mo">12</Fld>
+        <Fld Name="Year">1984</Fld>
+        <Fld Name="Issue Title">Rime of the Ancient Wrecker!</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Larry Hama</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Herb Trimpe</Fld>
+        <Fld Name="Inker">Barry Windsor-Smith</Fld>
+        <Fld Name="Colorist">Barry Windsor-Smith</Fld>
+        <Fld Name="Letterer">Janice Chiang</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+      <issue>
+        <Fld Name="Title">Machine Man (1984)</Fld>
+        <Fld Name="Issue">4</Fld>
+        <Fld Name="Mo">1</Fld>
+        <Fld Name="Year">1985</Fld>
+        <Fld Name="Issue Title">Victory</Fld>
+        <Fld Name="Writer">Tom DeFalco</Fld>
+        <Fld Name="Editor">Larry Hama</Fld>
+        <Fld Name="Editor In Chief">Jim Shooter</Fld>
+        <Fld Name="Artist">
+        </Fld>
+        <Fld Name="Penciller">Barry Windsor-Smith</Fld>
+        <Fld Name="Inker">Barry Windsor-Smith</Fld>
+        <Fld Name="Colorist">Barry Windsor-Smith</Fld>
+        <Fld Name="Letterer">Jim Novak</Fld>
+        <Fld Name="Cover Artist">
+        </Fld>
+      </issue>
+    </volume>
+  </volumes>
+  <columns>
+    <column FldName="Volume" />
+    <column FldName="Title" />
+    <column FldName="Issue" />
+    <column FldName="Mo" />
+    <column FldName="Year" />
+    <column FldName="Issue Title" />
+    <column FldName="Writer" />
+    <column FldName="Editor" />
+    <column FldName="Editor In Chief" />
+    <column FldName="Artist" />
+    <column FldName="Penciller" />
+    <column FldName="Inker" />
+    <column FldName="Colorist" />
+    <column FldName="Letterer" />
+    <column FldName="Cover Artist" />
+  </columns>
+</root>
