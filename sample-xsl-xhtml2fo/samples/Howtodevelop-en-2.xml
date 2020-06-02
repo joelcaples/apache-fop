@@ -1,0 +1,4567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE doc SYSTEM "../dtd/SimpleDoc.dtd">
+<doc toc="true" toclevel="3" cover="true" xmlns:fo="http://www.w3.org/1999/XSL/Format" lang="en">
+<head>
+<date>July, 2005<br/>2nd Edition</date>
+<author logo="img/ahlogo.svg" width="41.54mm" height="8.73mm">Antenna House, Inc.<br/>Copyright &#x00a9; 2001-2005 Antenna House, Inc.</author>
+<abstract>This tutorial explains the way to edit XSL stylesheet that transforms XML document file into XSL-FO.</abstract>
+<title>How to Develop Stylesheet  <br/>for XML to XSL-FO Transformation</title>
+</head>
+<body>
+<section logo="img/ico3.png">
+<title>Preface</title>
+<p>
+Extensible Stylesheet Language (XSL)<ref ref-id="a1"/> has been brought to the attention of a wide audience as a specification recommended by W3C on 15th October, 2001 for displaying and printing the XML document. The following is the general process to transform the XML document into XSL Formatting Objects (XSL-FO) and print it.
+</p>
+<ol>
+<li>Develop the stylesheet that conforms to the DTD of the source XML document to create the target output.</li>
+<li>Input the XML document and the XSL stylesheet to the XSLT processor to create XSL-FO.</li>
+<li> Get the target outputs such as paper-based output, PDF output, by the XSL-FO processor.</li>
+</ol>
+<p/>
+<figure src="img/XSL-FO_proc.emf">
+<title>Generating XSL-FO and Display/Print by XSL Formatter</title>
+</figure>
+<p>
+The knowledge about XSLT and XSL is necessary to develop XSLT stylesheet. The knowledge about XSLT and XSL is necessary to develop XSLT stylesheet. As for XSLT, many reference books has been published other than the specification<ref ref-id="a2"/>. 
+Probably, XSLT is already much more familiar one, since it is often used for the conversion from XML to HTML.
+The XSL specification <ref ref-id="a1"/>has a huge amount of contents, it has over 400 pages. It is pretty hard to understand this specification. But basically it is intended for implementers. It is not necessary for XSLT stylesheet designers to understand everything. You can fully write stylesheet by knowing some regular contents and patterns.
+</p>
+<p>
+This report explains how to edit stylesheet which is used for transforming XML documents into XSL-FO according to the example of <index>SimpleDoc</index>. SimpleDoc is made for this report as a format to write a simple document. This is based on <index>PureSmartDoc</index>
+<ref ref-id="a4"/> presented by Tomoharu Asami.
+To make it a simple, the number of the elements is reduced and the useful functions for writing and formatting documents are added. 
+</p>
+<p>This report explains how to edit a stylesheet which is used for transforming a SimpleDoc document into XSL-FO. This report itself is the instance XML document of SimpleDoc.dtd, and it is then ready to be formatted by Antenna House <index>XSL Formatter</index> with the stylesheet which transforms the SimpleDoc document explained here into XSL-FO.
+</p>
+</section>
+<section logo="img/ico3.png">
+<title>Step for XSL-FO Transformation </title>
+<p>Now, what steps are necessary to develop XSL stylesheet?  These steps are explained briefly as below.</p>
+<table layout="fixed">
+<col number="1" width="30%"/>
+<col number="2" width="70%"/>
+<thead>
+<tr>
+<th align="center">Steps</th>
+<th align="center">Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Know the structure of the XML document</td>
+<td>First, the information about the structure of XML source documents is required. XSLT processor can transform XML document into XSL-FO without a DTD. But the information described in the DTD such as types of elements, contents of elements, appearing order of elements and values of properties are necessary for developing a stylesheet.
+
+</td>
+</tr>
+<tr>
+<td>Specify a printing form
+</td>
+<td>
+This is the printing form as a final output, in other words the output specification. XSL is a formatting specification.  Printing forms has various range of specifications such as sizes and layouts of printing paper, layouts of head and body, deciding whether or not to output index, table of contents, and so on.
+</td>
+</tr>
+<tr>
+<td>Apply a printing form to formatting objects</td>
+<td>After determining the specification of printing, you have to know what XSL formatting objects and properties are applied in order to print in this style. It is better to practice how to specify by referring to a simple stylesheet. </td>
+</tr>
+<tr>
+<td>Develop an XSL stylesheet</td>
+<td>Put the instructions to the stylesheet in order to transform XML source documents into the target printing form. Map the XML source document to XSL formatting objects that can generate the output specification. The stylesheet have the similar aspect as the general programming languages, while it may be difficult if you do not understand the feature of the XSL.  <note>Refer to the definition list template in this report. In XSL, Structure for control of the conditional branch can be made, but it is impossible to assign a value to a variable. The technique to realize by calling loops recursively is necessary.</note>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section logo="img/ico3.png">
+<title>SimpleDoc Organization
+</title>
+<p>
+The following table shows the structure of SimpleDoc treated in this report. For more detail, refer to SimpleDoc.dtd.</p>
+<table rowheight="2em">
+<col number="1" width="17.5%"/>
+<col number="2" width="22.5%"/>
+<col number="3" width="60%"/>
+<thead>
+<tr height="1em">
+<th> Element</th>
+<th> Meaning</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+a group of block elements
+</td>
+<td>&#x2014;</td>
+<td>p | figure | ul | ol | dl | table | program | div</td>
+</tr>
+<tr>
+<td>
+
+a group of inline elements 
+<br/>
+</td>
+<td>&#x2014;</td>
+<td>a | note | span | b | i | em | code | br
+</td>
+</tr>
+<tr>
+<td>doc<br/>
+</td>
+<td> root element </td>
+<td>(head, body)</td>
+</tr>
+<tr>
+<td>head<br/>
+</td>
+<td> header</td>
+<td>(date | author | abstract | title)*</td>
+</tr>
+<tr>
+<td>date, author, abstract, title<br/>
+</td>
+<td> header elements,<br/> date, author, abstract, title</td>
+<td>
+(#PCDATA | a group of inline elements)*
+</td>
+</tr>
+<tr>
+<td>body</td>
+<td> body</td>
+<td>
+(chapter | part | section | a group of block elements | a group of inline elements)*
+</td>
+</tr>
+<tr>
+<td>part</td>
+<td>part</td>
+<td>(title, (chapter |a group of block elements | a group of inline elements)*)</td>
+</tr>
+<tr>
+<td>chapter</td>
+<td>chapter</td>
+<td>(title, (section | a group of bock elements | a group of inline elements)*)
+</td>
+</tr>
+<tr>
+<td>section</td>
+<td> section</td>
+<td>(title, (subsection | a group of block elements | a group of inline elements)*)
+</td>
+</tr>
+<tr>
+<td>subsection</td>
+<td> subsection</td>
+<td>
+(title, (subsubsection | a group of block elements | a group of inline elements)*)
+</td>
+</tr>
+<tr>
+<td>subsubsection</td>
+<td>subsubsection</td>
+<td>
+(title, (a group of block elements | a group of inline elements)*)
+</td>
+</tr>
+<tr>
+<td>title</td>
+<td> title</td>
+<td>
+(#PCDATA | a group of inline elements)*
+</td>
+</tr>
+<tr>
+<td>p<br/>
+</td>
+<td> paragraph</td>
+<td>
+(#PCDATA | a group of block elements | a group of inline elements)*
+
+</td>
+</tr>
+<tr>
+<td>figure<br/>
+</td>
+<td>figure</td>
+<td>(title?)<br/>
+Specify a file by the src property.</td>
+</tr>
+<tr>
+<td>ul<br/>
+</td>
+<td>
+unordered list
+ 
+</td>
+<td>(li*)<br/>
+Specify a character for label of line by the type property.
+
+</td>
+</tr>
+<tr>
+<td>ol<br/>
+</td>
+<td>
+ordered list </td>
+<td>(li*)<br/>
+Specify format of number in the label by the type property. 
+</td>
+</tr>
+<tr>
+<td>dl<br/>
+</td>
+<td>
+definition list</td>
+<td>(dt, dd)*<br/>
+Specify whether to format the block in horizontal way or in vertical way by the type property.
+</td>
+</tr>
+<tr>
+<td>dt<br/>
+</td>
+<td>
+definition term
+</td>
+<td>(#PCDATA | a group of block elements | a group of inline elements)*
+</td>
+</tr>
+<tr>
+<td>dd<br/>
+</td>
+<td>description of details
+</td>
+<td>
+(#PCDATA | a group of block elements | a group of inline elements)*
+</td>
+</tr>
+<tr>
+<td>table<br/>
+</td>
+<td>
+entire table
+</td>
+<td>(title?, col*, thead?, tfoot?, tbody)<br/>
+Specify whether to make auto layout or fixed by the layout property. Specify the width of the entire table by the width property. 
+</td>
+</tr>
+<tr>
+<td>col<br/>
+</td>
+<td>
+column format
+</td>
+<td>EMPTY<br/>
+Speciry the number of the column by the number property, the width of the column by the width property.
+</td>
+</tr>
+<tr>
+<td>thead</td>
+<td>
+table header
+</td>
+<td>(tr*)</td>
+</tr>
+<tr>
+<td>tfoot</td>
+<td>
+table footer
+</td>
+<td>(tr*)</td>
+</tr>
+<tr>
+<td>tbody</td>
+<td>table body
+</td>
+<td>(tr*)</td>
+</tr>
+<tr>
+<td>tr</td>
+<td>
+table row</td>
+<td>(th | td)*<br/>Specify the height of the row by the height property.</td>
+</tr>
+<tr>
+<td>th</td>
+<td>
+table header
+</td>
+<td>(#PCDATA | a group of inline elements | a group of block elements)*<br/>
+Specify the number of the columns to be expanded across, the number of the rows to be expanded vertically by the colspan and rowspan properties. The align property allows horizontal alignment to be set to left, right, or center. The valign property allows vertical alignment to be set to top, middle, bottom or baseline.
+</td>
+</tr>
+<tr>
+<td>td</td>
+<td>
+table data
+</td>
+<td>(#PCDATA | a group of inline elements | a group of block elements)*<br/>
+
+Specify the number of the columns to be expanded across, the number of the rows to be expanded vertically by the colspan and rowspan properties. The align property allows horizontal alignment to be set to left, right, or center. The valign property allows vertical alignment to be set to top, middle, bottom or baseline.</td>
+</tr>
+<tr>
+<td>program</td>
+<td>
+program code
+</td>
+<td>(#PCDATA | title)*</td>
+</tr>
+<tr>
+<td>div</td>
+<td>general block element
+</td>
+<td>
+(title, (general block element | general inline element)*)
+<br/>
+The div element expands the type by the class property.
+</td>
+</tr>
+<tr>
+<td>a<br/>
+</td>
+<td>
+anchor(link)
+</td>
+<td>(#PCDATA | a group of inline elements)*
+
+<br/>Specify URL as the value of href property.
+</td>
+</tr>
+<tr>
+<td>note<br/>
+</td>
+<td>note
+</td>
+<td>(#PCDATA | a group of inline elements)*</td>
+</tr>
+<tr>
+<td>b<br/>
+</td>
+<td>
+bold typeface
+</td>
+<td>(#PCDATA | a group of inline elements)*</td>
+</tr>
+<tr>
+<td>i<br/>
+</td>
+<td>
+italic typeface</td>
+<td>(#PCDATA | a group of inline elements)*
+
+</td>
+</tr>
+<tr>
+<td>em<br/>
+</td>
+<td>
+emphasis
+</td>
+<td>(#PCDATA | a group of inline elements)*
+
+</td>
+</tr>
+<tr>
+<td>code<br/>
+</td>
+<td>
+program code of the in-line elements
+</td>
+<td>(#PCDATA | a group of inline elements)*</td>
+</tr>
+<tr>
+<td>span<br/>
+</td>
+<td>
+ general in-line element
+</td>
+<td>(#PCDATA | a group of inline elements)*</td>
+</tr>
+<tr>
+<td>br</td>
+<td>
+line break
+<br/>
+</td>
+<td>EMPTY</td>
+</tr>
+</tbody>
+</table>
+<p>The features of SimpleDoc are:</p>
+<ul>
+<li>
+You can start writing a document from part, also start from section. It has a flexible structure so that it can map to various kinds of documents.
+</li>
+<li>
+The number of the block element and in-line element are reduced to a minimum amount. The div in the block element and the span in the in-line element are defined to give various extensions.
+</li>
+<li>
+The br element is defined so that you can break lines inside of the lists, or the cells in the table, also inside of the paragraph without ending the paragraph.
+</li>
+<li>
+Output format of the list and table can be specified by the attributes.
+</li>
+<li>
+The problem is that the content and style is mixed.</li>
+</ul>
+<p/>
+</section>
+<section logo="img/ico3.png">
+<title>Hello! World</title>
+<subsection>
+<title> Simple Example of Transforming SimpleDoc into XSL-FO</title>
+<p>Now, we show the simplest simple stylesheet that transforms SimpleDoc to XSL-FO as follows.</p>
+<program>
+<title>Source XML Document (Hello.xml)</title>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-16&quot; ?&gt;
+&lt;doc&gt;
+  &lt;head&gt;
+    &lt;title&gt;Simple&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Hello World!&lt;/p&gt;
+    &lt;p&gt;This is the first&lt;b&gt;SimpleDoc&lt;/b&gt;&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/doc&gt;
+</program>
+<program>
+<title>
+XSL Stylesheet(Simple.xsl)</title>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+&lt;xsl:stylesheet version=&quot;1.0&quot; xmlns:fo=&quot;http://www.w3.org/1999/XSL/Format&quot; 
+                              xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;&gt;
+&lt;xsl:output method=&quot;xml&quot; version=&quot;1.0&quot; indent=&quot;yes&quot; /&gt;
+
+&lt;xsl:template match=&quot;doc&quot;&gt;
+  &lt;fo:root xmlns:fo=&quot;http://www.w3.org/1999/XSL/Format&quot;&gt;
+    &lt;fo:layout-master-set&gt;
+      &lt;fo:simple-page-master page-height=&quot;297mm&quot; page-width=&quot;210mm&quot; 
+          margin=&quot;5mm 25mm 5mm 25mm&quot; master-name=&quot;PageMaster&quot;&gt;
+        &lt;fo:region-body   margin=&quot;20mm 0mm 20mm 0mm&quot;/&gt;
+      &lt;/fo:simple-page-master&gt;
+    &lt;/fo:layout-master-set&gt;
+    &lt;fo:page-sequence master-reference=&quot;PageMaster&quot;&gt;
+      &lt;fo:flow flow-name=&quot;xsl-region-body&quot; &gt;
+        &lt;fo:block&gt;
+          &lt;xsl:apply-templates select=&quot;body&quot;/&gt;
+        &lt;/fo:block&gt;
+      &lt;/fo:flow&gt;
+    &lt;/fo:page-sequence&gt;
+  &lt;/fo:root&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;body&quot;&gt;
+  &lt;xsl:apply-templates /&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;p&quot;&gt;
+  &lt;fo:block&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:block&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;b&quot;&gt;
+  &lt;fo:inline font-weight=&quot;bold&quot;&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:inline&gt;
+&lt;/xsl:template&gt;
+
+&lt;/xsl:stylesheet &gt;
+</program>
+<program>
+<title>Generated XSL-FO</title>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-16&quot;?&gt;
+&lt;fo:root xmlns:fo=&quot;http://www.w3.org/1999/XSL/Format&quot;&gt;
+  &lt;fo:layout-master-set&gt;
+    &lt;fo:simple-page-master page-height=&quot;297mm&quot; page-width=&quot;210mm&quot; 
+          margin=&quot;5mm 25mm 5mm 25mm&quot; master-name=&quot;PageMaster&quot;&gt;
+      &lt;fo:region-body margin=&quot;20mm 0mm 20mm 0mm&quot;/&gt;
+    &lt;/fo:simple-page-master&gt;
+  &lt;/fo:layout-master-set&gt;
+  &lt;fo:page-sequence master-reference=&quot;PageMaster&quot;&gt;
+    &lt;fo:flow flow-name=&quot;xsl-region-body&quot;&gt;
+      &lt;fo:block&gt;
+        &lt;fo:block&gt;Hello World!&lt;/fo:block&gt;
+        &lt;fo:block&gt;This is the first
+          &lt;fo:inline font-weight=&quot;bold&quot;&gt;SimpleDoc&lt;/fo:inline&gt;
+        &lt;/fo:block&gt;
+      &lt;/fo:block&gt;
+    &lt;/fo:flow&gt;
+  &lt;/fo:page-sequence&gt;
+&lt;/fo:root&gt;
+</program>
+<p>The above XSL-FO is formatted/displayed as follows.</p>
+<p>
+<div class="fo">
+<![CDATA[
+<fo:block>
+<fo:block>Hello World!</fo:block>
+<fo:block>This is the first <fo:inline font-weight="bold">SimpleDoc</fo:inline></fo:block>
+</fo:block>
+]]>
+</div>
+</p>
+</subsection>
+<subsection>
+<title>Stylesheet Structure</title>
+<p>The above Simple.xsl and XSL-FO show the following facts:</p>
+<ul>
+<li>A stylesheet is a set of templates. The descendant of the root element, xsl:stylesheet consists of xsl:template elements. Each xsl:template is applied so that the xxx tag of the source XML document may be processed by match=&quot;xxx&quot;.
+</li>
+<li>Formatting objects and the XML source text in each template are output to result XSL-FO tree. Then, templates that match to the descendant elements are called by an instruction of xsl:apply-templates. </li>
+</ul>
+<p>XSLT processor loads the source XML document, starts processing from the root node. It finds the templates that match each node, and processes them as described in the templates. The processor processes child elements recursively, continues until the processor returns to the root element and there are no more templates to be processed.</p>
+</subsection>
+<subsection>
+<title>
+<index>Block Element</index>and <index>Inline Element</index>
+</title>
+<p>Please note how the XSL stylesheet maps block elements and inline elements in source element to formatting objects. </p>
+<ul>
+<li>
+In the stylesheet, <index>p elements </index>are transformed into fo:block objects, <index>b elements </index>are transformed into <index>fo:inline objects</index>. The base of XSL-FO transformation is to map the elements of the source XML document to either fo:block elements or fo:inline elements according to the layout instruction.
+</li>
+<li>The elements that intend to break lines by the end tag normally can be mapped to the fo:block objects. the elements of which the end tag do not intend to break lines can be mapped to the fo:inline objects. The attributes of source elements specify properties of formatting objects. In this case, the b element means emphasis and property of the inline object generated from b is specified as bold.  </li>
+</ul>
+</subsection>
+<subsection>
+<title>XSL-FO Tree Structure</title>
+<p>Next, please pay attention to the XSL-FO tree structure. The following illustrates the structure of the XML document.
+</p>
+<figure src="img/hellostruct_en.emf">
+<title>Hello.xml Tree Structure</title>
+</figure>
+<p>In contrast, the tree structure of XSL-FO is as follows. The root of the XSL-FO tree is fo:root, which has two children, fo:layout-master-set and fo:page-sequence.  Fo:layout-master-set defines the page layouts and fo:page-sequence has a flow of contents arranged in in pages.   
+</p>
+<figure src="img/hellofo_en.emf">
+<title>XSL-FO Tree after XSL Processing</title>
+</figure>
+<p>
+<index>fo:layout-master-set </index>that defines the page layouts should precede <index>fo:page-sequence</index>（preceding-sibling）that is an actual content of pages. <index>XSL processor </index>processes the XML source document from the <index>root element</index>, seeking the <index>templates </index>(xsl:template) to be matched. Therefore, <b>fo:layout-master-set element should be an output from the template that processes the root element of the XML source document.
+</b>
+In this case, &lt;xsl:template match="doc"&gt; takes this processing.
+</p>
+<p>
+The following node of the fo:flow is the same tree structure as the original document though the element names has changed.
+<b>The nodes existed in the original document</b> are transferred  as it used to be, using &lt;xsl:template match=&quot;xxx&quot;&gt;...&lt;xsl:apply-templates;&gt; The result has the same tree structure.
+In the Simple.xsl, the information described in &lt;head&gt;...&lt;/head&gt; of source XML document is not output. It is because the child element &lt;body&gt;is specified to be applied but &lt;head&gt; element is omitted according to the instruction of &lt;xsl:apply-templates select=&quot;body&quot; /&gt;
+
+</p>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>Developing a Practical Stylesheet
+</title>
+<subsection>
+<title>Printing Form Specification</title>
+<p>We can get only a simple output when an XML document is processed according to the sample in the previous chapter. In order to get more rich outputs, we add the following specification.</p>
+<div class="definitiontable">
+<title>Page Format</title>
+<table>
+<col width="30%"/>
+<col width="70%"/>
+<thead>
+<tr height="1em">
+<th>Item
+
+
+</th>
+<th>
+Specification
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Paper size
+</td>
+<td>
+Letter size (8.5in x 11in)
+</td>
+</tr>
+<tr>
+<td>Orientation
+</td>
+<td>
+Portrait
+</td>
+</tr>
+<tr>
+<td>
+Writing mode
+
+</td>
+<td>
+lr-tb 
+</td>
+</tr>
+<tr>
+<td>Organization
+</td>
+<td>
+cover, table of contents, the text, and index are proceseed in order from the top.
+</td>
+</tr>
+<tr>
+<td>
+Header, Hooter
+</td>
+<td>
+Specify the header, footer regions. Do not set text inside the whitespace on the both side of the body.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="definitiontable">
+<title>Cover/Table of Contents</title>
+<table rowheight="2em">
+<col number="1" width="30%"/>
+<col number="2" width="70%"/>
+<thead>
+<tr height="1em">
+<th>Item</th>
+<th>Specification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Margin of paper</td>
+<td>Top: 25mm, Bottom: 25mm, Left: 25mm, Right: 25mm</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="definitiontable">
+<title>Body Region
+</title>
+<table>
+<col width="30%"/>
+<col width="70%"/>
+<thead>
+<tr height="1em">
+<th>
+Item
+</th>
+<th>
+Specification
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Margin
+</td>
+<td>
+Margin top: 20mm, bottom: 20mm, left: 0mm, right: 0mm</td>
+</tr>
+<tr>
+<td>
+Content
+</td>
+<td>
+
+Consists of head, table, list, paragraph and image.
+</td>
+</tr>
+<tr>
+<td>
+Writing mode
+</td>
+<td>lr-tb</td>
+</tr>
+<tr>
+<td>Column</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Default font size
+</td>
+<td>10pt</td>
+</tr>
+<tr>
+<td>Text align
+
+</td>
+<td>
+justify
+</td>
+</tr>
+<tr>
+<td>
+Other conditions
+</td>
+<td>
+Place a header region and a footer region. The content of the footer region is fore-edge justified and changed by right and left pages. Place a borderline between a footnote region and a body region. The borderline is a solid, the length is one-third of the region body, left justified.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="definitiontable">
+<title>
+Header Region
+</title>
+<table>
+<col width="30%"/>
+<col width="70%"/>
+<thead>
+<tr height="1em">
+<th>
+Item
+</th>
+<th>Specification
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Extent
+</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td>
+Writing Mode
+</td>
+<td>lr-tb</td>
+</tr>
+<tr>
+<td>
+Content
+</td>
+<td>
+Print the title 
+<br/>
+Font size is 9pt. Center aligned in the inline progression direction, bottom aligned in the block progression direction. Create an index on the upper part of a page.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="definitiontable">
+<title>
+Footer Region
+</title>
+<table>
+<col width="30%"/>
+<col width="70%"/>
+<thead>
+<tr height="1em">
+<th>
+Item
+</th>
+<th>
+Specification
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Extent
+</td>
+<td>10mm</td>
+</tr>
+<tr>
+<td>
+Writing Mode
+</td>
+<td>lr-tb</td>
+</tr>
+<tr>
+<td>
+Contents
+</td>
+<td>
+Print a page number and a sub-title of the current page on the fore-edge side.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="definitiontable">
+<title>Index</title>
+<table rowheight="2em">
+<col number="1" width="30%"/>
+<col number="2" width="70%"/>
+<thead>
+<tr height="1em">
+<th>Item</th>
+<th>Specification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Margin</td>
+<td>Margin top: 25mm, bottom: 25mm, left: 25mm, right: 25mm</td>
+</tr>
+<tr>
+<td>Column</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Column rule</td>
+<td>20mm</td>
+</tr>
+</tbody>
+</table>
+</div>
+</subsection>
+<subsection>
+<title>XSL Stylesheet Organization</title>
+<p>XSL Stylesheet consists of the following 5 files.
+</p>
+<table rowheight="2em">
+<col number="1" width="25%"/>
+<col number="2" width="75%"/>
+<thead>
+<tr height="1em">
+<th>File Name</th>
+<th>Contents/Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<index>SD2FO-DOC.XSL</index>
+</td>
+<td>Main body of the XSL Stylesheet</td>
+</tr>
+<tr>
+<td>
+<index>attribute.xsl</index>
+</td>
+<td>The file which defines the property of XSL-FO collectively.
+</td>
+</tr>
+<tr>
+<td>
+<index>param.xsl</index>
+</td>
+<td>The file which defins values, such as paper size, as a parameter.
+</td>
+</tr>
+<tr>
+<td>
+<index>index.xsl</index>
+</td>
+<td>The file which defines the processing of creating an index collectively.</td>
+</tr>
+<tr>
+<td>
+<index>article.xsl</index>
+</td>
+<td>The stylesheet for a document format without a cover, a table of contents and an index. </td>
+</tr>
+</tbody>
+</table>
+<p>
+SD2FO-DOC.XSL consists of the following top level XSL elements.
+</p>
+<table rowheight="2em">
+<col number="1" width="25%"/>
+<col number="2" width="75%"/>
+<thead>
+<tr height="1em">
+<th>XSL elements</th>
+<th>Contents/Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<index>xsl:include</index>
+</td>
+<td>
+<index>Includes </index>the stylesheets divided according to the function.</td>
+</tr>
+<tr>
+<td>
+<index>xsl:param</index>
+</td>
+<td>
+Specifies the value of paper size, etc. in the whole stylesheet as a parameter.
+</td>
+</tr>
+<tr>
+<td>
+<index>xsl:attribute-set</index>
+</td>
+<td>Groups and defines the property, such as block and inline, for every object of XSL-FO to output.
+</td>
+</tr>
+<tr>
+<td>
+<index>xsl:template match=&quot;xxx&quot;</index>
+</td>
+<td>
+
+Defines the template for transformation described to every element of an XML document （&quot;xxx&quot;）. It is called by &lt;xsl:apply-templates /&gt;
+</td>
+</tr>
+<tr>
+<td>
+<index>xsl:template name=&quot;yyy&quot;</index>
+</td>
+<td>
+A subroutine of templates which is explicitly invoked by &lt;xsl:call-template name=&quot;yyy&quot;/&gt;
+</td>
+</tr>
+<tr>
+<td>
+<index>xsl:key</index>
+</td>
+<td>Generates a key for an index. How to make an index is explained later in this document. </td>
+</tr>
+</tbody>
+</table>
+<p>xsl:param and xsl:attribute-set are defined in param.xsl and attribute.xsl respectively, and are included in SD2 FO-DOC.XSL.
+</p>
+<p>
+xsl:param and xsl:attribute-set are not necessarily required, but they have the following advantages:</p>
+<ul>
+<li>
+The stylesheet can be easy to see, easy to be handled by separating their roles. Properties of formatting objects are defined by xsl:attribute-set, while the transformation are defined by xsl:template.</li>
+<li>xsl:param provides a parameter at the time application calls the XSLT processor. It is possible to control a stylesheet processing externally depending upon the value of xsl:param. </li>
+</ul>
+<program>
+<title>An example of using xsl:param</title>&lt;!-- Specify whether to make a table of contents or not --&gt;
+&lt;xsl:param name=&quot;toc-make&quot; select=&quot;false()&quot;/&gt;
+&lt;!-- Specify a paper size --&gt;
+&lt;!-- Refer to $paper-width, $paper-height for the value. --&gt;
+&lt;xsl:param name="paper-width"&gt;8.5in&lt;/xsl:param&gt;
+&lt;xsl:param name="paper-height"&gt;11in&lt;/xsl:param&gt;
+</program>
+<program>
+<title>An example of using xsl:attribute-set</title>&lt;!-- Specify the property of formatting object that match to the p element --&gt;
+&lt;!-- Refer to xsl:use-attribute-sets=&quot;p&quot; --&gt;
+&lt;xsl:attribute-set name=&quot;p&quot;&gt;
+  &lt;xsl:attribute name=&quot;text-indent&quot;&gt;1em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;0.6em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;0.6em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align&quot;&gt;justify&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;keep-together.within-page&quot;&gt;always&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+</program>
+<p>From here, the stylesheet is explained along with this SD2 FO-DOC.XSL.
+</p>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>
+<index>Page Layout specification</index>
+</title>
+<div class="column">
+<title>Output Specification</title>
+<p>The page layout of SD2 FO-DOC.XSL has the following features:</p>
+<ul>
+<li>The page layout includes a cover, a table of contents, the text, and indexes.
+</li>
+<li> The page layout for indexing a cover, a table of contents places neither a page number nor a document name. Therefore, it does not have header/footer regions.
+</li>
+<li>
+The page layout for the text is different by right and left pages, and aligns the content of the footer region to the fore-edge side.
+</li>
+<li>The top page of the body text is made as the 1st page.</li>
+<li>Only the index page has two columns.
+</li>
+</ul>
+</div>
+<p>
+Therefore, 5 types of page layouts, a cover, a table of contents, the text (left), the text (right), and an index are required. The definition method of each page layout is described henceforth.
+</p>
+<subsection>
+<title>Page layout of Cover/Teble of contents</title>
+<p>Page layout of Cover/Teble of contents is shown as follows:</p>
+<figure src="img/playout_en.emf">
+<title>The layout of Cover/Teble of contents</title>
+</figure>
+<p>
+The page layout is defined as <index>page master</index>. Specifically, it's described as follows using the <index>fo:simple-page-master</index> element.
+</p>
+<program>
+<title>Definition of the page layout in the stylesheet</title> &lt;fo:simple-page-master  margin=&quot;25mm 25mm 25mm 25mm&quot; master-name=&quot;PageMaster-Cover&quot;&gt;
+  &lt;xsl:attribute name=&quot;page-height&quot;&gt;
+   &lt;xsl:value-of select=&quot;$paper-height&quot; /&gt;
+  &lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;page-width&quot;&gt;
+   &lt;xsl:value-of select=&quot;$paper-width&quot; /&gt;
+  &lt;/xsl:attribute&gt;
+  &lt;fo:region-body  margin=&quot;0mm 0mm 0mm 0mm&quot; /&gt;
+ &lt;/fo:simple-page-master&gt;
+
+ &lt;fo:simple-page-master margin=&quot;25mm 25mm 25mm 25mm&quot;  master-name=&quot;PageMaster-TOC&quot;&gt;
+  &lt;xsl:attribute name=&quot;page-height&quot;&gt;
+   &lt;xsl:value-of select=&quot;$paper-height&quot; /&gt;
+  &lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;page-width&quot;&gt;
+   &lt;xsl:value-of select=&quot;$paper-width&quot; /&gt;
+  &lt;/xsl:attribute&gt;
+  &lt;fo:region-body  margin=&quot;0mm 0mm 0mm 0mm&quot; /&gt;
+ &lt;/fo:simple-page-master&gt;
+</program>
+<p>Although the specified value is the same, the page master is prepared for each considering the possibility of any changes.</p>
+<p>Master name properties of fo:simple-page-master are set as follows:
+</p>
+<table rowheight="2em">
+<col number="1" width="20%"/>
+<col number="2" width="25%"/>
+<col number="3" width="50%"/>
+<thead>
+<tr height="1em">
+<th>master-name</th>
+<th>Usage</th>
+<th>Refered Template </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+PageMaster-Cover</td>
+<td>For a cover
+</td>
+<td>&lt;xsl:template match=&quot;doc/head&quot;&gt;</td>
+</tr>
+<tr>
+<td>
+PageMaster-TOC</td>
+<td>for a table of contents
+</td>
+<td>&lt;xsl:template name=&quot;toc&quot;&gt;</td>
+</tr>
+</tbody>
+</table>
+<p>The next figure shows the XSL-FO tree structure in the site of where to define these page masters and where to refer to.
+<figure src="img/layoutref_en.emf">
+<title>FO tree structure relating to page layout</title>
+</figure>
+</p>
+</subsection>
+<subsection>
+<title>Body - <index>Change Page Layout on Right and Left pages 
+</index>
+</title>
+<p>In this document, the page layout changes by right and left page. In XSL-FO, the layout change on right and left page can be made by grouping the <index>even-page layout</index> and <index>odd-page layout</index>, then changing by turns.</p>
+<p>
+Create two fo:simple-page-master, one for left pages and another for right pages, and groups them by <index>fo:page-sequence-master</index>. <index>fo:repeatable-page-master-alternatives</index> is used for repeating two page layouts by turns. The <index >odd-or-even property</index> of <index>fo:conditional-page-master-reference</index> is used to specify the conditions on which the selection of the alternative is made.</p>
+<p>It is described in the stylesheet as follows:</p>
+<program>
+<title>FO tree structure relating to page layout</title> &lt;fo:simple-page-master margin=&quot;10mm 00mm 10mm 00mm&quot; master-name=&quot;PageMaster-Left&quot;&gt;
+  &lt;xsl:attribute name=&quot;page-height&quot;&gt;
+   &lt;xsl:value-of select=&quot;$paper-height-default&quot; /&gt;
+  &lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;page-width&quot;&gt;
+   &lt;xsl:value-of select=&quot;$paper-width-default&quot; /&gt;
+  &lt;/xsl:attribute&gt;
+  &lt;fo:region-body margin=&quot;15mm 25mm 15mm 25mm&quot; /&gt;
+  &lt;fo:region-before region-name=&quot;Left-header&quot; extent=&quot;10mm&quot; display-align=&quot;after&quot; /&gt;
+  &lt;fo:region-after region-name=&quot;Left-footer&quot; extent=&quot;10mm&quot; display-align=&quot;before&quot; /&gt;
+  &lt;fo:region-start region-name=&quot;Left-start&quot; extent=&quot;20mm&quot; /&gt;
+  &lt;fo:region-end region-name=&quot;Left-end&quot; extent=&quot;20mm&quot; /&gt;
+ &lt;/fo:simple-page-master&gt;
+ 
+ &lt;fo:simple-page-master margin=&quot;10mm 00mm 10mm 00mm&quot; master-name=&quot;PageMaster-Right&quot;&gt;
+  &lt;xsl:attribute name=&quot;page-height&quot;&gt;
+   &lt;xsl:value-of select=&quot;$paper-height-default&quot; /&gt;
+  &lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;page-width&quot;&gt;
+   &lt;xsl:value-of select=&quot;$paper-width-default&quot; /&gt;
+  &lt;/xsl:attribute&gt;
+  &lt;fo:region-body margin=&quot;15mm 25mm 15mm 25mm&quot; /&gt;
+  &lt;fo:region-before region-name=&quot;Right-header&quot; extent=&quot;10mm&quot; display-align=&quot;after&quot; /&gt;
+  &lt;fo:region-after region-name=&quot;Right-footer&quot; extent=&quot;10mm&quot; display-align=&quot;before&quot; /&gt;
+  &lt;fo:region-start region-name=&quot;Right-start&quot; extent=&quot;20mm&quot; /&gt;
+  &lt;fo:region-end region-name=&quot;Right-end&quot; extent=&quot;20mm&quot; /&gt;
+ &lt;/fo:simple-page-master&gt;
+ 
+ &lt;fo:page-sequence-master master-name=&quot;PageMaster&quot;&gt;
+  &lt;fo:repeatable-page-master-alternatives&gt;
+   &lt;fo:conditional-page-master-reference master-reference=&quot;PageMaster-Left&quot; odd-or-even=&quot;even&quot; /&gt;
+   &lt;fo:conditional-page-master-reference master-reference=&quot;PageMaster-Right&quot; odd-or-even=&quot;odd&quot; /&gt;
+  &lt;/fo:repeatable-page-master-alternatives&gt;
+ &lt;/fo:page-sequence-master&gt;
+</program>
+</subsection>
+<subsection>
+<title>Index － <index>Two-Column Layout</index>
+</title>
+<p>The page layout of an index is two-column layout. In XSL-FO, the number of column is specified to the <index>column-count </index> property  of fo:region-body.In other word, although column layout can be specified per page, the number of columns cannot be changed in the middle of a page. However, the block object can be arranged as span -all layout by the  <index>span="all" </index> property. The column gap can be specified by the <index>colomn-gap</index> property belonging to fo:region-body. These page layouts are described in the following stylesheet.
+</p>
+<program>
+<title>Definition of page layouts in the stylesheet</title> &lt;fo:simple-page-master margin=&quot;25mm 25mm 25mm 25mm&quot; master-name=&quot;PageMaster-index&quot;&gt;
+  &lt;xsl:attribute name=&quot;page-height&quot;&gt;
+   &lt;xsl:value-of select=&quot;$paper-height-default&quot; /&gt;
+  &lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;page-width&quot;&gt;
+   &lt;xsl:value-of select=&quot;$paper-width-default&quot; /&gt;
+  &lt;/xsl:attribute&gt;
+  &lt;fo:region-body margin=&quot;00mm 00mm 00mm 00mm&quot; column-count=&quot;2&quot; column-gap=&quot;20mm&quot; /&gt;
+ &lt;/fo:simple-page-master&gt;</program>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>Output Control as a Whole</title>
+<div class="column">
+<title>Requirement for processing conditions </title>
+<ul>
+<li>FO tree is generated in order of <index>fo:page-sequence</index> of the front cover, fo:page-sequene of the table of contents, fo:page-sequence of the body of document. </li>
+<li>The front cover and the table of contents cannot be created by the stylesheet made in order of the XML source document, so you have to make the subroutine templates that create the front cover and the table of contents.
+</li>
+<li>These processings are controlled by the templates that process the doc element, that is the root element.
+</li>
+</ul>
+</div>
+<p>The templates that process the doc elements created according to the requirement for processing conditions are shown below. As required they are creaged in order of fo:layout-master-set outputs, a front cover, a table of contents and the body text. It is possible for the attributes of doc elements to control whether to make these or not. It is possible to control whether to output a cover/a table of contents or not by specifying the properties of the doc element or the external parameters. For example, a cover is not outputted by specifying &lt;doc cover=&quot;false&quot;&gt;. A table of contents is not outputted by specifying 'false' to the value of toc-make.
+</p>
+<program>
+<title>Templates that process the doc elements</title>&lt;xsl:param name=&quot;toc-make&quot; select=&quot;false()&quot;/&gt;
+&lt;xsl:param name=&quot;cover-make&quot; select=&quot;false()&quot;/&gt;
+&lt;xsl:template match="doc"&gt;
+  &lt;fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"&gt;
+    &lt;xsl:call-template name="xml-lang" /&gt;
+    &lt;fo:layout-master-set&gt;
+    &lt;!-- Specify the page layout (fo:simple-page-master). This part is omitted. --&gt;
+    &lt;/fo:layout-master-set&gt;
+    &lt;!-- Make a front cover processed by the head elements. --&gt;
+    &lt;xsl:if test="$cover-make or @cover!='false'"&gt;
+      &lt;xsl:apply-templates select="head" /&gt;
+    &lt;/xsl:if&gt;
+    &lt;!-- Call the template that creates a table of contents. --&gt;
+    &lt;xsl:if test="$toc-make or @toc!='false'"&gt;
+      &lt;xsl:call-template name="toc" /&gt;
+    &lt;/xsl:if&gt;
+    &lt;!-- Process the text (descendants of the body elements) --&gt;
+    &lt;xsl:apply-templates select="body" /&gt;
+  &lt;/fo:root&gt;
+&lt;/xsl:template&gt;
+</program>
+</section>
+<section logo="img/ico3.png">
+<title>
+<index>Cover</index>
+</title>
+<div class="column">
+<title>Output Specification</title>
+<ul>
+<li>Output <index>title</index>, <index>date </index>and <index>author </index>to a cover page. which are children of the <index>head element </index>in the cover page. but not output the abstract.
+</li>
+<li>The width of the block that contains the title is 130mm, the height is 30mm, and the block must be centered, using gray for the background color, dark gray for the border color. The title is placed 25mm down from the margin top, and make a 122mm height space between the title and the author to be written next. Use the font size 24pt, font style sans-serif. the text must be centered inside the block.</li>
+<li>
+The width of the block that contains the date is 160mm and the block must be centered, using no background color, no border. Use the font size 14pt, font style serif. Make a 5mm height space between the date and the author.。</li>
+<li>The width of the block that contains the author is 160mm and the block must be centered, using no background color, no border. Use the font size 14pt, font style serif. When an image of logotype is specified to the author, place it preceding the author.</li>
+</ul>
+</div>
+<p>The cover is created by the templates that process the head. </p>
+<p>The layout specification of a title portion is arranged by the portion of name=&quot;cover.title&quot; in xsl:attribute-set.
+</p>
+<program>
+<title>Layout specification of title, author, date.</title>&lt;!-- cover --&gt;
+&lt;xsl:attribute-set name=&quot;cover.title&quot; &gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;25mm&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-before.conditionality&quot;&gt;retain&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;122mm&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-size&quot;&gt;24pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-family&quot;&gt;&quot;sans-serif&quot;&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align&quot;&gt;center&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align-last&quot;&gt;center&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;start-indent&quot;&gt;18mm&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;width&quot;&gt;130mm&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;height&quot;&gt;30mm&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;background-color&quot;&gt;#EEEEEE&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;border-style&quot;&gt;outset&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;border-color&quot;&gt;#888888&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;padding-top&quot;&gt;5pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;padding-bottom&quot;&gt;5pt&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:attribute-set name=&quot;cover.date&quot; &gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;5mm&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-size&quot;&gt;14pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-family&quot;&gt;&quot;serif&quot;&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align&quot;&gt;center&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align-last&quot;&gt;center&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;width&quot;&gt;160mm&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:attribute-set name=&quot;cover.author&quot; &gt;
+  &lt;xsl:attribute name=&quot;font-size&quot;&gt;14pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-family&quot;&gt;&quot;serif&quot;&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align&quot;&gt;center&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align-last&quot;&gt;center&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;width&quot;&gt;160mm&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+</program>
+<p>Followings shows the point which should be aware of:
+</p>
+<ul>
+<li>In order to layout the title, we use <index>fo:block-container</index>. 
+</li>
+<li>
+The Property <index>space-before</index> =&quot;25 mm&quot; is specified to the fo:block-container. This title becomes the first block of the region body. However, space-before in the first block of this region body will be discarded by default, and a title will be arranged at the upper end of this region body. By considering as <index>space-before.conditionality</index>=&quot;retain&quot;, a space can be obtained compulsorily. 
+</li>
+</ul>
+<p>
+<p>
+If the logo attribute is specified to the author, it is rendered as the image. This is processed by the author.logo.img template. The pos attribute specify to put the image on the left or top of the author. The example of an author name with a picture may be shown at the cover of this document.
+</p>
+</p>
+<program>
+<title>Templates that transform the head elements</title>&lt;xsl:template match=&quot;doc/head&quot;&gt;
+  &lt;fo:page-sequence master-reference=&quot;PageMaster-Cover&quot;&gt;
+    &lt;fo:flow flow-name=&quot;xsl-region-body&quot;&gt;
+     &lt;fo:block-container xsl:use-attribute-sets=&quot;cover.title&quot;&gt;
+       &lt;xsl:apply-templates select=&quot;/doc/head/title&quot; /&gt;
+     &lt;/fo:block-container&gt;
+      &lt;fo:block-container xsl:use-attribute-sets=&quot;cover.date&quot;&gt;
+        &lt;xsl:apply-templates select=&quot;/doc/head/date&quot; /&gt;
+      &lt;/fo:block-container&gt;
+      &lt;fo:block-container xsl:use-attribute-sets=&quot;cover.author&quot;&gt;
+        &lt;xsl:apply-templates select=&quot;/doc/head/author&quot; /&gt;
+      &lt;/fo:block-container&gt;
+    &lt;/fo:flow&gt;
+  &lt;/fo:page-sequence&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;doc/head/title&quot;&gt;
+  &lt;fo:block start-indent=&quot;0mm&quot;&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:block&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;doc/head/date&quot;&gt;
+  &lt;fo:block&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:block&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;doc/head/author&quot;&gt;
+  &lt;fo:block&gt;
+    &lt;xsl:if test=&quot;@logo&quot;&gt;
+      &lt;xsl:call-template name=&quot;author.logo.img&quot; /&gt;
+    &lt;/xsl:if&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:block&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template name=&quot;author.logo.img&quot;&gt;
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test=&quot;@pos=&apos;side&apos;&quot;&gt;
+      &lt;fo:inline space-end=&quot;1em&quot;&gt;
+        &lt;fo:external-graphic src=&quot;{@logo}&quot;&gt;
+          &lt;xsl:if test=&quot;@width and @height&quot;&gt;
+            &lt;xsl:attribute name=&quot;content-width&quot;&gt;
+              &lt;xsl:value-of select=&quot;@width&quot; /&gt;
+            &lt;/xsl:attribute&gt;
+            &lt;xsl:attribute name=&quot;content-height&quot;&gt;
+              &lt;xsl:value-of select=&quot;@height&quot; /&gt;
+            &lt;/xsl:attribute&gt;
+          &lt;/xsl:if&gt;
+        &lt;/fo:external-graphic&gt;
+      &lt;/fo:inline&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:otherwise&gt;
+      &lt;fo:block space-after=&quot;1em&quot;&gt;
+        &lt;fo:external-graphic src=&quot;{@logo}&quot;&gt;
+          &lt;xsl:if test=&quot;@width and @height&quot;&gt;
+            &lt;xsl:attribute name=&quot;content-width&quot;&gt;
+              &lt;xsl:value-of select=&quot;@width&quot; /&gt;
+            &lt;/xsl:attribute&gt;
+            &lt;xsl:attribute name=&quot;content-height&quot;&gt;
+              &lt;xsl:value-of select=&quot;@height&quot; /&gt;
+            &lt;/xsl:attribute&gt;
+          &lt;/xsl:if&gt;
+        &lt;/fo:external-graphic&gt;
+      &lt;/fo:block&gt;
+    &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>The template structure is very simple. 
+xsl:use-attribute-sets calls a group of properties defined by the xsl:attribute-set element and applies them to fo:block-container that matches to each title, date and author.
+In each fo:block-container, each template is applied to each element of title, date, and author.
+</p>
+</section>
+<section logo="img/ico3.png">
+<title>
+<index>Table of Contents</index>
+</title>
+<div class="column">
+<title>Output Specification</title>
+<ul>
+<li>A table of contents is positioned next to the cover by feeding a page. The title is "Table of Contents". The background color is gray.</li>
+<li>A table of contents is created by collecting the title elements of of part, chapter, section, subsection, and subsubsection in an XML document. </li>
+<li>The contents of each line consist of the each title in the part, chapter, section, subsection, leaders (rows of dots) and a page number.</li>
+<li>Space before, left indent, font size, font weight are specified in each line according to the nest level of each part, chapter, section, subsection.</li>
+<li>The internal link from each line of a table of contents to the title in the text is set for a PDF output.
+</li>
+</ul>
+</div>
+<subsection>
+<title>Templates for Creating a table of contents</title>
+<p>A table of contents is created by the toc template. The toc template is called from the templates that process the root elements doc, by using &lt;xsl:call-template name=&quot;toc&quot;&gt;</p>
+<program>
+<title>Toc template</title>&lt;xsl:template name=&quot;toc&quot;&gt;
+  &lt;!-- generate fo:page-sequence--&gt;
+    &lt;fo:page-sequence master-reference=&quot;PageMaster-TOC&quot;&gt;
+    &lt;!-- generate flow applied to region-body --&gt;
+    &lt;fo:flow flow-name=&quot;xsl-region-body&quot; &gt;
+      &lt;!--generate a block of table of contents--&gt;
+      &lt;fo:block xsl:use-attribute-sets=&quot;div.toc&quot;&gt;
+        &lt;!--generate the title “Table of Contents”--&gt;
+        &lt;fo:block xsl:use-attribute-sets=&quot;h2&quot;&gt;Table of Contents&lt;/fo:block&gt;
+        &lt;!-- select the elements of part, chapter, section, subsection,
+                 subsubsection from the whole XML documents--&gt;
+        &lt;xsl:for-each select=&quot;//part |
+                              //chapter |
+                              //section |
+                              //subsection |
+                              //subsubsection&quot;&gt;
+          &lt;!-- apply template for each element to generate each line of the contents.--&gt;
+          &lt;xsl:call-template name=&quot;toc.line&quot;/&gt;
+        &lt;/xsl:for-each&gt;
+      &lt;/fo:block&gt;
+    &lt;/fo:flow&gt;
+  &lt;/fo:page-sequence&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>The toc template processes a table of contents in the following order.
+</p>
+<ol>
+<li>Create a new page-sequence. This page-sequence refer to fo:simple-page-master described in master-reference=&quot;PageMaster-TOC&quot; for a new page layout. Because the new page-sequence is created, the page is broken when it is printed.</li>
+<li>Next, generate fo:flow object in the region-body. Create a block that contains a whole table of contents by applying attribute-set that is a name of div.toc. This attribute-set specifies the background color gray. Then, create a title "Table of Contents".</li>
+<li>xsl:for-each select=&quot;...&quot; is used to create a set of nodes consisting of parts, characters, sections, subsections, subsubsections of the whole document. Then, each node is sent to toc.line template that processes a line of the contents. Lines of a table of contents are alined in the order of appearance of the corresponded node in the XML document tree.
+</li>
+</ol>
+<p>
+This template is called from the template that processes the doc elements. So, &quot;current node&quot; is the doc element node. xsl:for-each change this <index>current node </index>into each node group specified by the select attribute. Therefore, the current node is one of the five elements, part, chapter, section, subsection, and subsubsection in the toc.line template. When xsl:for-each finished processing, the current node returns to the previous doc element node.xsl:for-each</p>
+</subsection>
+<subsection>
+<title>Templates for Creating Lines of TOC</title>
+<p>The toc.line template creates a line of contents</p>
+<program>
+<title>toc.line templates that create each line of contents</title>&lt;!-- global parameter and variable used when creating the table of contents. --&gt;
+&lt;xsl:param name=&quot;toc-level-default&quot; select=&quot;3&quot; /&gt;
+&lt;!-- The template that creates the table of contents --&gt;
+&lt;xsl:variable name=&quot;toc-level-max&quot;&gt;
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test=&quot;not (doc/@toclevel)&quot;&gt;
+      &lt;xsl:value-of select=&quot;$toc-level-default&quot; /&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:otherwise&gt;
+      &lt;xsl:value-of select=&quot;number(doc/@toclevel)&quot; /&gt;
+    &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:variable&gt;
+
+&lt;xsl:template name=&quot;toc.line&quot;&gt;
+  &lt;!-- Count the nest level of current node,
+    set the value to &quot;level&quot; local variable. --&gt;
+  &lt;xsl:variable name=&quot;level&quot; select=&quot;count(ancestor-or-self::part | 
+                                          ancestor-or-self::chapter |
+                                          ancestor-or-self::section |
+                                          ancestor-or-self::subsection |
+                                          ancestor-or-self::subsubsection )&quot; /&gt;
+ &lt;!-- Test if the nest level can be a target. --&gt;
+  &lt;xsl:if test=&quot;$level &amp;lt;= $toc-level-max&quot;&gt;
+    &lt;!-- Create fo:block for each line of toc. --&gt;
+    &lt;fo:block  text-align-last=&quot;justify&quot;&gt;
+      &lt;!-- Widen the margin left in proportion to a nest level.--&gt;
+      &lt;xsl:attribute name=&quot;margin-left&quot;&gt;
+        &lt;xsl:value-of select=&quot;$level - 1&quot; /&gt;
+        &lt;xsl:text&gt;em&lt;/xsl:text&gt;
+      &lt;/xsl:attribute&gt;
+      
+      &lt;!-- space-before becomes larger in proportion 
+           that the nest level becomes upper.--&gt;
+      &lt;xsl:attribute name=&quot;space-before&quot;&gt;
+          &lt;xsl:choose&gt;
+          &lt;xsl:when test=&quot;$level=1&quot;&gt;5pt&lt;/xsl:when&gt;
+          &lt;xsl:when test=&quot;$level=2&quot;&gt;3pt&lt;/xsl:when&gt;
+          &lt;xsl:when test=&quot;$level=3&quot;&gt;1pt&lt;/xsl:when&gt;
+          &lt;xsl:otherwise&gt;1pt&lt;/xsl:otherwise&gt;
+        &lt;/xsl:choose&gt;
+      &lt;/xsl:attribute&gt;
+      &lt;!-- font-size is processed in the same way--&gt;
+      &lt;xsl:attribute name=&quot;font-size&quot;&gt;
+        &lt;xsl:choose&gt;
+          &lt;xsl:when test=&quot;$level=1&quot;&gt;1em&lt;/xsl:when&gt;
+          &lt;xsl:otherwise&gt;0.9em&lt;/xsl:otherwise&gt;
+        &lt;/xsl:choose&gt;
+      &lt;/xsl:attribute&gt;
+      &lt;!-- font-weight is also processed in the same way --&gt;
+      &lt;xsl:attribute name=&quot;font-weight&quot;&gt;
+        &lt;xsl:value-of select=&quot;800 - $level * 100&quot;/&gt;
+      &lt;/xsl:attribute&gt;
+      &lt;!-- Below is the data of the table of contents --&gt;
+      &lt;xsl:value-of select=&quot;title&quot; /&gt;
+      &lt;fo:leader leader-pattern=&quot;dots&quot; /&gt;
+     &lt;!-- Output fo:page-number-citation. Formatter replaces it to the page number. --&gt;
+      &lt;fo:page-number-citation ref-id=&quot;{generate-id()}&quot; /&gt;
+    &lt;/fo:block&gt;
+  &lt;/xsl:if&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>The toc template processes a table of contents in the following order.</p>
+<ol>
+<li>Count the depth of the nest of the current node (<index>nest level</index>) from the root node, then set the value to a level variable.</li>
+<li> If a nest level is on or below the level of "toc-level-max", it is processed. If not, it is not processed. The level of "toc-level-max" is specified by the <index>toclevel property </index>of the doc element. If the level is not specified, the value is 3.
+</li>
+<li>Create fo:block for each line in the table of the contents.</li>
+<li>According to the depth from the root node, determine the the property value of indent, font size, font weight.
+</li>
+<li>Output title, leader, and page number which is the real data of a line in a table of contents. Enclose the title of a table of contents with fo:basic-link and set the link from the title to the body text. Generated PDF is set as an internal link. (Details about fo:basic-link are explained in the 'Functions for creating PDF' section in this document.)
+</li>
+</ol>
+<subsubsection>
+<title>Counting the Nest Level</title>
+<p>
+The nest level can be counted as follows: 
+count(ancestor-or-self::part | ancestor-or-self::chapter | ancestor-or-self::section | ancestor-or-self::subsection | ancestor-or-self::subsubsection).
+In other words, count itself which is a child of the doc elemnet or the ancestor nodes. This chart is shown below:
+</p>
+<figure src="img/levelcal_en.emf">
+<title>Count the nest level from the root element</title>
+</figure>
+</subsubsection>
+<subsubsection>
+<title>Setting properties according to the nest level</title>
+<p>
+Set fo:block properties according to the nest level of the current node. Note that in this case, the properties are not set according to the element such as part, chapter, section, subsection. By setting properties according to the nest levels, the table of contents can be generated without depending on the elements used, but using the same format. Next table shows the properties set in the stylesheet. 
+</p>
+<table>
+<col width="20%"/>
+<col width="15%"/>
+<col width="15%"/>
+<col width="15%"/>
+<col width="15%"/>
+<col width="15%"/>
+<thead>
+<tr>
+<th rowspan="2" align="center" valign="middle">
+Property
+</th>
+<th colspan="5" align="center">
+Nest level
+</th>
+</tr>
+<tr>
+<th align="center">1</th>
+<th align="center">2</th>
+<th align="center">3</th>
+<th align="center">4</th>
+<th align="center">5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>margin-left</td>
+<td>0em</td>
+<td>1em</td>
+<td>2em</td>
+<td>3em</td>
+<td>4em</td>
+</tr>
+<tr>
+<td>space-before</td>
+<td>5pt</td>
+<td>3pt</td>
+<td>1pt</td>
+<td>1pt</td>
+<td>1pt</td>
+</tr>
+<tr>
+<td>font-size</td>
+<td>1em</td>
+<td>0.9em</td>
+<td>0.9em</td>
+<td>0.9em</td>
+<td>0.9em</td>
+</tr>
+<tr>
+<td>font-weight</td>
+<td>700</td>
+<td>600</td>
+<td>500</td>
+<td>400</td>
+<td>300</td>
+</tr>
+</tbody>
+</table>
+</subsubsection>
+<subsubsection>
+<title>Getting <index>page numbers</index>
+</title>
+<p>You have to create page numbers that show the page where each part, chapter, section, subsection appear. <em>Page numbers cannot be fixed until the Formatter finishes formatting the XSL-FO instance.</em>
+In order to solve this problem, XSL-FO provides the function fo:page-number-citation. XSL Formatter replaces <index>fo:page-number-citation</index> with the page number in the end of the processing. The <index>ref-id property </index>specifies which page number is replaced. XSL Formatter finds the formatting object that has the same value in the id property as that specified by ref-id. Then, the page number that the formatting object belongs to is given. Therefore fo:block generated from the part, chapter, section, subsection elements must have the id properties. This mechanism is shown below.
+</p>
+<figure src="img/pcite_en.emf">
+<title>Mechanism of fo:page-number-citation</title>
+</figure>
+<p> In the template, the <index>generate-id()</index>function is used as the value of the ref-id property. XSLT processor generates the unique characters using generate-id() to distinguish the current node. </p>
+</subsubsection>
+<subsubsection>
+<title>
+<index>fo:leader</index>
+</title>
+<p>Use fo:leader between the title of the contents and the page numbers. fo:leader is a special object for generating inline area. In the example, leader-pattern=&quot;dots&quot; is specified. It plays the role to fill the space between the title and the page number.</p>
+<p>It is important that text-align-last=&quot;justify&quot; in fo:block specifies to justify the entire line. So, the titles are left-justified and the page numbers are right-justified, then the <index>leader </index>pattern fill the space between them.</p>
+<p>
+fo:leader property can specify various patterns as shown below. fo:leader properties are written in the left side.
+</p>
+<div class="fo">
+<![CDATA[
+<fo:block text-align-last="justify" margin-left="1em" space-before="3pt" font-size="0.9em">leader-pattern=&quot;dots&quot;<fo:leader leader-pattern="dots"/>
+99
+</fo:block>
+<fo:block text-align-last="justify" margin-left="1em" space-before="3pt" font-size="0.9em">leader-pattern=&quot;use-content&quot; (content=&quot;*&quot;)<fo:leader leader-pattern="use-content">*</fo:leader>
+99
+</fo:block>
+<fo:block text-align-last="justify" margin-left="1em" space-before="3pt" font-size="0.9em">leader-pattern=&quot;rule&quot; rule-style=&quot;dotted&quot;<fo:leader leader-pattern="rule" rule-style="dotted"/>
+99
+</fo:block>
+<fo:block text-align-last="justify" margin-left="1em" space-before="3pt" font-size="0.9em">leader-pattern=&quot;rule&quot; rule-style=&quot;dashed&quot;<fo:leader leader-pattern="rule" rule-style="dashed"/>
+99
+</fo:block>
+<fo:block text-align-last="justify" margin-left="1em" space-before="3pt" font-size="0.9em">leader-pattern=&quot;rule&quot; rule-style=&quot;solid&quot;<fo:leader leader-pattern="rule" rule-style="solid"/>
+99
+</fo:block>
+<fo:block text-align-last="justify" margin-left="1em" space-before="3pt" font-size="0.9em">leader-pattern=&quot;rule&quot; rule-style=&quot;double&quot;<fo:leader leader-pattern="rule" rule-style="double"/>
+99
+</fo:block>
+<fo:block text-align-last="justify" margin-left="1em" space-before="3pt" font-size="0.9em">leader-pattern=&quot;rule&quot; rule-style=&quot;groove&quot;<fo:leader leader-pattern="rule" rule-style="groove"/>
+99
+</fo:block>
+<fo:block text-align-last="justify" margin-left="1em" space-before="3pt" font-size="0.9em">leader-pattern="rule" rule-style="ridge"<fo:leader leader-pattern="rule" rule-style="ridge"/>
+99
+</fo:block>
+]]>
+</div>
+<p>The following pattern can also be specified.
+</p>
+<program>&lt;fo:leader leader-pattern="use-content"&gt;+&lt;/fo:leader&gt;</program>
+<p/>
+<div class="fo">
+<![CDATA[
+<fo:block text-align-last="justify" margin-left="1em" space-before="3pt" font-size="0.9em">Arbitrary specification of a pattern
+<fo:leader leader-pattern="use-content">+</fo:leader>
+99
+</fo:block>
+]]>
+</div>
+</subsubsection>
+<subsubsection>
+<title>Example of the generated contents
+</title>
+<p>
+Shown below is an example of toc created by taking the steps described.
+</p>
+<program>
+<title>Generated table of contents</title>&lt;fo:block text-align-last=&quot;justify&quot; margin-left=&quot;0em&quot; space-before=&quot;5pt&quot; font-size=&quot;1em&quot; font-weight=&quot;700&quot;&gt;
+  Preface 
+  &lt;fo:leader leader-pattern=&quot;dots&quot;/&gt;
+  &lt;fo:page-number-citation ref-id=&quot;IDA4AIOB&quot;/&gt;
+&lt;/fo:block&gt;
+</program>
+<p>
+See the table of contents in this report for an output example.
+</p>
+</subsubsection>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>Body </title>
+<div class="column">
+<title>Output specification</title>
+<ul>
+<li>Process all the descendants or self of the body elements in the source XML document.</li>
+<li>Each page layout of the body consists of a page header, a page footer, and a body region. The contents of a page header and a page footer are arranged in a symmetrical position by odd-numbered and even-numbered pages.
+</li>
+<li>
+When a page has a footnote, the line which divides body region with footnote region is drawn.</li>
+</ul>
+</div>
+<subsection>
+<title>Templates for Processing a Body </title>
+<p>The body in the XML source document is contained to the descendants or self of the <index>body element</index>. Shown below are the templates that process the body element. 
+</p>
+<program><title>Templates that process the body element</title>&lt;!-- process of body element --&gt;
+&lt;xsl:template match=&quot;body&quot;&gt;
+&lt;!-- start page number is 1 --&gt;
+	&lt;fo:page-sequence master-reference=&quot;PageMaster&quot; initial-page-number=&quot;1&quot;&gt;
+		&lt;!-- left page header --&gt;
+		&lt;fo:static-content flow-name=&quot;Left-header&quot;&gt;
+          &lt;!-- snip--&gt;
+		&lt;/fo:static-content&gt;
+		&lt;!-- right page header --&gt;
+		&lt;fo:static-content flow-name=&quot;Right-header&quot;&gt;
+          &lt;!-- snip--&gt;
+		&lt;/fo:static-content&gt;
+		&lt;!-- left page footer --&gt;
+		&lt;fo:static-content flow-name=&quot;Left-footer&quot;&gt;
+          &lt;!-- snip --&gt;
+		&lt;/fo:static-content&gt;
+		&lt;!-- right page footer --&gt;
+		&lt;fo:static-content flow-name=&quot;Right-footer&quot;&gt;
+          &lt;!-- snip --&gt;
+		&lt;/fo:static-content&gt;
+
+		&lt;!-- leader for footnote-separator --&gt;
+		&lt;fo:static-content flow-name=&quot;xsl-footnote-separator&quot;&gt;
+			&lt;fo:block&gt;
+				&lt;fo:leader leader-pattern=&quot;rule&quot; rule-thickness=&quot;0.5pt&quot; leader-length=&quot;33%&quot; /&gt;
+			&lt;/fo:block&gt;
+		&lt;/fo:static-content&gt;
+
+		&lt;!-- body --&gt;
+		&lt;fo:flow flow-name=&quot;xsl-region-body&quot;&gt;
+			&lt;fo:block&gt;
+				&lt;xsl:apply-templates /&gt;
+			&lt;/fo:block&gt;
+		&lt;/fo:flow&gt;
+	&lt;/fo:page-sequence&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>This template pocesses the body elements as shown below.</p>
+<ol>
+<li>Generate a fo:page-sequence based on the new &quot;PageMaster&quot;, the page layout right after the table of contents is changed.
+</li>
+<li>Set header/footer regions based on the page layout. Place the title of the document in the header, page numbers in the footer.
+</li>
+<li>Create a border region between the body and the footnote by using leaders.
+</li>
+<li>
+Create flow objects in the body region.
+</li>
+<li>
+xsl:apply-templates processes the descendants or self of the body element.
+</li>
+</ol>
+<p>
+A page header and a page footer are described in fo:static-content. In the body page, in order to change the page layout on right and left pages, four fo:static-content should be prepared which are used for the right and left pages of the footer,  and  for the right and left pages of a header. Moreover, the border between the text and a footnote is created using also fo:static-content. </p>
+<p>Four of fo:static-content are mapped to the region of a page as follows. The layout for right and left pages are defined in fo:simple-page-master of the body, which is prepared by the "Body － Change Page Layout on Right and Left pages " section in this document, then the header region and footer regions of each page are named, respectively. On the other hand, <index>flow-name </index> is specified to fo:static-content and the contents of <index>fo:static-content </index> are poured into the region whose name maps to the<index>region-name </index>.
+</p>
+<table>
+<thead>
+<tr>
+<th>Page</th>
+<th> Name of region</th>
+<th>Name of static-content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Right page heade</td>
+<td>fo:region-before region-name="Right-header" </td>
+<td>
+fo:static-content flow-name="Right-header"</td>
+</tr>
+<tr>
+<td>Right page footer</td>
+<td>fo:region-after region-name="Right-footer" </td>
+<td>
+fo:static-content flow-name="Right-footer"</td>
+</tr>
+<tr>
+<td>Left page header</td>
+<td>fo:region-before region-name="Left-header" </td>
+<td>
+fo:static-content flow-name="Left-header"</td>
+</tr>
+<tr>
+<td>Left page footer</td>
+<td>fo:region-after region-name="Left-footer" </td>
+<td>
+fo:static-content flow-name="Left-footer"</td>
+</tr>
+</tbody>
+</table>
+<p>
+The border between a footnote and the text is created by fo:static-content with flow-name called xsl-footnote-separator. The fo:leader object is used for drawing a line. One third of the width of the body region is secured as a solid line.
+</p>
+<p>The content of the body is outputted as a child of fo:flow.
+</p>
+</subsection>
+<subsection>
+<title>Page Number Setting</title>
+<p>
+It is possible to set up the initial value of a page number using the <index>initial-age-number property </index> belonging to fo:page-sequence. In SD2 FO-DOC.XSL, initial-page-number="1" is set to fo:page-sequence of the body, 1 page is made to begin from the body in SD2 FO-DOC.XSL.
+</p>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>
+<index>Page Footer</index> / <index>Page Header</index>
+</title>
+<div class="column">
+<title>Output Specification</title>
+<ul>
+<li>Arrange a page number and a section title of the page in the page footer.
+</li>
+<li>
+Output a document title in a page header. Furthermore, a thumb index with number is arranged according to the appearance of the top-level element among part, chapter, or section in a document.
+</li>
+</ul>
+</div>
+<subsection>
+<title>Page Footer Output</title>
+<p>The contents of a page footer are outputted to fo:static-content. The contents are the same although the arrangement differs on a right and left page.
+</p>
+<ul>
+<li>Page number</li>
+<li>Section title of the page (Running footer)</li>
+</ul>
+<subsubsection>
+<title>
+<index>Page number </index>
+</title>
+<p>
+<index>fo:page-number </index> object is used for expressing a page number. fo:page-number object generates the special inline area, and XSL Formatter replaces it by the page number. In order to arrange a page number to a fore-edge side, text-align="outside" is specified to the propery of fo:block.
+</p>
+<program>&lt;!-- Place a page number to a footer region --&gt;
+	&lt;fo:block font-size=&quot;9pt&quot; text-align=&quot;outside&quot;&gt;
+		&lt;fo:inline font-size=&quot;17pt&quot;&gt;
+			&lt;fo:page-number /&gt;
+			&lt;xsl:text&gt; ｜ &lt;/xsl:text&gt;
+		&lt;/fo:inline&gt;
+	（Output a running footer (eplained later)）
+	&lt;/fo:block&gt;
+</program>
+</subsubsection>
+<subsubsection>
+<title>Running Footer </title>
+<p>The title of the section in a document is outputted to a page footer. Since the title of section changes for every paragraph, it serves as a running footer. For this reason, fo:marker and fo:retrieve-marker are used. <index>fo:marker </index> is created to the title element in the text, and <index>fo:retrieve-marker </index> is put on fo:static-content of a page footer. XSL Formatter replaces the portion of fo:retrieve-marker by the corresponding contents while formatting.
+</p>
+<figure src="img/marker.emf" width="70%" height="70%"/>
+<p>
+Specify the class name of fo:marker you want to replace with the retrieve-class-name property belonging to fo:retrieve-marker. retrieve-boundary specifies a range of appliance. retrieve-position specifies which fo:marker in the page should be sellected. (What appeared first or what appeared last, for example) 
+</p>
+<program>&lt;!-- Set retrieve-marker to output a section name to the footer. --&gt;
+&lt;fo:retrieve-marker retrieve-boundary=&quot;page-sequence&quot; retrieve-position=&quot;first-starting-within-page&quot; retrieve-class-name=&quot;section-title&quot; /&gt;
+</program>
+<p>Generates fo:marker against the title element in the text. It is described as follows in the template which processes "part | chapter | section | subsection | subsubsection | appendix."
+   </p>
+<program>&lt;xsl:if test=&quot;local-name() = &apos;section&apos;&quot;&gt;
+	&lt;xsl:element name=&quot;fo:marker&quot;&gt;
+		&lt;xsl:attribute name=&quot;marker-class-name&quot;&gt;section-title&lt;/xsl:attribute&gt;
+		&lt;xsl:value-of select=&quot;title&quot; /&gt;
+	&lt;/xsl:element&gt;
+&lt;/xsl:if&gt;
+</program>
+<p>
+Hereby, whenever a section appears in a document, fo:marker is generated as follows.
+</p>
+<program>&lt;fo:flow flow-name=&quot;xsl-region-body&quot;&gt;
+	&lt;fo:marker marker-class-name=&quot;section-title&quot;&gt;Preface&lt;/fo:marker&gt;
+	&lt;!-- Contens of the section --&gt;
+	........................................
+	........................................
+	........................................
+	........................................
+	&lt;fo:marker marker-class-name=&quot;section-title&quot;&gt;Step for XSL-FO Transformation&lt;/fo:marker&gt;
+	&lt;!-- Contens of the section --&gt;
+	........................................
+	........................................
+	........................................
+	........................................
+	&lt;fo:marker marker-class-name=&quot;section-title&quot;&gt;SimpleDoc Organization&lt;/fo:marker&gt;
+	&lt;!-- Contens of the section --&gt;
+	........................................
+	........................................
+</program>
+</subsubsection>
+</subsection>
+<subsection>
+<title>Page Header Output</title>
+<p>The contents of a page header are the following two.
+</p>
+<ul>
+<li>Title</li>
+<li>
+<index>Thumb index</index>
+</li>
+</ul>
+<subsubsection>
+<title>Title </title>
+<p>The processing for outputting a title to a page header is only to output the title element to fo:block as follows.</p>
+<program>&lt;fo:block font-size=&quot;7pt&quot; text-align=&quot;center&quot; border-after-width=&quot;thin&quot; border-after-style=&quot;solid&quot;&gt;
+	&lt;xsl:value-of select=&quot;/doc/head/title&quot; /&gt;
+&lt;/fo:block&gt;
+</program>
+</subsubsection>
+<subsubsection>
+<title>
+<index>Thumb index</index>
+</title>
+<p>It's also possible to output a thumb index to a page using fo:marker and fo:retrieve-marker like the section title of a page footer. In SD2 FO-DOC.XSL stylesheet, 15 types of class names (thumb1, thumb2, ..., thumb14, and thumb0) are prepared and set to the objects which appear in a document (the top level object among part/chapter/section) in order. Each fo:retrieve-marker is set to fo:static-content which is a page header using a table cell. fo:retrieve-marker is not replaced if fo:marker which corresponds in a page does not exist. Thereby, the thumb index can be seen as moving according to the change of a section.
+</p>
+<p>A table model for creating the page header in the stylesheet is as follows:</p>
+<program>
+<title>Creating a table for thumb indexes</title>&lt;!-- a table with absolute-position --&gt;
+&lt;fo:block-container absolute-position=&quot;fixed&quot; top=&quot;0mm&quot; left=&quot;20mm&quot; height=&quot;15mm&quot;&gt;
+	&lt;fo:table&gt;
+		&lt;fo:table-column column-width=&quot;12mm&quot; number-columns-repeated=&quot;15&quot; /&gt;
+		&lt;fo:table-body&gt;
+			&lt;fo:table-row&gt;
+				&lt;fo:table-cell&gt;
+					&lt;fo:block font-size=&quot;24pt&quot; text-align-last=&quot;center&quot; color=&quot;white&quot; background-color=&quot;black&quot; display-align=&quot;center&quot;&gt;
+						&lt;!-- It is replaced if a marker with the class of thumb1 exists. --&gt;
+						&lt;fo:retrieve-marker xsl:use-attribute-sets=&quot;thumb-class&quot;  retrieve-class-name=&quot;thumb1&quot; /&gt;
+					&lt;/fo:block&gt;
+				&lt;/fo:table-cell&gt;
+				&lt;!-- Create the rest 14 cells as well. (the last is retrieve-class-name="thumb0".) --&gt;
+			&lt;/fo:table-row&gt;
+		&lt;/fo:table-body&gt;
+	&lt;/fo:table&gt;
+&lt;/fo:block-container&gt;
+</program>
+<p>
+In processing "part | chapter | section | --" in the text, the generation of fo:marker is shown as follows. The element name which changes a thumb index is set to Variable thumb ($thumb). Since it is the template which is common and processes two or more elements, you have to judge a current node. Using local-name(), the element name of a current node is investigated.</p>
+<program>
+<title>Creating fo:marker for thumb indexes</title>&lt;xsl:template match=&quot;part | chapter | section | subsection | subsubsection | appendix&quot;&gt;
+	&lt;fo:block&gt;
+		&lt;xsl:choose&gt;
+			&lt;xsl:when test=&quot;(local-name() = &apos;part&apos;) and ($thumb = &apos;part&apos;)&quot;&gt;
+				&lt;xsl:element name=&quot;fo:marker&quot;&gt;
+					&lt;xsl:variable name=&quot;num&quot;&gt;&lt;xsl:number format=&quot;1&quot; /&gt;&lt;/xsl:variable&gt;
+					&lt;xsl:attribute name=&quot;marker-class-name&quot;&gt;thumb&lt;xsl:value-of select=&quot;$num mod 15&quot; /&gt;&lt;/xsl:attribute&gt;
+					&lt;xsl:number format=&quot;1&quot; /&gt;
+				&lt;/xsl:element&gt;
+			&lt;/xsl:when&gt;
+			&lt;xsl:when test=&quot;(local-name() = &apos;chapter&apos;) and ($thumb = &apos;chapter&apos;)&quot;&gt;
+				&lt;xsl:element name=&quot;fo:marker&quot;&gt;
+					&lt;xsl:variable name=&quot;num&quot;&gt;&lt;xsl:number format=&quot;1&quot; /&gt;&lt;/xsl:variable&gt;
+					&lt;xsl:attribute name=&quot;marker-class-name&quot;&gt;thumb&lt;xsl:value-of select=&quot;$num mod 15&quot; /&gt;&lt;/xsl:attribute&gt;
+					&lt;xsl:number format=&quot;1&quot; /&gt;
+				&lt;/xsl:element&gt;
+			&lt;/xsl:when&gt;
+			&lt;xsl:when test=&quot;(local-name() = &apos;section&apos;) and ($thumb = &apos;section&apos;)&quot;&gt;
+				&lt;xsl:element name=&quot;fo:marker&quot;&gt;
+					&lt;xsl:variable name=&quot;num&quot;&gt;&lt;xsl:number format=&quot;1&quot; /&gt;&lt;/xsl:variable&gt;
+					&lt;xsl:attribute name=&quot;marker-class-name&quot;&gt;thumb&lt;xsl:value-of select=&quot;$num mod 15&quot; /&gt;&lt;/xsl:attribute&gt;
+					&lt;xsl:number format=&quot;1&quot; /&gt;
+				&lt;/xsl:element&gt;
+			&lt;/xsl:when&gt;
+		&lt;/xsl:choose&gt;
+		&lt;!-- Omit the rest. --&gt;
+</program>
+<p>As for the class name (marker-class-name), 'thumb' is set asa fixed character sequence, then a number is given in order after that. In order to begin from 1 and to repeat per 15 pieces, the element obtains first what position it is as compared with the same element in a document using xsl:number. Next, the number given to the class name is realized by using the number of the remainder after deviding the position figure by 15.
+</p>
+</subsubsection>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>
+<index>Head</index>
+</title>
+<div class="column">
+<title>Output Specification </title>
+<ul>
+<li>Generate heads from the title of parts, chapters, sections, subsections and subsubsections.</li>
+<li>The style of the head is not mapped for each element of part, chapter, section, subsection and subsubsection but mapped according to the nest level. </li>
+<li>The head of the top level breaks page before the block.</li>
+<li>Make it possible to set an image in the head.</li>
+</ul>
+</div>
+<subsection>
+<title>Style Conditions of the <index>Head</index>
+</title>
+<p>Generally the style of the head is made according to the part, chapter, section, subsection and subsubsection elements, but in this case it is made according to the nest level. The conditions to be set are shown below. </p>
+<table>
+<col width="15%"/>
+<col width="15%"/>
+<col width="70%"/>
+<thead>
+<tr>
+<th align="center">
+Nest level
+</th>
+<th align="center">attribute-set</th>
+<th align="center">
+Style conditions
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle">1</td>
+<td align="center" valign="middle">h1</td>
+<td>
+font: size 24pt, sans-serif, Bold 
+<br/>space-after: 14pt, bottom border: solid 2pt, 
+<br/>break condition: break-before=&quot;page&quot;
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle">2</td>
+<td align="center" valign="middle">h2</td>
+<td>
+Font : size 16pt, sans-serif, bold
+<br/> 
+space-before: 19pt, space-after: 5pt, keep-with-next. within-page: always 
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle">3</td>
+<td align="center" valign="middle">h3</td>
+<td>font: size 13pt, sans-serif, bold
+<br/>
+space-before: 14pt, space-after: 5pt, keep-with-next. within-page: always 
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle">4</td>
+<td align="center" valign="middle">h4</td>
+<td>
+font: size 12pt, sans-serif, bold<br/> 
+space-before: 5pt, space-after: 5pt, keep-with-next. within-page: always
+</td>
+</tr>
+<tr>
+<td align="center" valign="middle">5</td>
+<td align="center" valign="middle">h5</td>
+<td>
+font: size 10pt, sans-serif, bold <br/> 
+space-before: 3pt, space-after: 3pt, keep-with-next. within-page: always</td>
+</tr>
+</tbody>
+</table>
+<p>
+These conditions of style are defined in the following stylesheet.</p>
+<program>
+<title>Style definition of the heads </title>&lt;!-- titles --&gt;
+&lt;xsl:attribute-set name=&quot;h1&quot; &gt;
+  &lt;xsl:attribute name=&quot;font-size&quot;&gt;24pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-family&quot;&gt;&quot;sans-serif&quot;&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-weight&quot;&gt;bold&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;14pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;break-before&quot;&gt;page&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;border-after-style&quot;&gt;solid&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;border-after-width&quot;&gt;2pt&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:attribute-set name=&quot;h2&quot; &gt;
+  &lt;xsl:attribute name=&quot;font-size&quot;&gt;16pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-family&quot;&gt;&quot;sans-serif&quot;&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-weight&quot;&gt;bold&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;19pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;5pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;keep-with-next.within-page&quot;&gt;always&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:attribute-set name=&quot;h3&quot; &gt;
+  &lt;xsl:attribute name=&quot;font-size&quot;&gt;13pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-family&quot;&gt;&quot;sans-serif&quot;&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-weight&quot;&gt;bold&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;14pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;5pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;keep-with-next.within-page&quot;&gt;always&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:attribute-set name=&quot;h4&quot; &gt;
+  &lt;xsl:attribute name=&quot;font-size&quot;&gt;12pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-family&quot;&gt;&quot;sans-serif&quot;&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-weight&quot;&gt;bold&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;5pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;5pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;keep-with-next.within-page&quot;&gt;always&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:attribute-set name=&quot;h5&quot; &gt;
+  &lt;xsl:attribute name=&quot;font-size&quot;&gt;10pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-family&quot;&gt;&quot;sans-serif&quot;&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-weight&quot;&gt;bold&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;3pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;3pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;keep-with-next.within-page&quot;&gt;always&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+</program>
+<p>keep-with-next.within-page=&quot;always&quot; is specified to heads in order to avoid breaking pages before the next block. It is not specified in h1, instead, break-before=&quot;page&quot; is specified. So the page break is inserted before h1 block, it is kept at the top of the following page and is kept with the next block naturally. 
+</p>
+</subsection>
+<subsection>
+<title>Templates for Processing Heads</title>
+<p>Templates that process the heads are shown below.  Heads are processed in one template intensively because the styles are selected according to the nest level. 
+</p>
+<program>
+<title>Templates that process heads</title>&lt;xsl:template match=&quot;part |
+                     chapter |
+                     section |
+                     subsection |
+                     subsubsection&quot;&gt;
+  &lt;xsl:call-template name=&quot;title.out&quot; /&gt;
+  &lt;xsl:apply-templates /&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;part/title |
+                     chapter/title |
+                     section/title |
+                     subsection/title |
+                     subsubsection/title&quot;&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template name=&quot;title.out&quot;&gt;
+  &lt;xsl:variable name=&quot;level&quot; select=&quot;count(ancestor-or-self::part | 
+                                          ancestor-or-self::chapter |
+                                          ancestor-or-self::section |
+                                          ancestor-or-self::subsection |
+                                          ancestor-or-self::subsubsection )&quot; /&gt;
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test=&quot;$level=1&quot;&gt;
+      &lt;fo:block xsl:use-attribute-sets=&quot;h1&quot; id=&quot;{generate-id()}&quot;&gt;
+        &lt;xsl:call-template name=&quot;title.out.sub&quot; /&gt;
+        &lt;xsl:value-of select=&quot;title&quot; /&gt;
+      &lt;/fo:block&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:when test=&quot;$level=2&quot;&gt;
+      &lt;fo:block xsl:use-attribute-sets=&quot;h2&quot; id=&quot;{generate-id()}&quot;&gt;
+        &lt;xsl:call-template name=&quot;title.out.sub&quot; /&gt;
+        &lt;xsl:value-of select=&quot;title&quot; /&gt;
+      &lt;/fo:block&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:when test=&quot;$level=3&quot;&gt;
+      &lt;fo:block xsl:use-attribute-sets=&quot;h3&quot; id=&quot;{generate-id()}&quot;&gt;
+        &lt;xsl:call-template name=&quot;title.out.sub&quot; /&gt;
+        &lt;xsl:value-of select=&quot;title&quot; /&gt;
+      &lt;/fo:block&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:when test=&quot;$level=4&quot;&gt;
+      &lt;fo:block xsl:use-attribute-sets=&quot;h4&quot; id=&quot;{generate-id()}&quot;&gt;
+        &lt;xsl:call-template name=&quot;title.out.sub&quot; /&gt;
+        &lt;xsl:value-of select=&quot;title&quot; /&gt;
+      &lt;/fo:block&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:when test=&quot;$level=5&quot;&gt;
+      &lt;fo:block xsl:use-attribute-sets=&quot;h5&quot; id=&quot;{generate-id()}&quot;&gt;
+        &lt;xsl:call-template name=&quot;title.out.sub&quot; /&gt;
+        &lt;xsl:value-of select=&quot;title&quot; /&gt;
+      &lt;/fo:block&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:otherwise&gt;
+      &lt;fo:block xsl:use-attribute-sets=&quot;h5&quot; id=&quot;{generate-id()}&quot;&gt;
+        &lt;xsl:call-template name=&quot;title.out.sub&quot; /&gt;
+        &lt;xsl:value-of select=&quot;title&quot; /&gt;
+      &lt;/fo:block&gt;
+    &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template name=&quot;title.out.sub&quot;&gt;
+  &lt;xsl:if test=&quot;@logo&quot;&gt;
+    &lt;fo:inline space-end=&quot;5pt&quot;&gt;
+      &lt;fo:external-graphic src=&quot;{@logo}&quot;&gt;
+        &lt;xsl:if test=&quot;@width and @height&quot;&gt;
+          &lt;xsl:attribute name=&quot;content-width&quot;&gt;
+            &lt;xsl:value-of select=&quot;@width&quot; /&gt;
+          &lt;/xsl:attribute&gt;
+          &lt;xsl:attribute name=&quot;content-height&quot;&gt;
+            &lt;xsl:value-of select=&quot;@height&quot; /&gt;
+          &lt;/xsl:attribute&gt;
+        &lt;/xsl:if&gt;
+      &lt;/fo:external-graphic&gt;
+    &lt;/fo:inline&gt;
+  &lt;/xsl:if&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>The stylesheet that processes heads consists of four templates. Actual title of the head is created form the title.out template. The title.out template processes heads in the following order:
+</p>
+<ol>
+<li>Count the nest level of the element under processing and store the value to the level local variable.</li>
+<li>Select the style of the title from h1 to h5 according to the variable, apply it to fo:block of the title.</li>
+<li>Create the id property by generate-id() function and apply it to fo:block of the title.<note>Heads are referred from fo:page-number-citation of lines in a table-of-contents.</note>
+</li>
+<li>
+Call the title.out.sub template that processes images.
+</li>
+<li>
+Output the text specified by the title element to the title .
+</li>
+</ol>
+<p type="continue">Although the template which processes 2nd part/title - subsubsection/title is "empty processing" (nothing is outputted), this is an usual practice for not outputting a title doubly.
+</p>
+<p>The title line is outputted by the title.out template as shown proeviously. However the title character sequence will be outputted again because the title element appears while xsl:apply-templates processes the part/title - subsubsection/title elements. However, if the template which matches part/title - subsubsection/title is prepared and the contents are empty, the output of an excessive title character sequence can be controlled.
+</p>
+
+<subsubsection>
+<title>Example of a Generated Title </title>
+<p>
+Shown below is an example of a generated title by taking previous steps. Note that the result of <index>generate-id()</index>function is stored as the value of the <index>id property</index>.
+</p>
+<program>
+<title>Generated titles</title>&lt;fo:block font-size=&quot;24pt&quot; 
+          font-family=&quot;&amp;quot;sans-serif&amp;quot;&quot; 
+          font-weight=&quot;bold&quot; 
+          space-after=&quot;14pt&quot; 
+          break-before=&quot;page&quot; 
+          keep-with-next.within-page=&quot;always&quot; 
+          border-after-style=&quot;solid&quot; 
+          border-after-width=&quot;2pt&quot; 
+          id=&quot;IDA4AIOB&quot;&gt;
+  &lt;fo:inline space-end=&quot;5pt&quot;&gt;
+    &lt;fo:external-graphic src=&quot;XSLFormatter.bmp&quot;/&gt;
+  &lt;/fo:inline&gt;
+  Preface
+&lt;/fo:block&gt;
+</program>
+</subsubsection>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>Processing <index>Inline Elements</index>
+</title>
+<div class="column">
+<title>Output specification</title>
+<ul>
+<li>The elements of <index>b</index>(bold), <index>i</index>(italic), <index>em</index>(emphasis), <index>code</index>(inline program code) are transformed into the fo:inline objects which specify the character properties. </li>
+<li>The <index>a</index>(<index>anchor</index>) element only output the referenced text first, output the contents of a target end of a hypertext <index>link </index>of the href property. </li>
+<li>A <index>note(</index>note) is transformed into a <index>footnote</index>. A <index>footnote citation </index>is usually (n). A sequence of numbers is applied to (n).
+</li>
+<li>The <index>br</index>(break) element breaks lines.
+</li>
+<li>The <index>span</index> element (general inline element) only creates fo:inline.
+</li>
+</ul>
+</div>
+<subsection>
+<title>Templates that Process b, i, em, code Elements</title>
+<p>It is very easy to transform b(bold), i(italic), em(emphasis), code(inline program code) into formatting objects. The templates create fo:inline template and set attributes to be applied. Bold is set as font-weight=&quot;bold&quot;, italic is font-style=&quot;italic&quot;, em also maps to bold. The way is different from the b but it becomes the same result. Code sets monospace to font-family property.  </p>
+<program>
+<title>Templates that process b, i, em, code</title>&lt;xsl:template match=&quot;b&quot;&gt;
+  &lt;fo:inline font-weight=&quot;bold&quot;&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:inline&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;i&quot;&gt;
+  &lt;fo:inline font-style=&quot;italic&quot;&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:inline&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;em&quot;&gt;
+  &lt;fo:inline xsl:use-attribute-sets=&quot;em&quot;&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:inline&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;code&quot;&gt;
+  &lt;fo:inline font-family=&quot;monospace&quot;&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:inline&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>
+As fo:inline is applied, the line is not considered to break at the last of text. The example is shown below. 
+</p>
+<div class="column">
+<p>
+The inline element i becomes [
+<i>italic</i>].</p>
+<p>The inline element b becomes [
+<b>
+bold typeface
+</b>].</p>
+<p>
+The inline element em also becomes [
+<b>
+bold typeface
+</b>].</p>
+<p>
+The inline element code (inline program code) becomes [
+<code>
+monospace font (apply monospace font)
+</code>].</p>
+</div>
+</subsection>
+<subsection>
+<title>
+<index>a (anchor) Element </index>
+</title>
+<p>The <index>anchor (a)</index>element contains a Hypertext Reference property (href) which contains a <index>URL</index>. It is a problem how to treat a URL. In this case put a URL in parentheses, output it after the text specified by the anchor element. But if the both contents are the same, the URL is not output.
+</p>
+<program>
+<title>Templates that process the (a) element</title>&lt;xsl:template match=&quot;a&quot;&gt;
+  &lt;xsl:variable name=&quot;anchor-texts&quot;&gt;
+    &lt;xsl:value-of select=&quot;.&quot; /&gt;
+  &lt;/xsl:variable&gt;
+  &lt;xsl:apply-templates /&gt;
+  &lt;xsl:if test=&quot;@href!=$anchor-texts&quot;&gt;
+    &lt;fo:inline&gt;
+      &lt;xsl:text&gt;(&lt;/xsl:text&gt;
+      &lt;xsl:value-of select=&quot;@href&quot; /&gt;
+      &lt;xsl:text&gt;)&lt;/xsl:text&gt;
+    &lt;/fo:inline&gt;
+  &lt;/xsl:if&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>The example using this stylesheet is as follows:</p>
+<div class="column">
+<p>&apos;This example is shown on the Web&lt;a href=&quot;http://www.w3.org/&quot;&gt; at the site of W3C&lt;/a&gt;&apos;.
+<br/>
+ is shown as:<br/>
+&apos;This example is shown on the Web at the site of <a href="http://www.w3.org/">W3C</a>
+.&apos;</p>
+<p>
+&apos;This example is shown on the Web site at &lt;a href=&quot;http://www.w3.org/&quot;&gt;http://www.w3.org/&lt;/a&gt;.&apos; <br/>is shown as:
+<br/>
+&apos;This example is shown on the Web site at <a href="http://www.w3.org/">http://www.w3.org/</a>
+&apos;</p>
+<p>&apos;This example is shown on the Web site at &lt;a href=&quot;http://www.w3.org/&quot;&gt;http://&lt;em&gt;&lt;i&gt;www&lt;/i&gt;.&lt;i&gt;w3&lt;/i&gt;.&lt;i&gt;org&lt;/i&gt;&lt;/em&gt;/&lt;/a&gt;.&apos;<br/> is shown as:
+<br/>
+&apos;This example is shown on the Web site at <a href="http://www.w3.org/">http://<em><i>www</i>.<i>w3</i>.<i>org</i></em>/</a>.&apos;</p>
+</div>
+<p>Although the anchor was changed into the simple text here, in SD2 FO-DOC.XSL, the<index>link </index>of <index>PDF</index> can be created by changing the anchor into fo:basic-link of XSL and formatted by XSL Formatter. Please refer to "Link Setting" of <a href="#a-link">"Functions for creating PDF" </a> in this document for details.
+</p>
+</subsection>
+<subsection>
+<title>
+<index>note Element</index>
+</title>
+<p>The <index>note </index>element is transformed into <index>fo:footnote </index>formatting object.
+</p>
+<program>
+<title>Template that processes note elements</title>&lt;xsl:template match=&quot;note&quot;&gt;
+  &lt;fo:footnote&gt;
+    &lt;fo:inline baseline-shift=&quot;super&quot; font-size=&quot;75%&quot;&gt;
+      &lt;xsl:number level=&quot;any&quot; count=&quot;//note&quot; format=&quot;(1)&quot; /&gt;
+    &lt;/fo:inline&gt;
+    &lt;fo:footnote-body&gt;
+      &lt;fo:block xsl:use-attribute-sets=&quot;note&quot;&gt;
+        &lt;fo:inline baseline-shift=&quot;super&quot; font-size=&quot;75%&quot;&gt;
+          &lt;xsl:number level=&quot;any&quot; count=&quot;//note&quot; format=&quot;(1)&quot; /&gt;
+        &lt;/fo:inline&gt;
+        &lt;xsl:apply-templates /&gt;
+      &lt;/fo:block&gt;
+    &lt;/fo:footnote-body&gt;
+  &lt;/fo:footnote&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>fo:footnote object in the XSL generates a footnote and a <index>footnote </index>citation.the content model is (fo:inline, fo:footnote-body). The first child fo:inline expresses a footnote citation placed in the text. The next fo:footnote-body is the footnote text and it consists of the block objects like fo:block. Please remark that you should specify all indent values of fo:footnote-body to zero in order to cancel the inheritance of indent value from the ancestor of fo:footnote.</p>
+<p>
+Shown below is a typical fo:footnote object. 
+</p>
+<figure src="img/footnote_en.emf">
+<title>Typical example of the note element and fo:footnote</title>
+</figure>
+<p>Generally, the same label as the footnote citation in the text is placed before the footnote text, and a footnote citation is usually a sequence of numbers. These characters must be generated in the stylesheet. Formatting object does not have the function to achieve these. The following shows the stylesheet processing.</p>
+<ol>
+<li>
+Output fo:footnote.
+</li>
+<li>
+
+Generate fo:inline that includes a footnote citation by using xsl:number.</li>
+<li>
+A content of note element with the same footnote citation is put into a fo:block element that is a child of the fo:footnote-body.  
+</li>
+</ol>
+<p>
+xsl:number is an XSL processing instruction.
+<code font="sans-serif">&lt;xsl:number level=&quot;any&quot; count=&quot;//note&quot; format=&quot;(1)&quot; /&gt;</code> searches all the descendant of the note elements under the root element in appearing order, finds out the same element as the current note element and formats the appearing number as described in &quot;(1)&quot;,
+</p>
+<p>baseline-shift=&quot;super&quot; shifts the baseline to the default position for superscripts. Below shows the example of footnote.
+</p>
+<div class="column">
+<p>
+<code font="sans-serif">
+&quot;This is an example of footnote. Place a footnote here. &lt;note&gt; This is a footnote text. It is placed at the lower end of the body resion and separated from the text part.&lt;/note&gt;&quot;
+</code>
+is expressed as:
+<br/>
+<code font="sans-serif">
+"This is an example of footnote. Place a footnote here.
+<note>This is a footnote text. It is placed at the lower end of the body resion and separated from the text part.
+</note>"</code>
+</p>
+</div>
+</subsection>
+<subsection>
+<title>
+<index>br</index> Element</title>
+<p>The br element is an empty element, so it is replaced by an empty fo:block element. Then the line bleaks.
+</p>
+<program>
+<title>Templates that process the br element</title>&lt;xsl:template match=&quot;br&quot;&gt;
+  &lt;fo:block&gt;
+  &lt;/fo:block&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>The following table shows the example of the process.</p>
+<div class="column">
+<p>&quot;In the paragraph, put &lt;b&gt; forcibly &lt;br/&gt; break a line &lt;/b&gt; because the paragraph is not finished, the property set before the line break can be used.&quot;
+<br/>is expressed as:</p>
+<p>&quot;In the paragraph, put<b>
+forcibly
+<br/>
+break a line
+</b>
+because the paragraph is not finished, the property set before the line break can be used.&quot;
+</p>
+</div>
+</subsection>
+<subsection>
+<title>
+span Element
+</title>
+<p>The span attribute (general inline element) is only transformed into fo:inline. It can be extended
+if any instructions are defined for the class attribute
+
+</p>
+<program>
+<title>The template that processes the span element</title>&lt;xsl:template match=&quot;span&quot;&gt;
+  &lt;fo:inline &gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:inline&gt;
+&lt;/xsl:template&gt;
+</program>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>Processing <index>Block Elements</index>
+</title>
+<p>The processing of the block elements except tables and lists (ol,ul,dl) are explained in this chapter.  </p>
+<div class="column">
+<title>Output specification</title>
+
+<ul>
+<li>Transform p(paragraph) into a block element. 
+Indent one character in the first line of the paragraph. Text align justify. Text align left at the last line. Spaces which size is font size x 0.6 are given before and after the paragraph. A paragraph is kept within a page.
+</li>
+<li>Figures are placed by feeding a line at the appearing point, by centering. Apply the size of the figure if the size is specified. If there is a caption, place it under the figure. 
+</li>
+<li>Transform program element that contains program codes into fo:block formatting object. Apply monospace, use line feed, space as they are preformatted. The background color is gray. Output the caption in front of the program code.
+
+</li>
+<li>
+Transform div(general block element) into fo:block.</li>
+</ul>
+</div>
+<subsection>
+<title>
+<index>p Element</index>
+</title>
+<p>
+The p element (paragraph) is frequently used. The following shows the template processing the p element.
+</p>
+<program>
+<title>The template processing the p element</title>&lt;xsl:attribute-set name=&quot;p&quot;&gt;
+  &lt;xsl:attribute name=&quot;text-indent&quot;&gt;1em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;0.6em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;0.6em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align&quot;&gt;justify&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;keep-together.within-page&quot;&gt;always&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:template match=&quot;p&quot;&gt;
+  &lt;fo:block xsl:use-attribute-sets=&quot;p&quot;&gt;
+        &lt;xsl:apply-templates /&gt;
+  &lt;/fo:block&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>The templates are simple, and is only to transform into fo:block. The indent in the beginning of the line is specified by text-indent, the line justification is specified by text-align. And specify keep-together to keep a paragraph within one page.
+</p>
+<newpage/>
+<div class="column">
+<p>This is the case that one line has the width of 21em.
+</p>
+<fo>
+<![CDATA[
+<fo:block font-size="1.0em">
+<fo:block-container width="21em" padding="1em">
+<fo:block text-indent="1em" space-before="0.6em" space-after="0.6em" text-align="justify" keep-together.within-page="always" border="dashed" border-color="red" border-width="thin">This is the sample of a paragraph. The paragraph is transformed into fo:block. Specify that one character is indented by text-indent="1em". Specify that the content is to be expanded to both edges by text-align="justify". But the last sentence of the last paragraph is left justified. It's because the default value of text-indent-last is text-align="justify", it is justified automatically.
+</fo:block>
+</fo:block-container>
+</fo:block>
+]]>
+</fo>
+<p> In case that one line has the width of 25em.</p>
+<fo>
+<![CDATA[
+<fo:block font-size="1.0em">
+<fo:block-container width="25em" padding="1em">
+<fo:block text-indent="1em" space-before="0.6em" space-after="0.6em" text-align="justify" keep-together.within-page="always" border="dashed" border-color="red" border-width="thin">This is the sample of paragraph. The paragraph is transformed into fo:block. Specify that one character is indented by text-indent="1em". Specify that the content is to be expanded to both edges by text-align="justify". But the last sentence of the last paragraph is left justified. It's because the default value of text-indent-last is text-align="justify", it is justified automatically.</fo:block>
+</fo:block-container>
+</fo:block>
+]]>
+</fo>
+</div>
+</subsection>
+<subsection>
+<title>
+<index>figure Element</index>
+</title>
+<p>Figure elements are transformed into <index>fo:external-graphic</index>. The following shows the templates that process figure elements.
+</p>
+<program>
+<title>Templates that process the figure elements</title>&lt;xsl:attribute-set name=&quot;figure.title&quot;&gt;
+  &lt;xsl:attribute name=&quot;font-family&quot;&gt;sans-serif&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align&quot;&gt;center&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;3pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;10pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-weight&quot;&gt;bold&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;keep-with-previous.within-page&quot;&gt;always&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:template match=&quot;figure&quot;&gt;
+  &lt;fo:block text-align=&quot;center&quot;&gt;
+    &lt;fo:external-graphic src=&quot;{@src}&quot;&gt;
+      &lt;xsl:if test=&quot;@width and @height&quot;&gt;
+        &lt;xsl:attribute name=&quot;content-width&quot;&gt;
+          &lt;xsl:value-of select=&quot;@width&quot; /&gt;
+        &lt;/xsl:attribute&gt;
+        &lt;xsl:attribute name=&quot;content-height&quot;&gt;
+          &lt;xsl:value-of select=&quot;@height&quot; /&gt;
+        &lt;/xsl:attribute&gt;
+      &lt;/xsl:if&gt;
+    &lt;/fo:external-graphic&gt;
+  &lt;/fo:block&gt;
+  &lt;fo:block xsl:use-attribute-sets=&quot;figure.title&quot;&gt;
+    &lt;xsl:value-of select=&quot;title&quot; /&gt;
+  &lt;/fo:block&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>fo:external-graphic is generated and path of the figure is specified by the src property of the figure element. In case the size of the figure is specified by the width, height attributes, put them in <index>content-width</index>, <index>content-height</index>. Antenna House XSL Formatter can treat image file formats such as BMP, EMF, WMF, JPEG, TIFF, GIF, PNG, EPS, SVG, etc.
+</p>
+</subsection>
+<subsection>
+<title><index>program Element</index></title>
+<p>Program elements (Program code) are transformed into fo:block and display the fonts in monospace. The following shows the templates.
+</p>
+<program>
+<title>Templates that process the program elements</title>&lt;xsl:attribute-set name=&quot;program&quot;&gt;
+  &lt;xsl:attribute name=&quot;white-space&quot;&gt;pre&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;wrap-option&quot;&gt;wrap&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;background-color&quot;&gt;gainsboro&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-family&quot;&gt;monospace&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-size&quot;&gt;9pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;padding&quot;&gt;0.5em&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:attribute-set name=&quot;program.title&quot;&gt;
+  &lt;xsl:attribute name=&quot;font-family&quot;&gt;sans-serif&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align&quot;&gt;center&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;3pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-weight&quot;&gt;bold&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;keep-with-next.within-page&quot;&gt;always&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;0.5em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;0.5em&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:template match=&quot;program&quot;&gt;
+  &lt;xsl:apply-templates select=&quot;title&quot; /&gt;
+  &lt;fo:block xsl:use-attribute-sets=&quot;program&quot;&gt;
+    &lt;xsl:apply-templates select=&quot;text()&quot; /&gt;
+  &lt;/fo:block&gt;
+&lt;/xsl:template&gt;</program>
+<p>The program element and the p element has the common point that both generate fo:block in the template. But the difference is that the program element process only text(). There are no templates to process text nodes (match=&quot;program/text()&quot;). So they are processed by the built-in template in XSL in order to process only the text node.
+The following are important properties that apply to fo:block.</p>
+<ul>
+<li>
+Specify monospace in the font-family.
+</li>
+<li>
+Specify white-space as pre. This has four meanings as follows.
+<ol>
+<li>linefeed-treatment=&quot;preserve&quot; : Line feed character (#xA) is preserved. Do not treat as space, or ignore.
+</li>
+<li>space-treatment=&quot;preserve&quot; : Characters classified as white space in XML except for #xA are preserved
+<note>White space in XML has space(#x20), tab(#x9), carriage return(#xD), linefeed(#xA). The treatment of #xA is specified by linefeed-treatment
+</note>.</li>
+<li>white-space-collapse=&quot;false&quot; : White spaces after processing by linefeed-treatment, space-treatment are not collapsed.
+</li>
+<li>wrap-option=&quot;no-wrap&quot; : No line-wrapping will occur if the line overflows.
+</li>
+</ol>
+</li>
+<li>Specify the value of wrap-option as wrap to override the default value of space-treatment. The line wraps if the line overflows
+<note>wrap-option=&quot;wrap&quot; is a default value. But it changes to wrap-option=&quot;no-wrap&quot; by specifying white-space=&quot;pre&quot;.  This property overides wrap-option="no-wrap" by wrap-option ="wrap"</note>.</li>
+</ul>
+<p>
+According to these specifications the text in the program element is formatted as pre-formatted text.
+</p>
+</subsection>
+<subsection>
+<title>
+div Element
+</title>
+<p>The div element(general block element) simply transforms into fo:block with no properties. The templates are shown below.
+
+</p>
+<program>
+<title>Template that processes the div element.</title>&lt;xsl:template match=&quot;div&quot;&gt;
+  &lt;fo:block&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:block&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>You may change this template as you desire. 
+The example of applying the div element is as follows. This sample stores formatting object directly to the div element and output it.
+</p>
+<program>
+<title>Example</title>&lt;xsl:attribute-set name=&quot;div.fo&quot; &gt;
+  &lt;xsl:attribute name=&quot;border&quot;&gt;solid&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;border-width&quot;&gt;thin&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;padding&quot;&gt;1em&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:template match=&quot;div[@class = &apos;fo&apos;]&quot;&gt;
+  &lt;fo:block xsl:use-attribute-sets=&quot;div.fo&quot;&gt;
+    &lt;xsl:copy-of select=&quot;node()&quot; /&gt;
+  &lt;/fo:block&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>The template specifies to copy all the descendants of the div element directly to the output by &lt;xsl:copy-of select=&quot;node()&quot; /&gt;. In order to use this function, you must specify following fo namespace to the doc element. 
+</p>
+<program>&lt;doc xmlns:fo=&quot;http://www.w3.org/1999/XSL/Format&quot;&gt;
+</program>
+<p>Below shows how to use.
+</p>
+<div class="column">
+<div>
+&lt;div class=&quot;fo&quot;&gt;&lt;fo:block&gt;This is the &lt;fo:inline font-weight=&quot;bold&quot;&gt;example&lt;/fo:inline&gt; of embedding&lt;fo:inline font-size=&quot;1.5em&quot; text-decoration=&quot;underline&quot; font-style=&quot;italic&quot; font-weight=&quot;bold&quot;&gt;FO (Formatting Object).&lt;/fo:inline&gt;&lt;fo:inline background-color=&quot;#DDDDDD&quot;&gt;You can format the styles as you like,&lt;/fo:inline&gt; free from the &lt;fo:inline font-size=&quot;1em&quot;&gt;s&lt;/fo:inline&gt;&lt;fo:inline font-size=&quot;1.2em&quot;&gt;t&lt;/fo:inline&gt;&lt;fo:inline font-size=&quot;1.4em&quot;&gt;y&lt;/fo:inline&gt;&lt;fo:inline font-size=&quot;1.6em&quot;&gt;l&lt;/fo:inline&gt;&lt;fo:inline font-size=&quot;1.8em&quot;&gt;e&lt;/fo:inline&gt;&lt;fo:inline font-size=&quot;2.0em&quot;&gt;s&lt;/fo:inline&gt;&lt;fo:inline font-size=&quot;2.2em&quot;&gt;h&lt;/fo:inline&gt;&lt;fo:inline font-size=&quot;2.4em&quot;&gt;e&lt;/fo:inline&gt;&lt;fo:inline font-size=&quot;2.6em&quot;&gt;e&lt;/fo:inline&gt;&lt;fo:inline font-size=&quot;2.8em&quot;&gt;t&lt;/fo:inline&gt;limitation. But it is very&lt;fo:inline font-size=&quot;3em&quot; font-weight=&quot;bold&quot; font-family=&quot;sans-serif&quot;&gt;troublesome&lt;/fo:inline&gt;to write FO directly.&lt;/fo:block&gt;&lt;/div&gt;
+</div>
+</div>
+<p>
+It is shown as follows:
+</p>
+
+<div class="fo">
+<![CDATA[
+<fo:block>This is the <fo:inline font-weight="bold">example</fo:inline> of embedding<fo:inline font-size="1.5em" text-decoration="underline" font-style="italic" font-weight="bold">FO (Formatting Object).</fo:inline>
+<fo:inline background-color="#DDDDDD">You can format the styles as you like,</fo:inline> free from the <fo:inline font-size="1em">s</fo:inline>
+<fo:inline font-size="1.2em">t</fo:inline>
+<fo:inline font-size="1.4em">y</fo:inline>
+<fo:inline font-size="1.6em">l</fo:inline>
+<fo:inline font-size="1.8em">e</fo:inline>
+<fo:inline font-size="2.0em">s</fo:inline>
+<fo:inline font-size="2.2em">h</fo:inline>
+<fo:inline font-size="2.4em">e</fo:inline>
+<fo:inline font-size="2.6em">e</fo:inline>
+<fo:inline font-size="2.8em">t</fo:inline>limitation. But it is very<fo:inline font-size="3em" font-weight="bold" font-family="sans-serif">troublesome</fo:inline>to write FO directly.</fo:block>
+]]>
+</div>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>
+Processing Table Elements
+</title>
+<div class="column">
+<title>Output specification
+</title>
+<ul>
+<li>
+The descendants and self of a table element in the XML source document create a table formatting object.
+</li>
+<li>
+The background color of the  head in the table is gray to discriminate from the contents in the table. And the line is solid, the line width is 1 pt.
+</li>
+<li>Cells in the table store the cell data placing the padding, of which size is 0.3 x fontsize on the left, 0.2 x fontsize on the right, 2 point on the top and 2 point on the bottom.
+</li>
+<li>
+Process the properties related to the table format and make them reflected in the formatted result.
+<ol>
+<li>
+layout propery, width property and rowheight property of the table element.
+</li>
+<li>
+number, property. width property of the col element </li>
+<li>
+height property of the tr element
+</li>
+<li>
+<index>align property</index>, <index>valign property</index>, colspan property, rowspan property defined for th, td elements.
+</li>
+</ol>
+</li>
+</ul>
+</div>
+<subsection>
+<title>
+Comparing SimpleDoc Table with XSL Table 
+</title>
+<p>In order to process the descendants of the table element and generate a table, it should be transformed into fo:table-and-caption formatting object. Let us compare the SimpleDoc table with XSL table. First of all, the SimpleDoc table is as follows:
+</p>
+<table>
+<col width="17.5%"/>
+<col width="22.5%"/>
+<col width="60%"/>
+<thead>
+<tr height="1em">
+<th align="center"> Element</th>
+<th align="center"> Meaning</th>
+<th align="center"> Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>table<br/>
+</td>
+<td> entire table</td>
+<td>(title?, col*, thead?, tfoot?, tbody)<br/>Specify whether the table layout is formatted automatically or it is fixed, in the layout property. The entire width is specified in the width property.
+</td>
+</tr>
+<tr>
+<td>col<br/>
+</td>
+<td>column property</td>
+<td>EMPTY<br/>
+The column width is specified in the width property, the column number is specified in the number property.
+
+</td>
+</tr>
+<tr>
+<td>thead</td>
+<td>table header</td>
+<td>(tr*)</td>
+</tr>
+<tr>
+<td>tfoot</td>
+<td> table footer</td>
+<td>(tr*)</td>
+</tr>
+<tr>
+<td>tbody</td>
+<td>table body</td>
+<td>(tr*)</td>
+</tr>
+<tr>
+<td>tr</td>
+<td> table row</td>
+<td>(th | td)*<br/>The height of the row is specified in the height property.
+</td>
+</tr>
+<tr>
+<td>th</td>
+<td> table header cell</td>
+<td>
+(a group of inline elements)*
+<br/>
+The number of the rows to be expanded across is specified in the colspan property, the number of the rows to be expanded down is specified in the rowspan. The align, valign propertys allows horizontal, vertical alignment to be set. 
+</td>
+</tr>
+<tr>
+<td>td</td>
+<td> table data cell</td>
+<td>
+Same as the definition of th
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+On the other hand, the object of the table of XSL-FO has the following composition.
+</p>
+<table>
+<col width="17.5%"/>
+<col width="22.5%"/>
+<col width="60%"/>
+<thead>
+<tr height="1em">
+<th align="center"> Element</th>
+<th align="center"> Meaning</th>
+<th align="center"> Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fo:table-and-caption</td>
+<td>
+entire table and caption
+</td>
+<td>(table-caption?, table)</td>
+</tr>
+<tr>
+<td>fo:table-caption</td>
+<td>caption of the table</td>
+<td>(%block;)<note>
+%block; is defined to contain block, block-container, table-and-caption, table, list-block in the XSL Specification. Generally, it is fo:block, fo:block-container.
+</note>
+</td>
+</tr>
+<tr>
+<td>fo:table</td>
+<td>
+entire table (except caption cells).
+</td>
+<td>(fo:table-column*, fo:table-header?, fo:table-footer?, fo:table-body+)<br/>
+table-layout : Specify automatically table layout or fixed layout.<br/>table-omit-header-at-break : Specify whether to omit placing header or not when the page breaks.<br/>table-omit-footer-at-break : Specify whether to omit placing footer or not when the page breaks.</td>
+</tr>
+<tr>
+<td>fo:table-column</td>
+<td>
+table column
+</td>
+<td>EMPTY<br/>
+column-number : The number of columns
+<note>Use as a parameter of from-table-column() function.
+</note>
+<br/>column-width : The width of the column<br/>
+<index>number-columns-repeated</index> : The number of columns specifying the repetition of the table-column. <br/><index>number-columns-spanned</index> : The number of columns spanned by table-cells.<note>Refer to from-table-column() function.
+</note>
+</td>
+</tr>
+<tr>
+<td>fo:table-header</td>
+<td>
+table header
+</td>
+<td>(fo:table-row+ | fo:table-cell+)</td>
+</tr>
+<tr>
+<td>fo:table-footer</td>
+<td>
+table footer
+</td>
+<td>(fo:table-row+ | fo:table-cell+)</td>
+</tr>
+<tr>
+<td>fo:table-body</td>
+<td>
+table body
+</td>
+<td>(fo:table-row+ | fo:table-cell+)</td>
+</tr>
+<tr>
+<td>fo:table-row</td>
+<td>table row
+</td>
+<td>(fo:table-cell+)</td>
+</tr>
+<tr>
+<td>fo:table-cell</td>
+<td>
+Table cell
+</td>
+<td>(%block;)+<br/>
+number-columns-spanned : The number of columns spanned by table-cells.<br/>
+number-rows-spanned : The number of rows to be spanned. </td>
+</tr>
+</tbody>
+</table>
+<p>
+<figure src="img/table-struct_en.emf">
+<title>
+Table structure of SimpleDoc, XSL-FO</title>
+</figure>
+</p>
+<p>Comparing these two, they have almost the same structure. Transforming into tables is basically considered to exchange the structure to another.
+</p>
+</subsection>
+<subsection>
+<title>
+Templates that process tables 
+</title>
+<p>
+Templates that process tables are shown below.
+</p>
+<program>
+<title>Definition of the table properties</title>&lt;xsl:attribute-set name=&quot;table.data&quot; &gt;
+  &lt;xsl:attribute name=&quot;table-layout&quot;&gt;fixed&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;10pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;10pt&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:attribute-set name=&quot;table.data.caption&quot; &gt;
+  &lt;xsl:attribute name=&quot;font-family&quot;&gt;sans-serif&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align&quot;&gt;start&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;3pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;3pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after.precedence&quot;&gt;2&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;font-weight&quot;&gt;bold&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;keep-with-next.within-page&quot;&gt;always&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:attribute-set name=&quot;table.data.th&quot; &gt;
+  &lt;xsl:attribute name=&quot;background-color&quot;&gt;#DDDDDD&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;border-style&quot;&gt;solid&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;border-width&quot;&gt;1pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;padding-start&quot;&gt;0.3em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;padding-end&quot;&gt;0.2em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;padding-before&quot;&gt;2pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;padding-after&quot;&gt;2pt&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:attribute-set name=&quot;table.data.td&quot; &gt;
+  &lt;xsl:attribute name=&quot;border-style&quot;&gt;solid&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;border-width&quot;&gt;1pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;padding-start&quot;&gt;0.3em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;padding-end&quot;&gt;0.2em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;padding-before&quot;&gt;2pt&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;padding-after&quot;&gt;2pt&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+</program>
+<program>
+<title>Templates that process the table</title>&lt;xsl:template match=&quot;table&quot;&gt;
+  &lt;fo:table-and-caption &gt;
+    &lt;xsl:if test=&quot;title&quot;&gt;
+      &lt;fo:table-caption xsl:use-attribute-sets=&quot;table.data.caption&quot;&gt;
+        &lt;fo:block start-indent=&quot;0em&quot;&gt;
+          &lt;xsl:apply-templates select=&quot;title&quot; mode=&quot;make-title&quot;/&gt;
+       &lt;/fo:block&gt;
+      &lt;/fo:table-caption&gt;
+    &lt;/xsl:if&gt;
+    &lt;fo:table xsl:use-attribute-sets=&quot;table.data&quot;&gt;
+      &lt;xsl:if test=&quot;@layout&quot;&gt;
+        &lt;xsl:attribute name=&quot;table-layout&quot;&gt;
+          &lt;xsl:value-of select=&quot;@layout&quot;/&gt;
+        &lt;/xsl:attribute&gt;
+      &lt;/xsl:if&gt;
+      &lt;xsl:if test=&quot;@width&quot;&gt;
+        &lt;xsl:attribute name=&quot;inline-progression-dimension&quot;&gt;
+          &lt;xsl:value-of select=&quot;@width&quot;/&gt;
+        &lt;/xsl:attribute&gt;
+      &lt;/xsl:if&gt;
+      &lt;xsl:apply-templates /&gt;
+    &lt;/fo:table&gt;
+  &lt;/fo:table-and-caption&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;table/title&quot;&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;col&quot;&gt;
+  &lt;fo:table-column column-number=&quot;{@number}&quot; column-width=&quot;{@width}&quot; /&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;thead&quot;&gt;
+  &lt;fo:table-header start-indent=&quot;0pt&quot; end-indent=&quot;0pt&quot; &gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:table-header&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;tfoot&quot;&gt;
+  &lt;fo:table-footer start-indent=&quot;0pt&quot; end-indent=&quot;0pt&quot; &gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:table-footer&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;tbody&quot;&gt;
+  &lt;fo:table-body start-indent=&quot;0pt&quot; end-indent=&quot;0pt&quot;&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:table-body&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;tr&quot;&gt;
+  &lt;xsl:element name=&quot;fo:table-row&quot;&gt;
+    &lt;xsl:if test=&quot;@height&quot;&gt;
+        &lt;xsl:attribute name=&quot;block-progression-dimension&quot;&gt;
+          &lt;xsl:value-of select=&quot;@height&quot;/&gt;
+        &lt;/xsl:attribute&gt;
+    &lt;/xsl:if&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/xsl:element&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;th&quot;&gt;
+  &lt;fo:table-cell xsl:use-attribute-sets=&quot;table.data.th&quot;&gt;
+    &lt;xsl:call-template name=&quot;cell-span&quot;/&gt;
+    &lt;xsl:if test=&quot;@valign&quot;&gt;
+      &lt;xsl:attribute name=&quot;display-align&quot;&gt;
+        &lt;xsl:value-of select=&quot;@valign&quot;/&gt;
+      &lt;/xsl:attribute&gt;
+    &lt;/xsl:if&gt;
+    &lt;fo:block&gt;
+      &lt;xsl:if test=&quot;@align&quot;&gt;
+        &lt;xsl:attribute name=&quot;text-align&quot;&gt;
+          &lt;xsl:value-of select=&quot;@align&quot;/&gt;
+        &lt;/xsl:attribute&gt;
+      &lt;/xsl:if&gt;
+      &lt;xsl:apply-templates /&gt;
+    &lt;/fo:block&gt;
+  &lt;/fo:table-cell&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;td&quot;&gt;
+  &lt;fo:table-cell xsl:use-attribute-sets=&quot;table.data.td&quot;&gt;
+    &lt;xsl:call-template name=&quot;cell-span&quot;/&gt;
+    &lt;xsl:if test=&quot;@valign&quot;&gt;
+      &lt;xsl:attribute name=&quot;display-align&quot;&gt;
+        &lt;xsl:value-of select=&quot;@valign&quot;/&gt;
+      &lt;/xsl:attribute&gt;
+    &lt;/xsl:if&gt;
+    &lt;fo:block &gt;
+      &lt;xsl:if test=&quot;@align&quot;&gt;
+        &lt;xsl:attribute name=&quot;text-align&quot;&gt;
+          &lt;xsl:value-of select=&quot;@align&quot;/&gt;
+        &lt;/xsl:attribute&gt;
+      &lt;/xsl:if&gt;
+      &lt;xsl:apply-templates /&gt;
+    &lt;/fo:block&gt;
+  &lt;/fo:table-cell&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template name=&quot;cell-span&quot;&gt;
+  &lt;xsl:if test=&quot;@colspan&quot;&gt;
+    &lt;xsl:attribute name=&quot;number-columns-spanned&quot;&gt;
+      &lt;xsl:value-of select=&quot;@colspan&quot;/&gt;
+    &lt;/xsl:attribute&gt;
+  &lt;/xsl:if&gt;
+  &lt;xsl:if test=&quot;@rowspan&quot;&gt;
+    &lt;xsl:attribute name=&quot;number-rows-spanned&quot;&gt;
+      &lt;xsl:value-of select=&quot;@rowspan&quot;/&gt;
+  &lt;/xsl:attribute&gt;
+  &lt;/xsl:if&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>
+The stylesheet looks long, though, it is only to map the element name of the SimpleDoc to that of XSL formatting object. Below shows the points.
+</p>
+<ol>
+<li>
+The layout property defined for the table element is set for the layout property of fo:table to control the automatic table layout. The value of auto or fixed is valid.
+</li>
+<li>The width attribute defined for the table element is set for <index>inline-progression-dimension property</index> of fo:table object as the width of the entire table. 
+</li>
+<li>The number, width attributes defined for the col element is set for <index>column-number</index>, <index>column-width</index> property of the <index>fo:table-column</index> object. Then, the column width can be specified. It's possible to specify the column width not by the fixed number but by % value. There are various ways to specify parameter, such as specifying an absolute value to the width attribute of the table element, or specifying the width of the table column as % value
+<note>Furthermore, there is a way to specify an absolute value for a part of the columns, specify <index>proportional-column-width() function</index> to the rest of the columns and share width of the cells proportionally. </note>.</li>
+<!-- <li>The rowheight property defined for the table element of source XML is set to block-progression-dimension of fo:table-row object. The property refer to the template that process tr element, so it's specified as &quot;(ancestor::*)[2]/@rowheight&quot;
+</li>
+ -->
+<li>The height property defined for the tr element is set for block-progression-dimension of the fo:table-row object. <!-- It is also set to precede the rowheight attribute defined for the table element.  -->
+</li>
+<li>
+The colspan, rowspan properties defined for the th, td elements are set to each number-columns-spanned, number-rows-spanned of <index>fo:table-cell</index> object. In addition, the align, valign propertieare set to <index>text-align property</index>, display-align property of fo:table-cell. In this way the text in the cell can be aligned.
+</li>
+</ol>
+</subsection>
+<newpage/>
+<subsection>
+<title>Example of Table Construction</title>
+<p>Below is an example of table construction.</p>
+<div class="column">
+<p>If nothing is specified, the table width will be divided by the number of columns and the width of the column will be given equally. </p>
+<table>
+<col number="1" width="33%"/>
+<col number="2" width="33%"/>
+<col number="3" width="33%"/>
+<thead>
+<tr>
+<th>
+Symbol
+</th>
+<th>
+How to read
+</th>
+<th>
+Meaning
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>|</td>
+<td>
+vertical bar
+</td>
+<td>
+Means one element or another is to be used.
+</td>
+</tr>
+<tr>
+<td>?</td>
+<td>
+question mark
+</td>
+<td>
+Means that the element appears zero or one time.
+</td>
+</tr>
+<tr>
+<td>,</td>
+<td> comma </td>
+<td>Means that elements appear in the same order in that element inside the document.
+</td>
+</tr>
+<tr>
+<td>*</td>
+<td>asterisk</td>
+<td>
+Means that the element appears zero or more times.
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td> plus</td>
+<td>
+Means that the element appears one or more time.
+</td>
+</tr>
+<tr>
+<td>( )</td>
+<td> parentheses</td>
+<td>
+Means to group plural numbers of elements in the parentheses.</td>
+</tr>
+<tr>
+<td/>
+<td>
+empty
+</td>
+<td>
+Means that only one element can be described.
+</td>
+</tr>
+</tbody>
+</table>
+<p>Specify the column width by the col element. Set 10%, 20%, 40% from the left. Contents in the table header cells are center-aligned. Contents in the first and the second columns from the left are center aligned, center valigned by specifying valign=&quot;center&quot; align=&quot;center&quot;</p>
+<table rowheight="2em">
+<col number="1" width="10%"/>
+<col number="2" width="20%"/>
+<col number="3" width="40%"/>
+<thead>
+<tr height="1em">
+<th align="center">Symbol</th>
+<th align="center">How to read</th>
+<th align="center">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="middle" align="center">|</td>
+<td valign="middle" align="center">Vertical bar</td>
+<td>
+Means one element or another is to be used.
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center">?</td>
+<td valign="middle" align="center">question mark</td>
+<td>
+Means that the element appears zero or one time.
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center">,</td>
+<td valign="middle" align="center">comma</td>
+<td>
+Means that those elements appear in the same order in that element inside the document.
+</td>
+</tr>
+<tr>
+<td valign="middle" align="center">*</td>
+<td valign="middle" align="center">asterisk</td>
+<td>
+Means that the element appears zero or more times.</td>
+</tr>
+<tr>
+<td valign="middle" align="center">+</td>
+<td valign="middle" align="center">plus</td>
+<td>
+Means that the element appears one or more time.</td>
+</tr>
+<tr>
+<td valign="middle" align="center">( )</td>
+<td valign="middle" align="center">parentheses</td>
+<td>
+Means to group plural numbers of elements in the parentheses.</td>
+</tr>
+<tr>
+<td/>
+<td valign="middle" align="center">empty</td>
+<td>
+Means that only one element can be described.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>
+When you specify the vertical alignment in the cell of the table, be sure of the following point. vertical-align can be specified in HTML, vertical-alignment can be specified in CSS2, however, the property which corresponds to this in XSL becomes <index>display-align</index> instead of vertical-align. valign also maps to display-align in the stylesheet shown here. In XSL, vertical-align is applied only to the element of the inline level element.
+</p>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>Processing List Elements</title>
+<div class="column">
+<title>Output Specification</title>
+<p>In SimpleDoc, three list elements with which the format of the label portion of an item differs, a list with (1) number (ordered list), a (2) numbers-less list (unordered list), and (3) definition type list <note> definition type list is the itemized statements which specify a label character sequence for every item like a glossary. </note> (definition list) are defined.
+</p>
+<ul>
+<li>The list element (ol, ul, and dl) of SimpleDoc is constructed in the format with which the label  and the body part of the list are lined in horizontal mode.
+</li>
+<li>
+But, the definition type element (dl) also make it possible to format that the label and the body of the list are lined in vertical mode.
+<note>This is the same display format as the  browser format of dt in HTML. 
+</note>
+</li>
+<li>The ordered list element (ol) make it possible to take various types of numbers that are set in the labels.
+</li>
+<li>
+The unordered list elements (ul) make it possible to specify various types of bullets that are set in the labels. 
+</li>
+</ul>
+</div>
+<subsection>
+<title>Comparing the List of SimpleDoc with the List of XSL</title>
+<p>In order to put the list elements to both the label of the list and body of the list, it is neccessary to transform them to fo:list-block in XSL. Let us compare lists of SimpleDoc with those of XSL formatting objects.</p>
+<table>
+<col width="17.5%"/>
+<col width="22.5%"/>
+<col width="60%"/>
+<thead>
+<tr>
+<th align="center"> Element </th>
+<th align="center"> Meaning</th>
+<th align="center"> Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ol</td>
+<td>ordered list</td>
+<td>(li)* </td>
+</tr>
+<tr>
+<td>ul</td>
+<td>unordered list</td>
+<td>(li)* </td>
+</tr>
+<tr>
+<td>li</td>
+<td>list item</td>
+<td>
+(a group of inline elements)* </td>
+</tr>
+<tr>
+<td>dl</td>
+<td>definition list</td>
+<td>(dt, dd)*</td>
+</tr>
+<tr>
+<td>dt</td>
+<td>definition term</td>
+<td>
+(a group of inline elements)*</td>
+</tr>
+<tr>
+<td>dd</td>
+<td>definition details</td>
+<td> 
+(a group of inline elements)*
+</td>
+</tr>
+</tbody>
+</table>
+<p>On the other hand, the list of XSL-FO has the following structure.
+</p>
+<table>
+<col width="17.5%"/>
+<col width="22.5%"/>
+<col width="60%"/>
+<thead>
+<tr height="1em">
+<th> Element</th>
+<th> Meaning</th>
+<th> Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>list-block</td>
+<td>
+formatting object that formats lists
+</td>
+<td>(list-item+)<br/>provisional-distance-between-starts : Specify the distance between the start indent of the fo:list-item-label and the start indent of the fo:list-item-body.
+
+<br/>
+provisional-label-separation : Specify the  distance between the end of the list-item-label and the start of the list item body.
+</td>
+</tr>
+<tr>
+<td>list-item</td>
+<td>
+list item including list label and list body.
+</td>
+<td>(list-item-label,list-item-body)
+</td>
+</tr>
+<tr>
+<td>list-item-label</td>
+<td>label of a list item.
+</td>
+<td>(%block;)+</td>
+</tr>
+<tr>
+<td>list-item-body</td>
+<td>
+body of a list item
+</td>
+<td>(%block;)+</td>
+</tr>
+</tbody>
+</table>
+<p>Both correspondence relation is shown in a figure.
+</p>
+<figure src="img/list-struct_en.emf">
+<title>List of SimpleDoc and XSL</title>
+</figure>
+<p>The followings are remarkable differences between two.</p>
+<ul>
+<li>
+As for ul and ol in HTML, the browser generates the label of a list automatically. In XSL-FO, you have to create it in a label region by using the stylesheet. For such occasions, the flexibility is high and the label format which is equal to the  practical use for publication can be made.
+</li>
+<li>As for dl, you should just arrange the contents of dt to a label region by using the stylesheet.
+</li>
+<li>
+There is no function to calculate the width of the fo:list-item-label formatting object in XSL-FO. An appropriate value must be specified in the  stylesheet.
+</li>
+</ul>
+<p>Each template is explained below:</p>
+</subsection>
+<subsection>
+<title>Templates that Process the Ordered List</title>
+<program>
+<title>The ol templates for ordered list</title>&lt;xsl:param name=&quot;list-startdist-default&quot; select=&quot;string(&apos;2em&apos;)&quot;/&gt;
+&lt;xsl:param name=&quot;list-gap-default&quot; select=&quot;string(&apos;0.5em&apos;)&quot;/&gt;
+
+&lt;xsl:attribute-set name=&quot;list.item&quot; &gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;0.4em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;0.4em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;relative-align&quot;&gt;baseline&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:template match=&quot;ol&quot;&gt;
+  &lt;!-- determine the distance between the start  of the list-item-label and the start of the list-item-body, the distance between the end of the list-item-label and the start of the list-item-body. --&gt;
+  &lt;xsl:variable name=&quot;start-dist-local&quot;&gt;
+    &lt;xsl:choose&gt;
+      &lt;xsl:when test=&quot;./@startdist&quot;&gt;
+        &lt;xsl:value-of select=&quot;./@startdist&quot;/&gt;
+      &lt;/xsl:when&gt;
+      &lt;xsl:otherwise&gt;
+        &lt;xsl:value-of select=&quot;$list-startdist-default&quot;/&gt;
+      &lt;/xsl:otherwise&gt;
+    &lt;/xsl:choose&gt;
+  &lt;/xsl:variable&gt;
+
+  &lt;xsl:variable name=&quot;gap-local&quot;&gt;
+    &lt;xsl:choose&gt;
+      &lt;xsl:when test=&quot;./@gap&quot;&gt;
+        &lt;xsl:value-of select=&quot;./@gap&quot;/&gt;
+      &lt;/xsl:when&gt;
+      &lt;xsl:otherwise&gt;
+        &lt;xsl:value-of select=&quot;$list-gap-default&quot;/&gt;
+      &lt;/xsl:otherwise&gt;
+    &lt;/xsl:choose&gt;
+  &lt;/xsl:variable&gt;
+
+  
+  &lt;!-- generate fo:list-block --&gt;
+  &lt;fo:list-block provisional-distance-between-starts=&quot;{$start-dist-local}&quot; 
+                 provisional-label-separation=&quot;{$gap-local}&quot; &gt;
+    &lt;!-- Process the descendants of li --&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:list-block&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;ol/li&quot;&gt;
+  &lt;fo:list-item  xsl:use-attribute-sets=&quot;list.item&quot;&gt;
+    &lt;!-- generate list-item-label--&gt;
+    &lt;!-- the end position of the list-item-label is calculated by 
+         label-end() function --&gt;
+    &lt;!-- label format is specified in the type attribute. The initial value is '1'.--&gt;
+    &lt;fo:list-item-label end-indent=&quot;label-end()&quot;&gt;
+      &lt;fo:block text-align=&quot;end&quot;&gt;
+        &lt;xsl:choose&gt;
+          &lt;xsl:when test=&quot;../@type&quot;&gt;
+            &lt;xsl:number format=&quot;{../@type}&quot;/&gt;
+          &lt;/xsl:when&gt;
+          &lt;xsl:otherwise&gt;
+            &lt;xsl:number format=&quot;1.&quot;/&gt;
+          &lt;/xsl:otherwise&gt;
+        &lt;/xsl:choose&gt;
+      &lt;/fo:block&gt;
+    &lt;/fo:list-item-label&gt;
+       &lt;!-- generate the list-item-body --&gt;   
+    &lt;!-- The start position of the list-item-label is calculated by 
+         body-start() function --&gt;
+    &lt;fo:list-item-body start-indent=&quot;body-start()&quot;  text-align=&quot;justify&quot; &gt;
+      &lt;fo:block&gt;   
+        &lt;!-- the descendants of li are specified by the descendants of templates. --&gt;
+        &lt;xsl:apply-templates/&gt;
+      &lt;/fo:block&gt;
+    &lt;/fo:list-item-body&gt;
+  &lt;/fo:list-item&gt;
+&lt;/xsl:template&gt;
+</program>
+<subsubsection>
+<title>
+Specifying the positions of label and body
+</title>
+<p>When formatting a list, it is important to position the label and the body. In the fo:list-block:
+</p>
+<ul>
+<li>provisional-distance-between-starts specifies the distance between the start of the list-item-label and the start of the list-item-body
+
+</li>
+<li>provisional-label-separation specifies the distance between the end of the list-item-label and the start of the list-item-body. 
+</li>
+</ul>
+<p type="continue">The template sets these values to the startdist, gap attributes of the ol element. But actually the list-item-label and list-item-body are specified as descendants of the fo:list-item. In order to specify the position of the end of the list-item-label and the start of the list-item-body, the label-end(), body-start() functions are used in the template.
+<note>These are called 'Property Value Function' in the XSL Specification.
+</note>
+These two functions calculate the position by referring the values of provisional-distance-between-starts, provisional-distance-between-starts specified in fo:list-block.
+<note>
+label-end() =  (the content-width of fo:list-block) -  (provisional-distance-between-starts + start-indent of the label - provisional-label-separation) 
+<br/>
+body-start() = (start-indent of the label) + (provisional-distance-between-starts)
+</note>
+</p>
+<p>These function specification is just a manner. If you understand how to layout lists, it may be no problem to apply these mechanically.
+</p>
+</subsubsection>
+<subsubsection>
+<title>Label Format</title>
+<p>The list label consists of a sequence of numbers. A sequence of numbers is generated by the default &lt;xsl:number format=&quot;1.&quot;/&gt;. <index>xsl:number</index> counts the same level (sibling) of the li elements in the XML source document, returns a sequence number of the current li elements. Numbers are processed correctly even if the lists are nested.
+</p>
+<figure src="img/ol-labelnumber_en.emf">
+<title>Ordered list labels processed by xsl:number</title>
+</figure>
+<p>The label format is specified with the type property of the ol element. For example, the label (01), (02), (03)... will be generated if type="(01) is specified . The following formats can be used for a number portion.</p>
+<table>
+<col width="15%"/>
+<col width="40%"/>
+<thead>
+<tr>
+<th> Form</th>
+<th> Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1, 2, 3, 4...</td>
+</tr>
+<tr>
+<td>01</td>
+<td>01, 02, 03, 04...</td>
+</tr>
+<tr>
+<td>a</td>
+<td>a, b, c, d,...x, y, z, aa, ab, ac...</td>
+</tr>
+<tr>
+<td>A</td>
+<td>A, B, C, D,...X, Y, Z, AA, AB, AC...</td>
+</tr>
+<tr>
+<td>i</td>
+<td>i, ii, iii, iv, v, vi, vii, viii, ix, x,...</td>
+</tr>
+<tr>
+<td>I</td>
+<td>I, II, III, IV, V, VI, VII, VIII, IX, X,...</td>
+</tr>
+</tbody>
+</table>
+<p>The type property specifies UNICODE characters that represent zero, 1 and punctuation marks such as parentheses. As the label formatcan be specified in the XML source document, the document can be made flexibly.
+</p>
+</subsubsection>
+<subsubsection>
+<title>Example of Ordered List
+</title>
+<program>
+<title>XML source data</title>&lt;ol type=&quot;a.&quot;&gt;
+  &lt;li&gt;type of list
+    &lt;ol type=&quot;i)&quot;&gt;
+      &lt;li&gt;unordered list&lt;/li&gt;
+      &lt;li&gt;ordered list&lt;/li&gt;
+      &lt;li&gt;definition list&lt;/li&gt;
+    &lt;/ol&gt; 
+  &lt;/li&gt;
+  &lt;li&gt;list element
+    &lt;ol&gt;
+      &lt;li&gt;row&lt;/li&gt; 
+      &lt;li&gt;column&lt;/li&gt; 
+      &lt;li&gt;cell&lt;/li&gt;
+    &lt;/ol&gt; 
+  &lt;/li&gt;
+  &lt;li&gt;block element and inline element&lt;/li&gt;
+&lt;/ol&gt;
+</program>
+<p>
+Following is the output result.
+</p>
+<div class="fo">
+<![CDATA[
+<fo:list-block provisional-distance-between-starts="2em" provisional-label-separation="0.5em">
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">a.</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block> type of list
+<fo:list-block provisional-distance-between-starts="2em" provisional-label-separation="0.5em">
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">i)</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>unordered list</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">ii)</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>ordered list</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">iii)</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>definition list</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">b.</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>list element<fo:list-block provisional-distance-between-starts="2em" provisional-label-separation="0.5em">
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">1.</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>row</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">2.</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>column</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">3.</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>cell</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">c.</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>block element and inline element</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+]]>
+</div>
+</subsubsection>
+</subsection>
+<subsection>
+<title>Templates that Process the Unordered List</title>
+<program>
+<title>Templates for unordered list</title>&lt;xsl:param name=&quot;list-startdist-default&quot; select=&quot;string(&apos;2em&apos;)&quot; /&gt;
+&lt;xsl:param name=&quot;list-gap-default&quot; select=&quot;string(&apos;0.5em&apos;)&quot; /&gt;
+&lt;xsl:attribute-set name=&quot;list.item&quot; &gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;0.4em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;0.4em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;relative-align&quot;&gt;baseline&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:template match=&quot;ul&quot;&gt;
+  &lt;!-- determine the distance between the start of the list-item-label and the start of the list-item-body, the distance between the end of the list-item-label and the start of the list-item-body. --&gt;
+  &lt;xsl:variable name=&quot;start-dist-local&quot;&gt;
+    &lt;xsl:choose&gt;
+      &lt;xsl:when test=&quot;./@startdist&quot;&gt;
+        &lt;xsl:value-of select=&quot;./@startdist&quot; /&gt;
+      &lt;/xsl:when&gt;
+      &lt;xsl:otherwise&gt;
+        &lt;xsl:value-of select=&quot;$list-startdist-default&quot; /&gt;
+      &lt;/xsl:otherwise&gt;
+    &lt;/xsl:choose&gt;
+  &lt;/xsl:variable&gt;
+
+  &lt;xsl:variable name=&quot;gap-local&quot;&gt;
+    &lt;xsl:choose&gt;
+      &lt;xsl:when test=&quot;./@gap&quot;&gt;
+        &lt;xsl:value-of select=&quot;./@gap&quot; /&gt;
+      &lt;/xsl:when&gt;
+      &lt;xsl:otherwise&gt;
+        &lt;xsl:value-of select=&quot;$list-gap-default&quot; /&gt;
+      &lt;/xsl:otherwise&gt;
+    &lt;/xsl:choose&gt;
+  &lt;/xsl:variable&gt;
+
+  &lt;!-- Generate fo:list-block. --&gt;
+  &lt;fo:list-block provisional-distance-between-starts=&quot;{$start-dist-local}&quot; 
+                 provisional-label-separation=&quot;{$gap-local}&quot; &gt;
+    &lt;!-- Process the descendants of li --&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/fo:list-block&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;ul/li&quot;&gt;
+  &lt;fo:list-item xsl:use-attribute-sets=&quot;list.item&quot; &gt;
+      &lt;!-- Generate list label.--&gt;
+      &lt;!-- The end position of the label is calculated by label-end()function. --&gt;
+      &lt;!-- The characters for label of line are specified in the type attribute. 
+           Initial value is “&amp;#x2022;” --&gt;
+    &lt;fo:list-item-label end-indent=&quot;label-end()&quot;&gt;
+      &lt;fo:block text-align=&quot;end&quot;&gt;
+        &lt;xsl:choose&gt;
+          &lt;xsl:when test=&quot;../@type=&apos;disc&apos;&quot;&gt;
+            &lt;xsl:text&gt;●&lt;/xsl:text&gt;
+          &lt;/xsl:when&gt;
+          &lt;xsl:when test=&quot;../@type=&apos;circle&apos;&quot;&gt;
+            &lt;xsl:text&gt;○&lt;/xsl:text&gt;
+          &lt;/xsl:when&gt;
+          &lt;xsl:when test=&quot;../@type=&apos;square&apos;&quot;&gt;
+            &lt;xsl:text&gt;□&lt;/xsl:text&gt;
+          &lt;/xsl:when&gt;
+          &lt;xsl:when test=&quot;../@type=&apos;bsquare&apos;&quot;&gt;
+            &lt;xsl:text&gt;■&lt;/xsl:text&gt;
+          &lt;/xsl:when&gt;
+          &lt;xsl:otherwise&gt;
+            &lt;xsl:text&gt;&amp;#x2022;&lt;/xsl:text&gt;
+          &lt;/xsl:otherwise&gt;
+        &lt;/xsl:choose&gt;
+      &lt;/fo:block&gt;
+    &lt;/fo:list-item-label&gt;
+    &lt;!-- Generate the list body.--&gt;
+    &lt;!-- The starting position of the label is calculated by 
+         the body-start() function --&gt;
+    &lt;fo:list-item-body start-indent=&quot;body-start()&quot; text-align=&quot;justify&quot; &gt;
+      &lt;fo:block&gt;
+        &lt;xsl:apply-templates /&gt;
+      &lt;/fo:block&gt;
+    &lt;/fo:list-item-body&gt;
+  &lt;/fo:list-item&gt;
+&lt;/xsl:template&gt;
+</program>
+<subsubsection>
+<title>Specify characters for label of line</title>
+<p>
+The difference between the ol and ul templates is only label processing. In the case of unordered list, the characters are set in the label. Types of characters can be specified in the type property in the ul element.
+</p>
+<p>
+Next template is an example of the template that place an image as a character for label of line. Specify the image file by img:file name in the type property defined for the ul element.
+</p>
+<program>
+<title>Template that use an image as a character for label of line</title>&lt;!-- The template that use an image as a character for label of line.--&gt;
+&lt;xsl:template match=&quot;ul[substring(@type,1,4)=&apos;img:&apos;]/li&quot;&gt;
+  &lt;fo:list-item  xsl:use-attribute-sets=&quot;list.item&quot; &gt;
+    &lt;fo:list-item-label end-indent=&quot;label-end()&quot;&gt;
+      &lt;fo:block text-align=&quot;end&quot;&gt;
+        &lt;fo:external-graphic src=&quot;{substring-after(../@type,substring(../@type,1,4))}&quot;
+         content-height=&quot;1.2em&quot; content-width=&quot;1.2em&quot;/&gt;
+      &lt;/fo:block&gt;
+    &lt;/fo:list-item-label&gt;
+    &lt;fo:list-item-body start-indent=&quot;body-start()&quot; text-align=&quot;justify&quot; &gt;
+      &lt;fo:block&gt;
+        &lt;xsl:apply-templates/&gt;
+      &lt;/fo:block&gt;
+    &lt;/fo:list-item-body&gt;
+  &lt;/fo:list-item&gt;
+&lt;/xsl:template&gt;
+</program>
+</subsubsection>
+<subsubsection>
+<title>
+An example of unordered list
+</title>
+<p>
+XML source data
+</p>
+<program>&lt;ul type=&quot;square&quot;&gt;
+  &lt;li&gt;type of list
+    &lt;ul type=&quot;disc&quot;&gt;
+      &lt;li&gt;unordered list&lt;/li&gt;
+      &lt;li&gt;ordered list&lt;/li&gt;
+      &lt;li&gt;definition list&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;table element
+    &lt;ul&gt;
+      &lt;li&gt;row&lt;/li&gt;
+      &lt;li&gt;column&lt;/li&gt;
+      &lt;li&gt;cell&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt; block element and inline element&lt;/li&gt;
+&lt;/ul&gt;
+</program>
+<p>
+Folowing is the output result
+</p>
+<div class="fo">
+<![CDATA[
+<fo:list-block provisional-distance-between-starts="2em" provisional-label-separation="0.5em">
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">□</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>kinds of list
+<fo:list-block provisional-distance-between-starts="2em" provisional-label-separation="0.5em">
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">●</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>unordered list</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">●</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>orered list</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">●</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>definition list</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">□</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>list element<fo:list-block provisional-distance-between-starts="2em" provisional-label-separation="0.5em">
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">&#x2022;</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>row</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">&#x2022;</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>column</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">&#x2022;</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>cell</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">□</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>
+block element and inline element
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+]]>
+</div>
+<p>
+XML source data
+</p>
+<program>&lt;ul type=&quot;img:bullet-leaf.png&quot;&gt;
+  &lt;li&gt;type of list
+    &lt;ul type=&quot;img:bullet-star.png&quot;&gt;
+      &lt;li&gt;unordered list&lt;/li&gt; 
+      &lt;li&gt;ordered list&lt;/li&gt;
+      &lt;li&gt;definition list&lt;/li&gt;
+    &lt;/ul&gt; 
+  &lt;/li&gt;
+  &lt;li&gt;list element
+    &lt;ul type=&quot;img:bullet-blue-circle.png&quot;&gt;
+      &lt;li&gt;row&lt;/li&gt;
+      &lt;li&gt;column&lt;/li&gt;
+      &lt;li&gt;cell&lt;/li&gt; 
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;block element and inlinte element&lt;/li&gt;
+&lt;/ul&gt;
+</program>
+<p>Folowing is the output result
+</p>
+<div class="fo">
+<![CDATA[
+<fo:list-block provisional-distance-between-starts="2em" provisional-label-separation="0.5em">
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">
+<fo:external-graphic src="img/bullet-leaf.png" content-height="12pt" content-width="12pt"/>
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>type of list
+<fo:list-block provisional-distance-between-starts="2em" provisional-label-separation="0.5em">
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">
+<fo:external-graphic src="img/bullet-star.png" content-height="12pt" content-width="12pt"/>
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>unordered list</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">
+<fo:external-graphic src="img/bullet-star.png" content-height="12pt" content-width="12pt"/>
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>ordered list</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">
+<fo:external-graphic src="img/bullet-star.png" content-height="12pt" content-width="12pt"/>
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>definition list</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">
+<fo:external-graphic src="img/bullet-leaf.png" content-height="12pt" content-width="12pt"/>
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>list element<fo:list-block provisional-distance-between-starts="2em" provisional-label-separation="0.5em">
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">
+<fo:external-graphic src="img/bullet-blue-circle.png" content-height="12pt" content-width="12pt"/>
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>row</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">
+<fo:external-graphic src="img/bullet-blue-circle.png" content-height="12pt" content-width="12pt"/>
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>column</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">
+<fo:external-graphic src="img/bullet-blue-circle.png" content-height="12pt" content-width="12pt"/>
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block> cell</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item relative-align="baseline">
+<fo:list-item-label end-indent="label-end()">
+<fo:block text-align="end">
+<fo:external-graphic src="img/bullet-leaf.png" content-height="12pt" content-width="12pt"/>
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()" text-align="justify">
+<fo:block>
+block element and inline element
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+]]>
+</div>
+</subsubsection>
+</subsection>
+<subsection>
+<title>
+Templates that Process the Definition List
+</title>
+<p>
+The following problem occurs when transforming the definition list into fo:list-block formatting object.
+</p>
+<ul>
+<li>In the SimpleDoc specification, child of dl element is supposed to appear in dt, dd order (dt,dd)*, but in HTML the condition is more relaxed. The pattern of only dt, only dd also exist.
+
+<b>&lt;!ELEMENT DL (DT|DD)+ &gt;</b>
+</li>
+<li><index>dt</index> can be mapped to <index>fo:list-item-label</index>, <index>dd</index> can be mapped to <index>fo:list-item-body</index>. But there are no tags to be mapped to generate fo:list-item in the XML source document.
+</li>
+</ul>
+<p>
+It is better to be able to process definition list like HTML also in XSL. But the above two problem cannot be solved by the data driven stylesheet which process the tags in the XML source document in appearing order. It is necessary to find a pair of dt, dd in the XML source document. Following is the template that realize this process. The template is a remodel of the sample XSL stylesheest described in the XSL specification.
+</p>
+<subsubsection>
+<title>Templates of definition list
+</title>
+<program>
+<title>Templates of definition list</title>&lt;xsl:attribute-set name=&quot;dt&quot; &gt;
+  &lt;xsl:attribute name=&quot;font-weight&quot;&gt;bold&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:attribute-set name=&quot;dd.list&quot; &gt;
+  &lt;xsl:attribute name=&quot;space-before&quot;&gt;0.3em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;space-after&quot;&gt;0.5em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align&quot;&gt;justify&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:attribute-set name=&quot;dd.block&quot; use-attribute-sets=&quot;dd.list&quot;&gt;
+  &lt;xsl:attribute name=&quot;start-indent&quot; &gt;from-parent() + 4em&lt;/xsl:attribute&gt;
+  &lt;xsl:attribute name=&quot;text-align&quot;&gt;justify&lt;/xsl:attribute&gt;
+&lt;/xsl:attribute-set&gt;
+
+&lt;xsl:template match=&quot;dl&quot;&gt;
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test=&quot;@type=&apos;list&apos;&quot;&gt;
+      &lt;xsl:call-template name=&quot;dl.format.list&quot; /&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:otherwise&gt;
+      &lt;xsl:call-template name=&quot;dl.format.block&quot; /&gt;
+    &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template name=&quot;dl.format.block&quot;&gt;
+  &lt;xsl:apply-templates /&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template name=&quot;dl.format.list&quot;&gt;
+  &lt;xsl:variable name=&quot;start-dist-local&quot;&gt;
+    &lt;xsl:choose&gt;
+      &lt;xsl:when test=&quot;./@startdist&quot;&gt;
+        &lt;xsl:value-of select=&quot;./@startdist&quot;/&gt;
+      &lt;/xsl:when&gt;
+      &lt;xsl:otherwise&gt;
+        &lt;xsl:value-of select=&quot;$dl-startdist-default&quot;/&gt;
+      &lt;/xsl:otherwise&gt;
+    &lt;/xsl:choose&gt;
+  &lt;/xsl:variable&gt;
+
+  &lt;xsl:variable name=&quot;gap-local&quot;&gt;
+    &lt;xsl:choose&gt;
+      &lt;xsl:when test=&quot;./@gap&quot;&gt;
+        &lt;xsl:value-of select=&quot;./@gap&quot;/&gt;
+      &lt;/xsl:when&gt;
+      &lt;xsl:otherwise&gt;
+        &lt;xsl:value-of select=&quot;$dl-gap-default&quot;/&gt;
+      &lt;/xsl:otherwise&gt;
+    &lt;/xsl:choose&gt;
+  &lt;/xsl:variable&gt;
+
+  &lt;fo:list-block provisional-distance-between-starts=&quot;{$start-dist-local}&quot; 
+                 provisional-label-separation=&quot;{$gap-local}&quot; &gt;
+    &lt;xsl:call-template name=&quot;process.dl.list&quot;/&gt;
+  &lt;/fo:list-block&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template name=&quot;process.dl.list&quot;&gt;
+  &lt;xsl:param name=&quot;dts&quot; select=&quot;/..&quot;/&gt;
+  &lt;xsl:param name=&quot;dds&quot; select=&quot;/..&quot;/&gt;
+  &lt;xsl:param name=&quot;nodes&quot; select=&quot;*&quot;/&gt;
+  
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test=&quot;count($nodes)=0&quot;&gt;
+      &lt;!--  data end : Process the elements stocked in dts, dds. --&gt;
+      &lt;xsl:if test=&quot;count($dts)&gt;0 or count($dds)&gt;0&quot;&gt;
+        &lt;fo:list-item  xsl:use-attribute-sets=&quot;list.item&quot;&gt;
+          &lt;fo:list-item-label end-indent=&quot;label-end()&quot;&gt;
+            &lt;xsl:apply-templates select=&quot;$dts&quot;/&gt;
+          &lt;/fo:list-item-label&gt;
+          &lt;fo:list-item-body start-indent=&quot;body-start()&quot;&gt;
+            &lt;xsl:apply-templates select=&quot;$dds&quot;/&gt;
+          &lt;/fo:list-item-body&gt;
+        &lt;/fo:list-item&gt;
+      &lt;/xsl:if&gt;
+    &lt;/xsl:when&gt;
+
+    &lt;xsl:when test=&quot;name($nodes[1])=&apos;dd&apos;&quot;&gt;
+      &lt;!-- dd is stored in dds fnction, call itself recursively.--&gt;
+      &lt;xsl:call-template name=&quot;process.dl.list&quot;&gt;
+        &lt;xsl:with-param name=&quot;dts&quot; select=&quot;$dts&quot;/&gt;
+        &lt;xsl:with-param name=&quot;dds&quot; select=&quot;$dds|$nodes[1]&quot;/&gt;
+        &lt;xsl:with-param name=&quot;nodes&quot; select=&quot;$nodes[position()&gt;1]&quot;/&gt;
+      &lt;/xsl:call-template&gt;
+    &lt;/xsl:when&gt;
+    
+    &lt;xsl:when test=&quot;name($nodes[1])=&apos;dt&apos;&quot;&gt;
+      &lt;!-- Process the elements stocked in dts, dds. --&gt;
+      &lt;xsl:if test=&quot;count($dts)&gt;0 or count($dds)&gt;0&quot;&gt;
+        &lt;fo:list-item  xsl:use-attribute-sets=&quot;list.item&quot;&gt;
+          &lt;fo:list-item-label end-indent=&quot;label-end()&quot;&gt;
+            &lt;xsl:apply-templates select=&quot;$dts&quot;/&gt;
+          &lt;/fo:list-item-label&gt;
+          &lt;fo:list-item-body start-indent=&quot;body-start()&quot;&gt;
+            &lt;xsl:apply-templates select=&quot;$dds&quot;/&gt;
+          &lt;/fo:list-item-body&gt;
+        &lt;/fo:list-item&gt;
+      &lt;/xsl:if&gt;
+      &lt;!-- dt is stored in dts variable, call itself recursively.--&gt;
+      &lt;xsl:call-template name=&quot;process.dl.list&quot;&gt;
+        &lt;xsl:with-param name=&quot;dts&quot; select=&quot;$nodes[1]&quot;/&gt;
+        &lt;xsl:with-param name=&quot;nodes&quot; select=&quot;$nodes[position()&gt;1]&quot;/&gt;
+      &lt;/xsl:call-template&gt;
+    &lt;/xsl:when&gt;
+
+    &lt;xsl:otherwise&gt;
+      &lt;!-- The children of dl must be only dt, dd. --&gt;
+      &lt;!-- Unfortunately, xsl:message does not work in MSXML3. --&gt;
+      &lt;xsl:message&gt;
+        &lt;xsl:text&gt;
+         (The elements except dt,dd are specified as a child of dl element.
+        &lt;/xsl:text&gt;
+        &lt;xsl:value-of select=&quot;name($nodes[1])&quot;/&gt;
+        &lt;xsl:text&gt;).&lt;/xsl:text&gt;
+      &lt;/xsl:message&gt;
+    &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;dt&quot;&gt;
+  &lt;xsl:element name=&quot;fo:block&quot; use-attribute-sets=&quot;dt&quot;&gt;
+    &lt;xsl:if test=&quot;../@mode=&apos;debug&apos;&quot;&gt;
+      &lt;xsl:attribute name=&quot;border-color&quot;&gt;blue&lt;/xsl:attribute&gt;
+      &lt;xsl:attribute name=&quot;border-style&quot;&gt;dashed&lt;/xsl:attribute&gt;
+      &lt;xsl:attribute name=&quot;border-width&quot; &gt;thin&lt;/xsl:attribute&gt;
+    &lt;/xsl:if&gt;
+    &lt;xsl:apply-templates /&gt;
+  &lt;/xsl:element&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;dd&quot;&gt;
+  &lt;xsl:choose&gt;
+    &lt;xsl:when test=&quot;../@type=&apos;list&apos;&quot;&gt;
+      &lt;xsl:element name=&quot;fo:block&quot; use-attribute-sets=&quot;dd.list&quot;&gt;
+        &lt;xsl:if test=&quot;../@mode=&apos;debug&apos;&quot;&gt;
+          &lt;xsl:attribute name=&quot;border-color&quot;&gt;red&lt;/xsl:attribute&gt;
+          &lt;xsl:attribute name=&quot;border-style&quot;&gt;solid&lt;/xsl:attribute&gt;
+          &lt;xsl:attribute name=&quot;border-width&quot; &gt;thin&lt;/xsl:attribute&gt;
+        &lt;/xsl:if&gt;
+        &lt;xsl:apply-templates /&gt;
+      &lt;/xsl:element&gt;
+    &lt;/xsl:when&gt;
+    &lt;xsl:otherwise&gt;
+      &lt;xsl:element name=&quot;fo:block&quot; use-attribute-sets=&quot;dd.block&quot;&gt;
+        &lt;xsl:if test=&quot;../@mode=&apos;debug&apos;&quot;&gt;
+          &lt;xsl:attribute name=&quot;border-color&quot;&gt;red&lt;/xsl:attribute&gt;
+          &lt;xsl:attribute name=&quot;border-style&quot;&gt;solid&lt;/xsl:attribute&gt;
+          &lt;xsl:attribute name=&quot;border-width&quot; &gt;thin&lt;/xsl:attribute&gt;
+        &lt;/xsl:if&gt;
+        &lt;xsl:apply-templates /&gt;
+      &lt;/xsl:element&gt;
+    &lt;/xsl:otherwise&gt;
+  &lt;/xsl:choose&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>In this stylesheet, you have to determine which transformation to use from the following type by the type attribute defined for the dl element:
+</p>
+<ul>
+<li>
+list type as fo:list-block: the label (dt) and the body(dd) are lined in horizontal way.
+</li>
+<li>HTML type: the label (dt) and the body (dd) are lined in vertical way.
+</li>
+</ul>
+<p type="continue">When &quot;list&quot; is specified in the type attribute, select the first one.
+</p>
+<p>In case of the list type, after generating fo:list-block, the process.dl.list template will process these. The process.dl.list template processes the following:
+</p>
+<ol>
+<li>
+The process.dl.list template take descendant elements of dl, start processing from the first element.
+</li>
+<li>
+After getting dt, dd, store each of them to the dts, dds variable in appearing order.
+</li>
+<li>
+When getting the next dt, take out dt, dd that are stored to dts, dls. Output fo:list-item and its descendants. Initialize the dts, dds, and store the dt to dts variable.
+</li>
+<li>
+The above two processes are repeated until all the dt, dd are taken out.
+</li>
+<li>It is the end of the process when all the dt, dd under dl, are processed. If there are still dt, dd left in the dts, dds variable, take out these and output fo:list-item and its descendants.
+</li>
+</ol>
+</subsubsection>
+<subsubsection>
+<title>Example of a definition list
+</title>
+<p>
+The following is a sample XML source data of definition list.
+</p>
+<program>
+<title>A sample data of the definition list</title>&lt;dl&gt;  
+  &lt;dt&gt;Type of lists&lt;/dt&gt;
+    &lt;dd&gt;There are three kinds of lists, that is unordered list, ordered list, and definition list.
+    &lt;dl class=&quot;list&quot;&gt;
+      &lt;dt&gt;From here&lt;/dt&gt;
+      &lt;dd&gt;These are nested lists&lt;/dd&gt;
+      &lt;dd&gt;The dd that does not match dt.&lt;/dd&gt;
+      &lt;dt&gt;The dt without the dd&lt;/dt&gt;
+      &lt;dt&gt;unordered list&lt;/dt&gt;
+      &lt;dd&gt;Unordered lists are classified as square, circle and so on, according to the characters for label of line.&lt;/dd&gt; 
+      &lt;dt&gt;Ordered lists&lt;/dt&gt;
+      &lt;dd&gt;Ordered lists have various kinds of types according to the label format.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/dd&gt;
+  &lt;dt&gt;The elements that construct the table&lt;/dt&gt;
+  &lt;dd&gt;fo:The table consists of table-caption, fo-table-caption, fo:table, fo:table-column, fo:table-head, fo:table-foot, fo:table-body, fo:table-row, fo:table-cell&lt;/dd&gt;
+  &lt;dt&gt;kinds of color&lt;/dt&gt;
+  &lt;dd&gt;16 kinds of colors can be used, such as red, blue, white, black and so on. Also it is possible to specify colors by RGB() functions.&lt;/dd&gt;
+&lt;/dl&gt;</program>
+<p>
+The following figure shows how fo:list-item is generated from the dt, dl. fo-list-item #1-n is generated from the first dl. #2-n is generated from the nested dl.
+</p>
+<figure src="img/deflist-procen.emf">
+<title>Transforming the definition list into the list type. 
+
+</title>
+</figure>
+<p>The process.dl.list template calls itself recursively. In the general programming language, it is natural to assign a value to a variable and  process using a variable. But in XSL, it is impossible to assign a value to a variable, but it is possible to initialize a value instead. Loops are formed by taking recursive process.
+</p>
+<p>
+For HTML type, the dl.format.block template transforms. Only the template have to do is to call the descendant templates in order to process dt, dd in appearing order. 
+</p>
+<p>The following is the output of list type transformation. To make it look better, fo:list-item-label and fo:list-item-body are bordered.
+</p>
+<div class="fo">
+<![CDATA[
+<fo:list-block provisional-distance-between-starts="3cm" provisional-label-separation="0.5cm">
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()">
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">
+type of list
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block space-before="0.3em" space-after="0.5em" border-color="red" border-style="solid" border-width="thin">
+There are three kinds of lists, which is unordered list, ordered list, and definition list.
+<fo:list-block provisional-distance-between-starts="3cm" provisional-label-separation="0.2cm">
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()">
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">
+From here
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block space-before="0.3em" space-after="0.5em" border-color="red" border-style="solid" border-width="thin">
+These are listed nests.
+</fo:block>
+<fo:block space-before="0.3em" space-after="0.5em" border-color="red" border-style="solid" border-width="thin">
+The dd that the dd does not match dt.
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()">
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">
+The dt without the dd.
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()"><fo:block /></fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()">
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">Unordered lists
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block space-before="0.3em" space-after="0.5em" border-color="red" border-style="solid" border-width="thin">
+Unordered lists are classified as square, circle and so on, according to the characters for label of line.
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()">
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">
+Ordered lists
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block space-before="0.3em" space-after="0.5em" border-color="red" border-style="solid" border-width="thin">Ordered lists have various kinds of types according to the label format.
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()">
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">
+The elements that construct the table
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block space-before="0.3em" space-after="0.5em" border-color="red" border-style="solid" border-width="thin">The table consists of fo:table-caption, fo-table-caption, fo:table, fo:table-column, fo:table-head, fo:table-foot, fo:table-body, fo:table-row, fo:table-cell.
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()">
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">
+type of color
+</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block space-before="0.3em" space-after="0.5em" border-color="red" border-style="solid" border-width="thin">
+16 kinds of colors can be used, such as red, blue, white, black. Also it is possible to specify colors by RGB() functions
+</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+]]>
+</div>
+<p>
+The following is the output of HTML type transformation.
+</p>
+<div class="fo">
+<![CDATA[
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">type of list
+</fo:block>
+<fo:block space-before="0.3em" space-after="0.5em" start-indent="from-parent() + 4em" border-color="red" border-style="solid" border-width="thin">
+There are three kinds of lists, which is unordered list, ordered list, and definition list.   
+      <fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">From here</fo:block>
+<fo:block space-before="0.3em" space-after="0.5em" start-indent="from-parent() + 4em" border-color="red" border-style="solid" border-width="thin">These are nested lists</fo:block>
+<fo:block space-before="0.3em" space-after="0.5em" start-indent="from-parent() + 4em" border-color="red" border-style="solid" border-width="thin">The dd that the dt does not match dt.</fo:block>
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">The dd without the dt.</fo:block>
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">Unordered lists</fo:block>
+<fo:block space-before="0.3em" space-after="0.5em" start-indent="from-parent() + 4em" border-color="red" border-style="solid" border-width="thin">Unordered lists are classified as square, circle and so on, according to the characters for label of line.
+</fo:block>
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">Ordered lists</fo:block>
+<fo:block space-before="0.3em" space-after="0.5em" start-indent="from-parent() + 4em" border-color="red" border-style="solid" border-width="thin">
+Ordered lists have various kinds of types according to the label format.
+</fo:block>
+</fo:block>
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">
+The elements that construct the table
+</fo:block>
+<fo:block space-before="0.3em" space-after="0.5em" start-indent="from-parent() + 4em" border-color="red" border-style="solid" border-width="thin">The table consists of fo:table-caption, fo-table-caption, fo:table, fo:table-column, fo:table-head, fo:table-foot, fo:table-body, fo:table-row, fo:table-cell.</fo:block>
+<fo:block font-weight="bold" border-color="blue" border-style="dashed" border-width="thin">
+type of color
+</fo:block>
+<fo:block space-before="0.3em" space-after="0.5em" start-indent="from-parent() + 4em" border-color="red" border-style="solid" border-width="thin">
+16 kinds of colors can be used, such as red, blue, white, black. Also it is possible to specify colors by RGB() functions.
+</fo:block>
+]]>
+</div>
+</subsubsection>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>Functions for creating PDF</title>
+<p>With XSL Formatter, the following relates with PDF generation are available.</p>
+<div class="column">
+<ul>
+<li>Set the document information in the result <index>PDF</index>.</li>
+<li>Create bookmars in the result PDF.</li>
+<li>Set up the <index>link </index>to a PDF document (from a table of contents to the body text, for example).</li>
+<li>Set up the link to the <index>external destination </index>.</li>
+</ul>
+</div>
+<p>Although some of the functions described here in creating PDF are not defined in the specification of XSL-FO V1.0, it's possible by using <index>Antenna House extension specification</index>
+<ref ref-id="a4"/>.</p>
+<subsection>
+<title>PDF document information</title>
+<p>Although the document information cannot be set up by XSL-FO V1.0 specification in case a formatted result is outputted to PDF, it's possible to set up the document information by Antenna House extension specification. The definition is given using <index>axf:document-info</index>. If axf:document-info is directly under <index>fo:root</index>, and it exists before <index>fo:page-sequence</index> appears, it will be reflected. In the style sheet, title, subtitle, and author are set up from "/doc/head" of the <index>SimpleDoc</index> as PDF document information as follows.</p>
+<program>
+<title>Outputting PDF document information</title>&lt;xsl:template match="doc"&gt;
+	&lt;fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"&gt;
+		&lt;axf:document-info name=&quot;title&quot; value=&quot;{/doc/head/title}&quot; /&gt;
+		&lt;axf:document-info name=&quot;subject&quot; value=&quot;{/doc/head/subtitle}&quot; /&gt;
+		&lt;axf:document-info name=&quot;author&quot; value=&quot;{/doc/head/author}&quot; /&gt;
+</program>
+</subsection>
+<subsection>
+<title>Creating a <index>bookmark</index>
+</title>
+<p>PDF bookmarks use <index>Antenna House extension specification</index>
+<ref ref-id="a4"/> similarly. In this case, it becomes possible by specifying <index>axf:outline-level</index> and <index>axf:outline-title</index> to be <index>fo:block</index> to output to a bookmark. When there is no axf:outline-title, the contents of fo:block serves as a bookmark automatically. When processing the title of part | chapter | section | subsection | subsubsection | appendix, axf:outline-level is set up and the bookmark is made to output in SD2 FO-DOC.XSL. The template is &lt;xsl:template name=&quot;title.out&quot;&gt; (sub template for outputting a title).</p>
+<program>&lt;xsl:template name=&quot;title.out&quot;&gt;
+	&lt;xsl:variable name=&quot;level&quot; select=&quot;count(ancestor-or-self::part | ancestor-or-self::chapter |
+		 ancestor-or-self::section | ancestor-or-self::subsection |ancestor-or-self::subsubsection 
+		 |ancestor-or-self::appendix )&quot; /&gt;
+		&lt;xsl:choose&gt;
+			&lt;xsl:when test=&quot;$level=1&quot;&gt;
+				&lt;fo:block xsl:use-attribute-sets=&quot;h1&quot; id=&quot;{generate-id()}&quot; axf:outline-level=&quot;{$level}&quot;&gt;
+					&lt;xsl:call-template name=&quot;title.out.sub&quot; /&gt;
+					&lt;xsl:value-of select=&quot;title&quot; /&gt;
+				&lt;/fo:block&gt;
+			&lt;/xsl:when&gt;
+			&lt;xsl:when test=&quot;$level=2&quot;&gt;
+				&lt;fo:block xsl:use-attribute-sets=&quot;h2&quot; id=&quot;{generate-id()}&quot; axf:outline-level=&quot;{$level}&quot;&gt;
+					&lt;xsl:call-template name=&quot;title.out.sub&quot; /&gt;
+					&lt;xsl:value-of select=&quot;title&quot; /&gt;
+				&lt;/fo:block&gt;
+			&lt;/xsl:when&gt;
+			&lt;xsl:when test=&quot;$level=3&quot;&gt;
+				&lt;fo:block xsl:use-attribute-sets=&quot;h3&quot; id=&quot;{generate-id()}&quot; axf:outline-level=&quot;{$level}&quot;&gt;
+					&lt;xsl:call-template name=&quot;title.out.sub&quot; /&gt;
+					&lt;xsl:value-of select=&quot;title&quot; /&gt;
+				&lt;/fo:block&gt;
+			&lt;/xsl:when&gt;
+			&lt;xsl:when test=&quot;$level=4&quot;&gt;
+				&lt;fo:block xsl:use-attribute-sets=&quot;h4&quot; id=&quot;{generate-id()}&quot; axf:outline-level=&quot;{$level}&quot;&gt;
+					&lt;xsl:call-template name=&quot;title.out.sub&quot; /&gt;
+					&lt;xsl:value-of select=&quot;title&quot; /&gt;
+				&lt;/fo:block&gt;
+			&lt;/xsl:when&gt;
+			&lt;xsl:when test=&quot;$level=5&quot;&gt;
+				&lt;fo:block xsl:use-attribute-sets=&quot;h5&quot; id=&quot;{generate-id()}&quot; axf:outline-level=&quot;{$level}&quot;&gt;
+					&lt;xsl:call-template name=&quot;title.out.sub&quot; /&gt;
+					&lt;xsl:value-of select=&quot;title&quot; /&gt;
+				&lt;/fo:block&gt;
+			&lt;/xsl:when&gt;
+			&lt;xsl:otherwise&gt;
+				&lt;fo:block xsl:use-attribute-sets=&quot;h5&quot; id=&quot;{generate-id()}&quot;&gt;
+					&lt;xsl:call-template name=&quot;title.out.sub&quot; /&gt;
+					&lt;xsl:value-of select=&quot;title&quot; /&gt;
+				&lt;/fo:block&gt;
+			&lt;/xsl:otherwise&gt;
+		&lt;/xsl:choose&gt;
+	&lt;/xsl:template&gt;
+</program>
+</subsection>
+<subsection>
+<title>Link setting</title>
+<p>
+<index>fo:basic-link</index> is used to<a name="a-link"> setup <index>links</index>
+</a>.  The reference destination id is specified using the internal-destination property to create a link into the same document. At this time, the XSL-FO object of the reference origin needs to have the id of the same value. In case of external links, the reference destination is specified with the external-destination property. In SimpleDoc, both internal/external links are expressed using the a element. The reference destination is specified by the href property and when the reference destination starts with "#", an internal link is set up, otherwise an external link is set up. </p>
+<program>&lt;xsl:template match=&quot;a[@href]&quot;&gt;
+	&lt;fo:basic-link&gt;
+		&lt;xsl:if test=&quot;starts-with(@href,&apos;#&apos;)&quot;&gt;
+			&lt;xsl:attribute name=&quot;internal-destination&quot;&gt;
+				&lt;xsl:value-of select=&quot;substring-after(@href,&apos;#&apos;)&quot; /&gt;
+			&lt;/xsl:attribute&gt;
+			&lt;fo:inline xsl:use-attribute-sets=&quot;a&quot;&gt;
+				&lt;xsl:apply-templates /&gt;
+			&lt;/fo:inline&gt;
+		&lt;/xsl:if&gt;
+		&lt;xsl:if test=&quot;starts-with(@href,&apos;#&apos;)=false&quot;&gt;
+			&lt;xsl:attribute name=&quot;external-destination&quot;&gt;
+				&lt;xsl:value-of select=&quot;@href&quot; /&gt;
+			&lt;/xsl:attribute&gt;
+			&lt;fo:inline xsl:use-attribute-sets=&quot;a&quot;&gt;
+				&lt;xsl:variable name=&quot;anchor-texts&quot;&gt;
+					&lt;xsl:apply-templates /&gt;
+				&lt;/xsl:variable&gt;
+				&lt;xsl:apply-templates /&gt;
+				&lt;xsl:if test=&quot;@href!=$anchor-texts&quot;&gt;
+					&lt;fo:inline&gt;
+						&lt;xsl:text&gt;(&lt;/xsl:text&gt;
+						&lt;xsl:value-of select=&quot;@href&quot; /&gt;
+						&lt;xsl:text&gt;)&lt;/xsl:text&gt;
+					&lt;/fo:inline&gt;
+				&lt;/xsl:if&gt;
+			&lt;/fo:inline&gt;
+		&lt;/xsl:if&gt;
+	&lt;/fo:basic-link&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>The element with the name element as a reference destination is processed as an inline object which has id as follows.</p>
+<program>&lt;xsl:template match=&quot;a[@name]&quot;&gt;
+	&lt;fo:inline id=&quot;{@name}&quot;&gt;
+		&lt;xsl:apply-templates /&gt;
+	&lt;/fo:inline&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>Moreover, it is also possible to set a link to the portion where it corresponds in a document from a table of contents or an index. In this case, id used for reference creates id automatically using the generate-id() function.  When the generate-id() function is called, XSLT processor will create a suitable character sequence like "IDXP83DL" corresponding to a current node for id.</p>
+<p>In the case of a table of contents, the portion which outputs an item by the toc.line template is described as follows.</p>
+<program>
+&lt;fo:basic-link internal-destination=&quot;{generate-id()}&quot;&gt;
+	&lt;xsl:value-of select=&quot;title&quot; /&gt;
+&lt;/fo:basic-link&gt;
+</program>
+<p>Set id using generate-id() also when outputting a title in the text used as the reference destination. The value of id generated by the generate-id() function is always the same among the same elements, and surely different against different elements.</p>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>Reference to Appendix</title>
+<div class="column">
+<ul>
+<li>Put data numbers automatically to the appendix list at the end of the book.</li>
+<li>Create the corresponding data numbers automatically for the reference to the reference data in the text.</li>
+</ul>
+</div>
+<p>
+Create an appendix list in the end of the book, and make it possible to refer to the appendix at the end of the book by the data numbers in the text. Even if it generates these data numbers automatically and revises the appendix list, it is made not to need to update the reference numbers in the text while editing.</p>
+<!-- 挿入するか、前後の元の文章を指示通り削除するのか？ -->
+<!--
+ 「別紙A」として提示された文章
+<p>巻末に置く参考資料の一覧は、以下のように記述します。</p>
+<program>
+&lt;bib&gt;
+	&lt;li id=&quot;坂井2004&quot;&gt;坂井俊夫，藤田慎也：　『電子文書の可搬性』，電文書房（2004）&lt;/li&gt;
+	&lt;li id=&quot;vqalam&quot;&gt;The Virtual Qalam Project, http://www.vQalam.org/&lt;/li&gt;
+&lt;/bib&gt;
+</program>
+<p>これは次のように組まれます。</p>
+<bib>
+	<li id="坂井2004">坂井俊夫，藤田慎也：　『電子文書の可搬性』，電文書房（2004）</li>
+	<li id="vqalam">The Virtual Qalam Project, http://www.vQalam.org/</li>
+</bib>
+<p>本文中でこれらの文献・サイトを参照するには、以下のように記述します。</p>
+<program>
+坂井らは文献&lt;bibref id=&quot;坂井2004&quot; /&gt;で、その可能性について検討した。
+</program>
+<p>これを組むと、資料番号を自動的に生成し、以下のようになります。</p>
+<p>坂井らは文献<bibref id="坂井2004" />で、その可能性について検討した。</p>
+<p>参考資料一覧を生成するスタイルシートは次のようになります。</p>
+-->
+<p>The whole appendix list is expressed with the <index>bib element</index>, and each data is made into the contents of the li element in <index>SimpleDoc.dtd</index>. The ID number is given to the li element. Data numbers are automatically put at the appendix list. The stylesheet for this is as follows.</p>
+<program>&lt;xsl:template match=&quot;bib&quot;&gt;
+	&lt;fo:list-block&gt;
+		&lt;xsl:apply-templates select=&quot;li&quot; /&gt;
+	&lt;/fo:list-block&gt;
+&lt;/xsl:template&gt;
+
+&lt;xsl:template match=&quot;bib/li&quot;&gt;
+	&lt;fo:list-item end-indent=&quot;label-end()&quot; id=&quot;{@id}&quot;&gt;
+		&lt;fo:list-item-label&gt;
+			&lt;fo:block&gt;
+				&lt;xsl:text&gt;[&lt;/xsl:text&gt;
+				&lt;xsl:value-of select=&quot;position()&quot; /&gt;
+				&lt;xsl:text&gt;]&lt;/xsl:text&gt;
+			&lt;/fo:block&gt;
+		&lt;/fo:list-item-label&gt;
+		&lt;fo:list-item-body start-indent=&quot;body-start()&quot;&gt;
+			&lt;fo:block&gt;
+				&lt;xsl:value-of select=&quot;.&quot; /&gt;
+			&lt;/fo:block&gt;
+		&lt;/fo:list-item-body&gt;
+	&lt;/fo:list-item&gt;
+&lt;/xsl:template&gt;</program>
+<p>The appendix is referred by the ref element, ref-id="<i>xxx </i>"in the text. (<i>xxx </i> is the id value of the li element of the reference destination.) The stylesheet which generates this reference label is as follows.
+</p>
+<program>&lt;xsl:template match=&quot;ref&quot;&gt;
+	&lt;xsl:variable name=&quot;target&quot;&gt;
+		&lt;xsl:call-template name=&quot;get-position&quot;&gt;
+			&lt;xsl:with-param name=&quot;id-value&quot; select=&quot;@ref-id&quot; /&gt;
+		&lt;/xsl:call-template&gt;
+	&lt;/xsl:variable&gt;
+	&lt;fo:basic-link internal-destination=&quot;{@ref-id}&quot;&gt;
+		&lt;fo:inline&gt;
+			&lt;xsl:text&gt;（Source Information [&lt;/xsl:text&gt;
+			&lt;xsl:value-of select=&quot;$target&quot; /&gt;
+			&lt;xsl:text&gt;]）&lt;/xsl:text&gt;
+		&lt;/fo:inline&gt;
+	&lt;/fo:basic-link&gt;
+&lt;/xsl:template&gt;
+</program>
+<p>
+Since the reference destination of the ref element shows the turn of the li element in the bib element, then the position() function calculates what number the li element comes whose value of ref-id matches in the bib element. 
+</p>
+</section>
+<section logo="img/ico3.png">
+<title>Index</title>
+<div class="column">
+<ul>
+<li>Create indexes at the end of the book.</li>
+</ul>
+</div>
+<p>Here in this section, the creation method of an index is explained sequentially. The templates for indexes are put together in index.xsl. For more details, see also the contents of index.xsl.</p>
+<p>The index element is defined by SimpleDoc for the items put on an index.</p>
+<program>&lt;xsl:key name=&quot;index-key&quot; match=&quot;index&quot; use=&quot;substring(@key,1,1)&quot; /&gt;
+	&lt;xsl:key name=&quot;index-value&quot; match=&quot;index&quot; use=&quot;.&quot; /&gt;
+</program>
+<subsection>
+<title>Creating keys</title>
+<p>
+Declare the key with a name using xsl:key in order to group the index elements by using the beginning of the character.
+</p>
+<program>&lt;xsl:key name=&quot;index-key&quot; match=&quot;index&quot; use=&quot;substring(@key,1,1)&quot; /&gt;
+	&lt;xsl:key name=&quot;index-value&quot; match=&quot;index&quot; use=&quot;.&quot; /&gt;
+</program>
+<p>Since <index>xsl:key</index> must be a top-level element within a stylesheet, it is described at the head of the SD2 FO-DOC.XSL stylesheet. The first xsl:key declares the head-one character of the key property to the key named index-key as a value. Like an English document, if it's possible to group the index elements by their contents, it's accomplished by the method using use="substring(1 ., 1) ", without using the key property. For the second xsl:key, the content of the index element is declared as a value to the key named index-value. This is used to sort and output keys in the grouped node set with the head-one character.
+</p>
+</subsection>
+<subsection>
+<title>Creating an index page</title>
+<p>
+Creation of an index is started from the index.create template in the index.xsl stylesheet. Like other pages, <index>fo:page-sequence</index> and <index>fo:flow</index> are generated in the beginning, and next, a title is outputted at the head of the index page.</p>
+<p>
+Next, the index elements for numbers and alphabets are processed.</p>
+<program>&lt;xsl:template name=&quot;index.create&quot;&gt;
+	&lt;fo:page-sequence master-reference=&quot;PageMaster-index&quot;&gt;
+		&lt;!-- Set a document name in the header region. --&gt;
+		&lt;fo:static-content flow-name=&quot;xsl-region-before&quot;&gt;
+			&lt;fo:block font-size=&quot;7pt&quot; text-align=&quot;center&quot; border-after-width=&quot;thin&quot; border-after-style=&quot;solid&quot;&gt;
+				&lt;xsl:value-of select=&quot;/doc/head/title&quot; /&gt;
+			&lt;/fo:block&gt;
+		&lt;/fo:static-content&gt;
+		&lt;fo:flow flow-name=&quot;xsl-region-body&quot;&gt;
+			&lt;fo:block&gt;
+				&lt;!-- The title is spaned all.--&gt;
+				&lt;fo:block span=&quot;all&quot; line-height=&quot;15mm&quot; background-color=&quot;#9bd49d&quot; text-align=&quot;center&quot; font-size=&quot;20pt&quot; space-after=&quot;10mm&quot; axf:outline-level=&quot;1&quot; id=&quot;index-page&quot;&gt;
+					INDEX
+				&lt;/fo:block&gt;
+				&lt;fo:block span=&quot;all&quot;&gt;
+					&amp;#xA0;
+				&lt;/fo:block&gt;
+				&lt;fo:block xsl:use-attribute-sets=&quot;index&quot;&gt;
+					&lt;!-- Numbers and alphabets. --&gt;
+					&lt;xsl:call-template name=&quot;index.create.mainALPHA&quot; /&gt;
+					&lt;xsl:if test=&quot;(/doc/@lang = &apos;ja&apos;) or (/doc/@lang = &apos;&apos;) or not(/doc/@lang)&quot;&gt;
+						&lt;!-- Japanese Kana --&gt;
+						&lt;xsl:call-template name=&quot;index.create.mainKANA&quot; /&gt;
+					&lt;/xsl:if&gt;
+				&lt;/fo:block&gt;
+			&lt;/fo:block&gt;
+		&lt;/fo:flow&gt;
+	&lt;/fo:page-sequence&gt;
+&lt;/xsl:template&gt;
+</program>
+</subsection>
+<subsection>
+<title>Grouping and taking out the index elements</title>
+<p>&quot;index.create.mainALPHA&quot; is the template which generates the index of alphabets. The following shows the examle using &quot;index.create.mainALPHA&quot; </p>
+<p>What is considered to be difficult in creating an index is to group the target nodes and take them out. In order to group them, xsl:key which is mentioned above and the data in the head of index.xsl are used.
+</p>
+<program>&lt;!DOCTYPE DOCUMENT [
+&lt;!ENTITY ALPHA &quot;&apos;@1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ&apos;&quot;&gt;
+</program>
+<p>Each alphabet character is defined as an entity and it is used for grouping. Characters are taken out one by one from the entity, and then the node set which has the character as a key is taken out.
+</p>
+<program>&lt;xsl:template name=&quot;index.create.mainALPHA&quot;&gt;
+	&lt;xsl:param name=&quot;lettersALPHA&quot; select=&quot;&amp;ALPHA;&quot; /&gt;
+	&lt;!-- (1) Process any one from 0 to 9, or from A to Z. --&gt;
+	&lt;xsl:call-template name=&quot;index.create.section&quot;&gt;
+		&lt;xsl:with-param name=&quot;letter&quot; select=&quot;substring($lettersALPHA,1,1)&quot; /&gt;
+	&lt;/xsl:call-template&gt;
+	&lt;!-- (2) Prepare for processing the following one from 0 to 9, or from A to Z. --&gt;
+	&lt;xsl:variable name=&quot;remainderALPHA&quot; select=&quot;substring($lettersALPHA,2)&quot; /&gt;
+	&lt;!-- (3) process the following one from 0 to 9, or from A to Z. --&gt;
+	&lt;xsl:if test=&quot;$remainderALPHA&quot;&gt;
+		&lt;xsl:call-template name=&quot;index.create.mainALPHA&quot;&gt;
+			&lt;xsl:with-param name=&quot;lettersALPHA&quot; select=&quot;$remainderALPHA&quot; /&gt;
+		&lt;/xsl:call-template&gt;
+	&lt;/xsl:if&gt;
+&lt;/xsl:template&gt;</program>
+<p>In the portion (1), one character used as a key is passed to the "index.create.section" template as a parameter, and a node set is processed in the "index.create.section" template. In (2), the following one character is taken out and all characters are processed by calling  "$remainderALPHA" recursively by (3).
+</p>
+</subsection>
+<subsection>
+<title>Node set output</title>
+<p>
+The &quot;index.create.section&quot; template outputs a node set which has a character used as index-key.</p>
+<program>&lt;xsl:template name=&quot;index.create.section&quot;&gt;
+    &lt;!--  Receive the character to be processed. --&gt;
+	&lt;xsl:param name=&quot;letter&quot; /&gt;		
+	&lt;!-- Set the nodes who have the 'letter' value of the key to the terms variable and sort them.--&gt;
+	&lt;xsl:variable name=&quot;terms&quot; select=&quot;key(&apos;index-key&apos;,$letter)&quot; /&gt;
+	&lt;!-- Get the index which has the same head-one character as the parameter which received. --&gt;
+	&lt;xsl:if test=&quot;$terms&quot;&gt;
+		&lt;!-- Output key characters. --&gt;
+		&lt;fo:block font-weight=&quot;bold&quot; text-align=&quot;center&quot; space-before=&quot;1em&quot;&gt;
+			&lt;!-- Output the received one character as is. --&gt;
+			&lt;xsl:value-of select=&quot;$letter&quot; /&gt;	
+		&lt;/fo:block&gt;
+		&lt;!-- Make it a rule not to process the same text redundantly. --&gt;
+		&lt;xsl:for-each select=&quot;$terms[not(.=preceding::index)]&quot;&gt;
+			&lt;!-- Sort the text in key order. --&gt;
+			&lt;xsl:sort select=&quot;@key&quot; /&gt;								
+			&lt;fo:block text-align-last=&quot;justify&quot; axf:suppress-duplicate-page-number=&quot;true&quot;&gt;
+				&lt;!-- Output the text as is. --&gt;
+				&lt;xsl:value-of select=&quot;.&quot; /&gt;
+				&lt;fo:leader leader-pattern=&quot;dots&quot; leader-length.optimum=&quot;3em&quot; /&gt;
+				&lt;!-- Get the same text. --&gt;
+				&lt;xsl:variable name=&quot;terms2&quot; select=&quot;key(&apos;index-value&apos;,.)&quot; /&gt;
+				&lt;xsl:if test=&quot;$terms2&quot;&gt;
+					&lt;fo:inline&gt;
+						&lt;!-- Output all of those page numbers when the same text exists in two or more places. --&gt;
+						&lt;xsl:apply-templates select=&quot;$terms2&quot; mode=&quot;line&quot; /&gt;
+					&lt;/fo:inline&gt;
+				&lt;/xsl:if&gt;
+			&lt;/fo:block&gt;
+		&lt;/xsl:for-each&gt;
+	&lt;/xsl:if&gt;
+&lt;/xsl:template&gt;</program>
+<p>By using the <index>axf:suppress-duplicate-page-number</index> property (<index>Antenna House extension specification</index>
+<ref ref-id="a4"/>), It is possible to suppress the duplicate page numbers. 
+</p>
+<figure src="img/idx-d.svg">
+<title>Example result without using the axf:suppress-duplicate-page-number property</title>
+</figure>
+<figure src="img/idx-nd.svg">
+<title>Example result using the axf:suppress-duplicate-page-number property</title>
+</figure>
+</subsection>
+</section>
+<section logo="img/ico3.png">
+<title>Miscellaneous</title>
+<subsection>
+<title>Using modes</title>
+<p>
+The <index>SD2 FO-DOC.XSL stylesheet</index> includes the stylesheet called article.xsl. This stylesheet processes to format a document without a cover / table of contents / index, when class="article" is specified in the doc element of an XML document. mode is specified in all the templates as mode="article" and the processing is different from the template of the SD2 FO-DOC.XSL stylesheet.  Thus, the processing of arbitrary elements can be divided by using the mode attribute for the template.
+</p>
+</subsection>
+</section>
+<appendix logo="img/ico3.png">
+<title>Appendix</title>
+<subsection>
+<title>Source Information
+</title>
+<bib>
+<li id="a1">Extensible Stylesheet Language (XSL) Version 1.0, <br/>W3C Recommendation 15 October 2001, <br/> http://www.w3.org/TR/2001/REC-xsl-20011015/</li>
+<li id="a2">XSL Transformations (XSLT) Version 1.0 <br/>W3C Recommendation 16 November 1999, <br/>http://www.w3.org/TR/xslt</li>
+<li id="a3">PureSmartDoc<br/>http://www.asahi-net.or.jp/~dp8t-asm/java/tools/</li>
+<li id="a4">Antenna House Extension Specification<br/>http://www.antennahouse.com/xslfo/axf3-extension.htm</li>
+</bib>
+</subsection>
+<subsection>
+<title>Update History</title>
+<p>The original version of this tutorial was written in Japanese for XSL School, June 2001, Tokyo.
+</p>
+<p>The English version of the tutorial was first released on October 23, 2001. It was based on Candidate Recommendation of XSL Specification.
+</p>
+<p>Minor revised version was released on May 6th, 2002 in order to be conformant to Recommendation of XSL Specification Version 1.0.
+</p>
+<p>This version, released on February, 2005, was  made by adding the contents of indexes, functions for PDF creation, reference to appendix and much more substantial contents. 
+</p>
+</subsection>
+</appendix>
+</body>
+</doc>

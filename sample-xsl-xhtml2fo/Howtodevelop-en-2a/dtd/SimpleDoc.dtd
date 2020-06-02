@@ -1,0 +1,319 @@
+<!--SimpleDoc.dtd
+
+====== SimpleDoc.dtd =============
+
+Version 1.0.0 July 20, 2001 T.Kobayashi, Antenna House, Inc.
+Version 1.0.1 July 31, 2001
+		ELEMENT icon, ATTLIST name of FIGURE added
+Version 1.0.2 Aug. 08, 2001
+		Character mnemonic entities added
+Version 1.0.3 July 02, 2002
+		ELEMENT 'position' added.
+====== Preliminary =============
+
+This DTD is designed to be used for simple technical documents, the original design is based on PureSmartDoc.dtd by Tomoharu Asami. The preliminary version was distributed as SampleDoc.dtd at the first "XSL School" held on June 6th, 2001. SampleDoc.dtd was written by T.Makita, Antenna House, Inc.
+
+-->
+
+<!--definition of parameter entities -->
+
+<!ENTITY % inline "a | note | span | figure |b | i | em | code | br | icon | index | underline | ref ">
+<!ENTITY % block "p | ul | ol | dl | table | program | pre | div | hidden | fo | bib">
+
+<!-- Character mnemonic entities -->
+
+<!ENTITY % HTMLlat1 PUBLIC
+   "-//W3C//ENTITIES Latin 1 for XHTML//EN"
+   "xhtml-lat1.ent">
+%HTMLlat1;
+
+<!ENTITY % HTMLsymbol PUBLIC
+   "-//W3C//ENTITIES Symbols for XHTML//EN"
+   "xhtml-symbol.ent">
+%HTMLsymbol;
+
+<!ENTITY % HTMLspecial PUBLIC
+   "-//W3C//ENTITIES Special for XHTML//EN"
+   "xhtml-special.ent">
+%HTMLspecial;
+
+<!-- basic attribute sets -->
+<!ENTITY  % Attr-com
+	"id ID #IMPLIED
+	class NMTOKEN #IMPLIED
+	style CDATA #IMPLIED
+	type NMTOKEN #IMPLIED
+	lang NMTOKEN #IMPLIED"
+>
+
+<!-- table attribute sets -->
+
+<!ENTITY % cellhalign
+	"align      (left|center|right|justify|char) #IMPLIED
+	char       CDATA    #IMPLIED
+	charoff    CDATA    #IMPLIED"
+>
+
+
+<!ENTITY % cellvalign
+	"valign     (top|middle|bottom|baseline) #IMPLIED"
+>
+
+<!-- definition of document structure -->
+
+<!ELEMENT  doc ( head , body)>
+
+<!ATTLIST doc %Attr-com;
+	toc (true|false) "true"
+	cover (true|false) "true"
+	toclevel CDATA #IMPLIED
+	index (true|false) "true"
+>
+
+<!ELEMENT  head (date | author | position | abstract | title)*>
+
+<!ELEMENT date  (#PCDATA | %inline;)*>
+<!ATTLIST date %Attr-com;
+>
+
+<!ELEMENT  author (#PCDATA | %inline;)*>
+<!ATTLIST author %Attr-com;
+	logo CDATA #IMPLIED
+	pos (upper|side) "upper"
+	width CDATA #IMPLIED
+	height CDATA #IMPLIED>
+
+<!ELEMENT  position (#PCDATA | %inline;)*>
+<!ATTLIST position %Attr-com;
+>
+
+<!ELEMENT abstract (#PCDATA | %inline;)*>
+<!ATTLIST abstract %Attr-com;
+>
+
+<!ELEMENT  title (#PCDATA | %inline;)*>
+<!ATTLIST  title %Attr-com;
+>
+
+<!ELEMENT body (part | chapter | section | appendix | (%block;) | (%inline;) | newpage)*>
+
+
+<!ELEMENT  part (title, (chapter | (%block;) | (%inline;) |newpage )*)>
+<!ATTLIST part %Attr-com;
+	logo CDATA #IMPLIED
+>
+
+<!ELEMENT chapter (title, (section | (%block;) | (%inline;) |newpage)*)>
+<!ATTLIST  chapter %Attr-com;
+	logo CDATA #IMPLIED
+>
+
+<!ELEMENT section (title, (subsection | (%block;) | (%inline;) |newpage)*)>
+<!ATTLIST section %Attr-com;
+	logo CDATA #IMPLIED
+>
+
+<!ELEMENT  subsection (title, (subsubsection | (%block;) | (%inline;)| newpage)*)>
+<!ATTLIST subsection %Attr-com;
+	logo CDATA #IMPLIED
+>
+
+<!ELEMENT subsubsection (title, ((%block;) | (%inline;) | newpage)*)>
+<!ATTLIST  subsubsection %Attr-com;
+	logo CDATA #IMPLIED
+>
+
+<!ELEMENT appendix (title, (subsection | bib | (%block;) | (%inline;) |newpage )*)>
+<!ATTLIST appendix %Attr-com;
+	logo CDATA #IMPLIED
+>
+
+<!--definition of block elements-->
+
+<!ELEMENT  p (#PCDATA | %block; | %inline;)*>
+<!ATTLIST p %Attr-com;
+	align (left | right | center | justify) #IMPLIED
+>
+
+<!ELEMENT figure (title?)>
+<!ATTLIST  figure %Attr-com;
+	src CDATA #REQUIRED
+	alt CDATA #IMPLIED
+	align CDATA #IMPLIED
+	width CDATA #IMPLIED
+	height CDATA #IMPLIED
+	caption (before | after) "after"
+>
+
+<!ELEMENT  ul (li*)>
+<!ATTLIST ul %Attr-com;
+>
+
+<!ELEMENT ol (li*)>
+<!ATTLIST ol %Attr-com;
+>
+
+<!ELEMENT bib (li*)>
+
+<!ATTLIST bib %Attr-com;
+>
+
+<!ELEMENT  li (#PCDATA | %block; | %inline;)*>
+<!ATTLIST li %Attr-com;
+>
+
+<!ELEMENT dl ((dt, dd)*)>
+<!ATTLIST dl %Attr-com;
+>
+
+<!ELEMENT  dt (#PCDATA | %block; | %inline;)*>
+<!ATTLIST dt %Attr-com;
+>
+
+<!ELEMENT dd (#PCDATA | %block; | %inline;)*>
+<!ATTLIST dd %Attr-com;
+>
+
+<!-- definition of table -->
+
+<!ELEMENT  table (title?, col*, thead?, tfoot?, tbody)>
+<!ATTLIST table %Attr-com;
+	layout (auto | fixed) "auto"
+	align (left | center | right) "left"
+	width CDATA #IMPLIED
+	rowheight CDATA #IMPLIED
+	border NMTOKEN #IMPLIED
+	summary CDATA #IMPLIED
+	cellspacing CDATA #IMPLIED
+	cellpadding CDATA #IMPLIED
+	rules (none | groups | rows | cols | all ) "all"
+	frame (void | above | below | hsides | lhs | rhs | vsides| box | border) "border"
+	caption (before | after | start | end ) #IMPLIED
+>
+
+<!ELEMENT  col EMPTY>
+<!ATTLIST col %Attr-com;
+	number CDATA #IMPLIED
+	width CDATA #IMPLIED
+>
+
+<!ELEMENT  thead (tr*)>
+<!ATTLIST thead %Attr-com;
+	height CDATA #IMPLIED
+	%cellhalign;
+	%cellvalign;
+>
+
+<!ELEMENT  tfoot (tr*)>
+<!ATTLIST tfoot %Attr-com;
+	%cellhalign;
+	%cellvalign;
+>
+
+<!ELEMENT  tbody (tr*)>
+<!ATTLIST tbody %Attr-com;
+	%cellhalign;
+	%cellvalign;
+
+>
+
+<!ELEMENT  tr (th | td)*>
+<!ATTLIST tr %Attr-com;
+	height CDATA #IMPLIED
+	%cellhalign;
+	%cellvalign;
+>
+
+<!ELEMENT  th  (#PCDATA | %block; | %inline;)*
+>
+<!ATTLIST th %Attr-com;
+	rowspan CDATA #IMPLIED
+	colspan CDATA #IMPLIED
+	%cellhalign;
+	%cellvalign;
+>
+
+<!ELEMENT  td (#PCDATA | %block; | %inline;)*>
+<!ATTLIST td %Attr-com;
+	rowspan CDATA #IMPLIED
+	colspan CDATA #IMPLIED
+	%cellhalign;
+	%cellvalign;
+>
+
+<!ELEMENT  program (#PCDATA | title)*>
+<!ATTLIST program %Attr-com;
+>
+
+<!ELEMENT pre (#PCDATA)>
+
+<!ELEMENT  div (#PCDATA | title| %block; | %inline;)*>
+<!ATTLIST div %Attr-com;
+	border ( auto | none) "auto"
+>
+
+<!--definition of inline elements -->
+
+<!ELEMENT  a (#PCDATA | %inline;)*>
+<!ATTLIST a %Attr-com;
+	name CDATA #IMPLIED
+	href CDATA #IMPLIED
+>
+<!ELEMENT icon EMPTY><!ATTLIST 	icon %Attr-com;
+	src CDATA #REQUIRED
+>
+
+
+<!ELEMENT  note (#PCDATA | %inline;)*>
+<!ATTLIST note %Attr-com;
+>
+
+<!ELEMENT span (#PCDATA | %inline;)*>
+<!ATTLIST span %Attr-com; 
+>
+
+<!ELEMENT  b (#PCDATA | %inline;)*>
+<!ATTLIST b %Attr-com;
+>
+
+<!ELEMENT i (#PCDATA | %inline;)*>
+<!ATTLIST i %Attr-com;
+>
+
+<!ELEMENT  em (#PCDATA | %inline;)*>
+<!ATTLIST em %Attr-com;
+>
+
+<!ELEMENT code (#PCDATA | %inline;)*>
+<!ATTLIST code %Attr-com;
+font CDATA #IMPLIED
+>
+
+<!ELEMENT index (#PCDATA | index)*>
+<!ATTLIST index
+key CDATA #IMPLIED
+keyword CDATA #IMPLIED
+>
+<!ELEMENT  underline (#PCDATA | %inline;)*>
+<!ATTLIST underline %Attr-com;
+>
+<!-- special element for reference -->
+
+<!ELEMENT ref EMPTY>
+<!ATTLIST ref ref-id IDREF #REQUIRED
+>
+
+<!-- special element to control page break -->
+
+<!ELEMENT  newpage EMPTY>
+
+<!-- special element to control line break -->
+
+<!ELEMENT br EMPTY>
+
+<!-- special element to prohibit content of element to be shown. -->
+
+<!ELEMENT  hidden ANY>
+
+<!-- for XSL-FO block -->
+<!ELEMENT fo (#PCDATA)>
